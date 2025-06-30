@@ -13,7 +13,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from openapi_client.models.v0041_openapi_job_info_resp_jobs_inner_accrue_time import V0041OpenapiJobInfoRespJobsInnerAccrueTime
+from slurmrest_python_0_0_41.models.v0041_openapi_job_info_resp_jobs_inner_accrue_time import V0041OpenapiJobInfoRespJobsInnerAccrueTime
 
 # TODO update the JSON string below
 json = "{}"

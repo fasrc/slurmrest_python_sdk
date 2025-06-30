@@ -20,7 +20,7 @@ import json
 
 from pydantic import BaseModel, ConfigDict, Field, StrictInt, StrictStr
 from typing import Any, ClassVar, Dict, List
-from openapi_client.models.v0041_openapi_diag_resp_statistics_rpcs_by_message_type_inner_average_time import V0041OpenapiDiagRespStatisticsRpcsByMessageTypeInnerAverageTime
+from slurmrest_python_0_0_41.models.v0041_openapi_diag_resp_statistics_rpcs_by_message_type_inner_average_time import V0041OpenapiDiagRespStatisticsRpcsByMessageTypeInnerAverageTime
 from typing import Optional, Set
 from typing_extensions import Self
 

@@ -1,6 +1,6 @@
 # flake8: noqa
 
 # import apis into api package
-from openapi_client.api.slurm_api import SlurmApi
-from openapi_client.api.slurmdb_api import SlurmdbApi
+from slurmrest_python_0_0_41.api.slurm_api import SlurmApi
+from slurmrest_python_0_0_41.api.slurmdb_api import SlurmdbApi
 

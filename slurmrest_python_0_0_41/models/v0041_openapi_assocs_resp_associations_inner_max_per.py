@@ -20,7 +20,7 @@ import json
 
 from pydantic import BaseModel, ConfigDict
 from typing import Any, ClassVar, Dict, List, Optional
-from openapi_client.models.v0041_openapi_assocs_resp_associations_inner_max_per_account import V0041OpenapiAssocsRespAssociationsInnerMaxPerAccount
+from slurmrest_python_0_0_41.models.v0041_openapi_assocs_resp_associations_inner_max_per_account import V0041OpenapiAssocsRespAssociationsInnerMaxPerAccount
 from typing import Optional, Set
 from typing_extensions import Self
 

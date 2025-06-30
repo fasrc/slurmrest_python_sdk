@@ -180,7 +180,7 @@ class Configuration:
 
     You can programmatically set the cookie:
 
-conf = openapi_client.Configuration(
+conf = slurmrest_python_0_0_41.Configuration(
     api_key={'cookieAuth': 'abc123'}
     api_key_prefix={'cookieAuth': 'JSESSIONID'}
 )
@@ -255,7 +255,7 @@ conf = openapi_client.Configuration(
         self.logger = {}
         """Logging Settings
         """
-        self.logger["package_logger"] = logging.getLogger("openapi_client")
+        self.logger["package_logger"] = logging.getLogger("slurmrest_python_0_0_41")
         self.logger["urllib3_logger"] = logging.getLogger("urllib3")
         self.logger_format = '%(asctime)s %(levelname)s %(message)s'
         """Log format
@@ -551,7 +551,7 @@ conf = openapi_client.Configuration(
                "OS: {env}\n"\
                "Python Version: {pyversion}\n"\
                "Version of the API: Slurm-24.11.5&amp;openapi/slurmdbd&amp;openapi/slurmctld\n"\
-               "SDK Package Version: 1.0.0".\
+               "SDK Package Version: 0.0.1".\
                format(env=sys.platform, pyversion=sys.version)
 
     def get_host_settings(self) -> List[HostSetting]:

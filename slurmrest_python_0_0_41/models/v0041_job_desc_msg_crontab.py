@@ -20,7 +20,7 @@ import json
 
 from pydantic import BaseModel, ConfigDict, Field, StrictStr, field_validator
 from typing import Any, ClassVar, Dict, List, Optional
-from openapi_client.models.v0041_job_desc_msg_crontab_line import V0041JobDescMsgCrontabLine
+from slurmrest_python_0_0_41.models.v0041_job_desc_msg_crontab_line import V0041JobDescMsgCrontabLine
 from typing import Optional, Set
 from typing_extensions import Self
 

@@ -13,7 +13,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from openapi_client.models.v0041_openapi_partition_resp_partitions_inner_defaults_partition_memory_per_cpu import V0041OpenapiPartitionRespPartitionsInnerDefaultsPartitionMemoryPerCpu
+from slurmrest_python_0_0_41.models.v0041_openapi_partition_resp_partitions_inner_defaults_partition_memory_per_cpu import V0041OpenapiPartitionRespPartitionsInnerDefaultsPartitionMemoryPerCpu
 
 # TODO update the JSON string below
 json = "{}"

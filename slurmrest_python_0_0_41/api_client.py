@@ -27,11 +27,11 @@ from urllib.parse import quote
 from typing import Tuple, Optional, List, Dict, Union
 from pydantic import SecretStr
 
-from openapi_client.configuration import Configuration
-from openapi_client.api_response import ApiResponse, T as ApiResponseT
-import openapi_client.models
-from openapi_client import rest
-from openapi_client.exceptions import (
+from slurmrest_python_0_0_41.configuration import Configuration
+from slurmrest_python_0_0_41.api_response import ApiResponse, T as ApiResponseT
+import slurmrest_python_0_0_41.models
+from slurmrest_python_0_0_41 import rest
+from slurmrest_python_0_0_41.exceptions import (
     ApiValueError,
     ApiException,
     BadRequestException,
@@ -91,7 +91,7 @@ class ApiClient:
             self.default_headers[header_name] = header_value
         self.cookie = cookie
         # Set default User-Agent.
-        self.user_agent = 'OpenAPI-Generator/1.0.0/python'
+        self.user_agent = 'OpenAPI-Generator/0.0.1/python'
         self.client_side_validation = configuration.client_side_validation
 
     def __enter__(self):
@@ -454,7 +454,7 @@ class ApiClient:
             if klass in self.NATIVE_TYPES_MAPPING:
                 klass = self.NATIVE_TYPES_MAPPING[klass]
             else:
-                klass = getattr(openapi_client.models, klass)
+                klass = getattr(slurmrest_python_0_0_41.models, klass)
 
         if klass in self.PRIMITIVE_TYPES:
             return self.__deserialize_primitive(data, klass)

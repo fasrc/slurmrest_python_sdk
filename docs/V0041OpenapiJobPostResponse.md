@@ -16,7 +16,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from openapi_client.models.v0041_openapi_job_post_response import V0041OpenapiJobPostResponse
+from slurmrest_python_0_0_41.models.v0041_openapi_job_post_response import V0041OpenapiJobPostResponse
 
 # TODO update the JSON string below
 json = "{}"

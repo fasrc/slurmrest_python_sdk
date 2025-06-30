@@ -21,8 +21,8 @@ from setuptools import setup, find_packages  # noqa: H301
 #
 # prerequisite: setuptools
 # http://pypi.python.org/pypi/setuptools
-NAME = "openapi-client"
-VERSION = "1.0.0"
+NAME = "slurmrest_python_0_0_41"
+VERSION = "0.0.1"
 PYTHON_REQUIRES = ">= 3.9"
 REQUIRES = [
     "urllib3 >= 2.1.0, < 3.0.0",
@@ -47,5 +47,5 @@ setup(
     long_description="""\
     API to access and control Slurm
     """,  # noqa: E501
-    package_data={"openapi_client": ["py.typed"]},
+    package_data={"slurmrest_python_0_0_41": ["py.typed"]},
 )

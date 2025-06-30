@@ -1,0 +1,16 @@
+# gen.yaml ----------------------------------------------------------
+generatorName: python
+inputSpec:    v0_0_41.json
+# outputDir:    slurmrest_python_0_0_41
+
+# Git metadata ------------------------------------------------------
+gitHost:   github.com
+gitUserId: fasrc
+gitRepoId: slurmrest_python_sdk
+
+# Generator-specific properties 
+additionalProperties:
+  packageName:    slurmrest_python_0_0_41
+  projectName:    slurmrest_python_0_0_41
+  packageVersion: 0.0.1
+  licenseName:    Apache-2.0

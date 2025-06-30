@@ -13,7 +13,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from openapi_client.models.v0041_openapi_accounts_add_cond_resp_association_condition_association_grpwall import V0041OpenapiAccountsAddCondRespAssociationConditionAssociationGrpwall
+from slurmrest_python_0_0_41.models.v0041_openapi_accounts_add_cond_resp_association_condition_association_grpwall import V0041OpenapiAccountsAddCondRespAssociationConditionAssociationGrpwall
 
 # TODO update the JSON string below
 json = "{}"

@@ -20,7 +20,7 @@ import json
 
 from pydantic import BaseModel, ConfigDict
 from typing import Any, ClassVar, Dict, List, Optional
-from openapi_client.models.v0041_openapi_slurmdbd_config_resp_qos_inner_limits_max_tres_minutes_per import V0041OpenapiSlurmdbdConfigRespQosInnerLimitsMaxTresMinutesPer
+from slurmrest_python_0_0_41.models.v0041_openapi_slurmdbd_config_resp_qos_inner_limits_max_tres_minutes_per import V0041OpenapiSlurmdbdConfigRespQosInnerLimitsMaxTresMinutesPer
 from typing import Optional, Set
 from typing_extensions import Self
 

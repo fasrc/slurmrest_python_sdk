@@ -20,7 +20,7 @@ import json
 
 from pydantic import BaseModel, ConfigDict, Field, StrictStr
 from typing import Any, ClassVar, Dict, List, Optional
-from openapi_client.models.v0041_openapi_shares_resp_shares_shares_inner_tres_group_minutes_inner_value import V0041OpenapiSharesRespSharesSharesInnerTresGroupMinutesInnerValue
+from slurmrest_python_0_0_41.models.v0041_openapi_shares_resp_shares_shares_inner_tres_group_minutes_inner_value import V0041OpenapiSharesRespSharesSharesInnerTresGroupMinutesInnerValue
 from typing import Optional, Set
 from typing_extensions import Self
 

@@ -20,7 +20,7 @@ import json
 
 from pydantic import BaseModel, ConfigDict, Field, StrictInt, StrictStr, field_validator
 from typing import Any, ClassVar, Dict, List, Optional
-from openapi_client.models.v0041_openapi_assocs_resp_associations_inner_accounting_inner import V0041OpenapiAssocsRespAssociationsInnerAccountingInner
+from slurmrest_python_0_0_41.models.v0041_openapi_assocs_resp_associations_inner_accounting_inner import V0041OpenapiAssocsRespAssociationsInnerAccountingInner
 from typing import Optional, Set
 from typing_extensions import Self
 

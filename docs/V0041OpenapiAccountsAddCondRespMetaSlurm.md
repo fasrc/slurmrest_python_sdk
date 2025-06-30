@@ -12,7 +12,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from openapi_client.models.v0041_openapi_accounts_add_cond_resp_meta_slurm import V0041OpenapiAccountsAddCondRespMetaSlurm
+from slurmrest_python_0_0_41.models.v0041_openapi_accounts_add_cond_resp_meta_slurm import V0041OpenapiAccountsAddCondRespMetaSlurm
 
 # TODO update the JSON string below
 json = "{}"

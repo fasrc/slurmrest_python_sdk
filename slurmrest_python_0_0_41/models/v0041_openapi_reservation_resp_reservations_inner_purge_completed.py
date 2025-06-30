@@ -20,7 +20,7 @@ import json
 
 from pydantic import BaseModel, ConfigDict
 from typing import Any, ClassVar, Dict, List, Optional
-from openapi_client.models.v0041_openapi_reservation_resp_reservations_inner_purge_completed_time import V0041OpenapiReservationRespReservationsInnerPurgeCompletedTime
+from slurmrest_python_0_0_41.models.v0041_openapi_reservation_resp_reservations_inner_purge_completed_time import V0041OpenapiReservationRespReservationsInnerPurgeCompletedTime
 from typing import Optional, Set
 from typing_extensions import Self
 

@@ -13,7 +13,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from openapi_client.models.v0041_job_desc_msg_kill_warning_delay import V0041JobDescMsgKillWarningDelay
+from slurmrest_python_0_0_41.models.v0041_job_desc_msg_kill_warning_delay import V0041JobDescMsgKillWarningDelay
 
 # TODO update the JSON string below
 json = "{}"

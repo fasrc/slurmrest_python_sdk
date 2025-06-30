@@ -1,4 +1,4 @@
-# openapi_client.SlurmApi
+# slurmrest_python_0_0_41.SlurmApi
 
 All URIs are relative to *http://localhost*
 
@@ -40,14 +40,14 @@ cancel or signal job
 * Api Key Authentication (token):
 
 ```python
-import openapi_client
-from openapi_client.models.v0041_openapi_resp import V0041OpenapiResp
-from openapi_client.rest import ApiException
+import slurmrest_python_0_0_41
+from slurmrest_python_0_0_41.models.v0041_openapi_resp import V0041OpenapiResp
+from slurmrest_python_0_0_41.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to http://localhost
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = slurmrest_python_0_0_41.Configuration(
     host = "http://localhost"
 )
 
@@ -63,7 +63,7 @@ configuration.api_key['user'] = os.environ["API_KEY"]
 # configuration.api_key_prefix['user'] = 'Bearer'
 
 # Configure Bearer authorization (JWT): bearerAuth
-configuration = openapi_client.Configuration(
+configuration = slurmrest_python_0_0_41.Configuration(
     access_token = os.environ["BEARER_TOKEN"]
 )
 
@@ -74,9 +74,9 @@ configuration.api_key['token'] = os.environ["API_KEY"]
 # configuration.api_key_prefix['token'] = 'Bearer'
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with slurmrest_python_0_0_41.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.SlurmApi(api_client)
+    api_instance = slurmrest_python_0_0_41.SlurmApi(api_client)
     job_id = 'job_id_example' # str | Job ID
     signal = 'signal_example' # str | Signal to send to Job (optional)
     flags = 'flags_example' # str | Signalling flags (optional)
@@ -135,15 +135,15 @@ send signal to list of jobs
 * Api Key Authentication (token):
 
 ```python
-import openapi_client
-from openapi_client.models.v0041_kill_jobs_msg import V0041KillJobsMsg
-from openapi_client.models.v0041_openapi_kill_jobs_resp import V0041OpenapiKillJobsResp
-from openapi_client.rest import ApiException
+import slurmrest_python_0_0_41
+from slurmrest_python_0_0_41.models.v0041_kill_jobs_msg import V0041KillJobsMsg
+from slurmrest_python_0_0_41.models.v0041_openapi_kill_jobs_resp import V0041OpenapiKillJobsResp
+from slurmrest_python_0_0_41.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to http://localhost
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = slurmrest_python_0_0_41.Configuration(
     host = "http://localhost"
 )
 
@@ -159,7 +159,7 @@ configuration.api_key['user'] = os.environ["API_KEY"]
 # configuration.api_key_prefix['user'] = 'Bearer'
 
 # Configure Bearer authorization (JWT): bearerAuth
-configuration = openapi_client.Configuration(
+configuration = slurmrest_python_0_0_41.Configuration(
     access_token = os.environ["BEARER_TOKEN"]
 )
 
@@ -170,10 +170,10 @@ configuration.api_key['token'] = os.environ["API_KEY"]
 # configuration.api_key_prefix['token'] = 'Bearer'
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with slurmrest_python_0_0_41.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.SlurmApi(api_client)
-    v0041_kill_jobs_msg = openapi_client.V0041KillJobsMsg() # V0041KillJobsMsg | Signal or cancel jobs (optional)
+    api_instance = slurmrest_python_0_0_41.SlurmApi(api_client)
+    v0041_kill_jobs_msg = slurmrest_python_0_0_41.V0041KillJobsMsg() # V0041KillJobsMsg | Signal or cancel jobs (optional)
 
     try:
         # send signal to list of jobs
@@ -227,14 +227,14 @@ delete node
 * Api Key Authentication (token):
 
 ```python
-import openapi_client
-from openapi_client.models.v0041_openapi_resp import V0041OpenapiResp
-from openapi_client.rest import ApiException
+import slurmrest_python_0_0_41
+from slurmrest_python_0_0_41.models.v0041_openapi_resp import V0041OpenapiResp
+from slurmrest_python_0_0_41.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to http://localhost
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = slurmrest_python_0_0_41.Configuration(
     host = "http://localhost"
 )
 
@@ -250,7 +250,7 @@ configuration.api_key['user'] = os.environ["API_KEY"]
 # configuration.api_key_prefix['user'] = 'Bearer'
 
 # Configure Bearer authorization (JWT): bearerAuth
-configuration = openapi_client.Configuration(
+configuration = slurmrest_python_0_0_41.Configuration(
     access_token = os.environ["BEARER_TOKEN"]
 )
 
@@ -261,9 +261,9 @@ configuration.api_key['token'] = os.environ["API_KEY"]
 # configuration.api_key_prefix['token'] = 'Bearer'
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with slurmrest_python_0_0_41.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.SlurmApi(api_client)
+    api_instance = slurmrest_python_0_0_41.SlurmApi(api_client)
     node_name = 'node_name_example' # str | Node name
 
     try:
@@ -318,14 +318,14 @@ get diagnostics
 * Api Key Authentication (token):
 
 ```python
-import openapi_client
-from openapi_client.models.v0041_openapi_diag_resp import V0041OpenapiDiagResp
-from openapi_client.rest import ApiException
+import slurmrest_python_0_0_41
+from slurmrest_python_0_0_41.models.v0041_openapi_diag_resp import V0041OpenapiDiagResp
+from slurmrest_python_0_0_41.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to http://localhost
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = slurmrest_python_0_0_41.Configuration(
     host = "http://localhost"
 )
 
@@ -341,7 +341,7 @@ configuration.api_key['user'] = os.environ["API_KEY"]
 # configuration.api_key_prefix['user'] = 'Bearer'
 
 # Configure Bearer authorization (JWT): bearerAuth
-configuration = openapi_client.Configuration(
+configuration = slurmrest_python_0_0_41.Configuration(
     access_token = os.environ["BEARER_TOKEN"]
 )
 
@@ -352,9 +352,9 @@ configuration.api_key['token'] = os.environ["API_KEY"]
 # configuration.api_key_prefix['token'] = 'Bearer'
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with slurmrest_python_0_0_41.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.SlurmApi(api_client)
+    api_instance = slurmrest_python_0_0_41.SlurmApi(api_client)
 
     try:
         # get diagnostics
@@ -405,14 +405,14 @@ get job info
 * Api Key Authentication (token):
 
 ```python
-import openapi_client
-from openapi_client.models.v0041_openapi_job_info_resp import V0041OpenapiJobInfoResp
-from openapi_client.rest import ApiException
+import slurmrest_python_0_0_41
+from slurmrest_python_0_0_41.models.v0041_openapi_job_info_resp import V0041OpenapiJobInfoResp
+from slurmrest_python_0_0_41.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to http://localhost
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = slurmrest_python_0_0_41.Configuration(
     host = "http://localhost"
 )
 
@@ -428,7 +428,7 @@ configuration.api_key['user'] = os.environ["API_KEY"]
 # configuration.api_key_prefix['user'] = 'Bearer'
 
 # Configure Bearer authorization (JWT): bearerAuth
-configuration = openapi_client.Configuration(
+configuration = slurmrest_python_0_0_41.Configuration(
     access_token = os.environ["BEARER_TOKEN"]
 )
 
@@ -439,9 +439,9 @@ configuration.api_key['token'] = os.environ["API_KEY"]
 # configuration.api_key_prefix['token'] = 'Bearer'
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with slurmrest_python_0_0_41.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.SlurmApi(api_client)
+    api_instance = slurmrest_python_0_0_41.SlurmApi(api_client)
     job_id = 'job_id_example' # str | Job ID
     update_time = 'update_time_example' # str | Filter jobs since update timestamp (optional)
     flags = 'flags_example' # str | Query flags (optional)
@@ -500,14 +500,14 @@ get list of jobs
 * Api Key Authentication (token):
 
 ```python
-import openapi_client
-from openapi_client.models.v0041_openapi_job_info_resp import V0041OpenapiJobInfoResp
-from openapi_client.rest import ApiException
+import slurmrest_python_0_0_41
+from slurmrest_python_0_0_41.models.v0041_openapi_job_info_resp import V0041OpenapiJobInfoResp
+from slurmrest_python_0_0_41.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to http://localhost
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = slurmrest_python_0_0_41.Configuration(
     host = "http://localhost"
 )
 
@@ -523,7 +523,7 @@ configuration.api_key['user'] = os.environ["API_KEY"]
 # configuration.api_key_prefix['user'] = 'Bearer'
 
 # Configure Bearer authorization (JWT): bearerAuth
-configuration = openapi_client.Configuration(
+configuration = slurmrest_python_0_0_41.Configuration(
     access_token = os.environ["BEARER_TOKEN"]
 )
 
@@ -534,9 +534,9 @@ configuration.api_key['token'] = os.environ["API_KEY"]
 # configuration.api_key_prefix['token'] = 'Bearer'
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with slurmrest_python_0_0_41.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.SlurmApi(api_client)
+    api_instance = slurmrest_python_0_0_41.SlurmApi(api_client)
     update_time = 'update_time_example' # str | Filter jobs since update timestamp (optional)
     flags = 'flags_example' # str | Query flags (optional)
 
@@ -593,14 +593,14 @@ get list of job states
 * Api Key Authentication (token):
 
 ```python
-import openapi_client
-from openapi_client.models.v0041_openapi_job_info_resp import V0041OpenapiJobInfoResp
-from openapi_client.rest import ApiException
+import slurmrest_python_0_0_41
+from slurmrest_python_0_0_41.models.v0041_openapi_job_info_resp import V0041OpenapiJobInfoResp
+from slurmrest_python_0_0_41.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to http://localhost
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = slurmrest_python_0_0_41.Configuration(
     host = "http://localhost"
 )
 
@@ -616,7 +616,7 @@ configuration.api_key['user'] = os.environ["API_KEY"]
 # configuration.api_key_prefix['user'] = 'Bearer'
 
 # Configure Bearer authorization (JWT): bearerAuth
-configuration = openapi_client.Configuration(
+configuration = slurmrest_python_0_0_41.Configuration(
     access_token = os.environ["BEARER_TOKEN"]
 )
 
@@ -627,9 +627,9 @@ configuration.api_key['token'] = os.environ["API_KEY"]
 # configuration.api_key_prefix['token'] = 'Bearer'
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with slurmrest_python_0_0_41.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.SlurmApi(api_client)
+    api_instance = slurmrest_python_0_0_41.SlurmApi(api_client)
     job_id = 'job_id_example' # str | Search for CSV list of Job IDs (optional)
 
     try:
@@ -684,14 +684,14 @@ get all Slurm tracked license info
 * Api Key Authentication (token):
 
 ```python
-import openapi_client
-from openapi_client.models.v0041_openapi_licenses_resp import V0041OpenapiLicensesResp
-from openapi_client.rest import ApiException
+import slurmrest_python_0_0_41
+from slurmrest_python_0_0_41.models.v0041_openapi_licenses_resp import V0041OpenapiLicensesResp
+from slurmrest_python_0_0_41.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to http://localhost
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = slurmrest_python_0_0_41.Configuration(
     host = "http://localhost"
 )
 
@@ -707,7 +707,7 @@ configuration.api_key['user'] = os.environ["API_KEY"]
 # configuration.api_key_prefix['user'] = 'Bearer'
 
 # Configure Bearer authorization (JWT): bearerAuth
-configuration = openapi_client.Configuration(
+configuration = slurmrest_python_0_0_41.Configuration(
     access_token = os.environ["BEARER_TOKEN"]
 )
 
@@ -718,9 +718,9 @@ configuration.api_key['token'] = os.environ["API_KEY"]
 # configuration.api_key_prefix['token'] = 'Bearer'
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with slurmrest_python_0_0_41.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.SlurmApi(api_client)
+    api_instance = slurmrest_python_0_0_41.SlurmApi(api_client)
 
     try:
         # get all Slurm tracked license info
@@ -771,14 +771,14 @@ get node info
 * Api Key Authentication (token):
 
 ```python
-import openapi_client
-from openapi_client.models.v0041_openapi_nodes_resp import V0041OpenapiNodesResp
-from openapi_client.rest import ApiException
+import slurmrest_python_0_0_41
+from slurmrest_python_0_0_41.models.v0041_openapi_nodes_resp import V0041OpenapiNodesResp
+from slurmrest_python_0_0_41.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to http://localhost
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = slurmrest_python_0_0_41.Configuration(
     host = "http://localhost"
 )
 
@@ -794,7 +794,7 @@ configuration.api_key['user'] = os.environ["API_KEY"]
 # configuration.api_key_prefix['user'] = 'Bearer'
 
 # Configure Bearer authorization (JWT): bearerAuth
-configuration = openapi_client.Configuration(
+configuration = slurmrest_python_0_0_41.Configuration(
     access_token = os.environ["BEARER_TOKEN"]
 )
 
@@ -805,9 +805,9 @@ configuration.api_key['token'] = os.environ["API_KEY"]
 # configuration.api_key_prefix['token'] = 'Bearer'
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with slurmrest_python_0_0_41.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.SlurmApi(api_client)
+    api_instance = slurmrest_python_0_0_41.SlurmApi(api_client)
     node_name = 'node_name_example' # str | Node name
     update_time = 'update_time_example' # str | Filter jobs since update timestamp (optional)
     flags = 'flags_example' # str | Query flags (optional)
@@ -866,14 +866,14 @@ get node(s) info
 * Api Key Authentication (token):
 
 ```python
-import openapi_client
-from openapi_client.models.v0041_openapi_nodes_resp import V0041OpenapiNodesResp
-from openapi_client.rest import ApiException
+import slurmrest_python_0_0_41
+from slurmrest_python_0_0_41.models.v0041_openapi_nodes_resp import V0041OpenapiNodesResp
+from slurmrest_python_0_0_41.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to http://localhost
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = slurmrest_python_0_0_41.Configuration(
     host = "http://localhost"
 )
 
@@ -889,7 +889,7 @@ configuration.api_key['user'] = os.environ["API_KEY"]
 # configuration.api_key_prefix['user'] = 'Bearer'
 
 # Configure Bearer authorization (JWT): bearerAuth
-configuration = openapi_client.Configuration(
+configuration = slurmrest_python_0_0_41.Configuration(
     access_token = os.environ["BEARER_TOKEN"]
 )
 
@@ -900,9 +900,9 @@ configuration.api_key['token'] = os.environ["API_KEY"]
 # configuration.api_key_prefix['token'] = 'Bearer'
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with slurmrest_python_0_0_41.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.SlurmApi(api_client)
+    api_instance = slurmrest_python_0_0_41.SlurmApi(api_client)
     update_time = 'update_time_example' # str | Filter jobs since update timestamp (optional)
     flags = 'flags_example' # str | Query flags (optional)
 
@@ -959,14 +959,14 @@ get partition info
 * Api Key Authentication (token):
 
 ```python
-import openapi_client
-from openapi_client.models.v0041_openapi_partition_resp import V0041OpenapiPartitionResp
-from openapi_client.rest import ApiException
+import slurmrest_python_0_0_41
+from slurmrest_python_0_0_41.models.v0041_openapi_partition_resp import V0041OpenapiPartitionResp
+from slurmrest_python_0_0_41.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to http://localhost
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = slurmrest_python_0_0_41.Configuration(
     host = "http://localhost"
 )
 
@@ -982,7 +982,7 @@ configuration.api_key['user'] = os.environ["API_KEY"]
 # configuration.api_key_prefix['user'] = 'Bearer'
 
 # Configure Bearer authorization (JWT): bearerAuth
-configuration = openapi_client.Configuration(
+configuration = slurmrest_python_0_0_41.Configuration(
     access_token = os.environ["BEARER_TOKEN"]
 )
 
@@ -993,9 +993,9 @@ configuration.api_key['token'] = os.environ["API_KEY"]
 # configuration.api_key_prefix['token'] = 'Bearer'
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with slurmrest_python_0_0_41.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.SlurmApi(api_client)
+    api_instance = slurmrest_python_0_0_41.SlurmApi(api_client)
     partition_name = 'partition_name_example' # str | Partition name
     update_time = 'update_time_example' # str | Filter partitions since update timestamp (optional)
     flags = 'flags_example' # str | Query flags (optional)
@@ -1054,14 +1054,14 @@ get all partition info
 * Api Key Authentication (token):
 
 ```python
-import openapi_client
-from openapi_client.models.v0041_openapi_partition_resp import V0041OpenapiPartitionResp
-from openapi_client.rest import ApiException
+import slurmrest_python_0_0_41
+from slurmrest_python_0_0_41.models.v0041_openapi_partition_resp import V0041OpenapiPartitionResp
+from slurmrest_python_0_0_41.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to http://localhost
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = slurmrest_python_0_0_41.Configuration(
     host = "http://localhost"
 )
 
@@ -1077,7 +1077,7 @@ configuration.api_key['user'] = os.environ["API_KEY"]
 # configuration.api_key_prefix['user'] = 'Bearer'
 
 # Configure Bearer authorization (JWT): bearerAuth
-configuration = openapi_client.Configuration(
+configuration = slurmrest_python_0_0_41.Configuration(
     access_token = os.environ["BEARER_TOKEN"]
 )
 
@@ -1088,9 +1088,9 @@ configuration.api_key['token'] = os.environ["API_KEY"]
 # configuration.api_key_prefix['token'] = 'Bearer'
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with slurmrest_python_0_0_41.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.SlurmApi(api_client)
+    api_instance = slurmrest_python_0_0_41.SlurmApi(api_client)
     update_time = 'update_time_example' # str | Filter partitions since update timestamp (optional)
     flags = 'flags_example' # str | Query flags (optional)
 
@@ -1147,14 +1147,14 @@ ping test
 * Api Key Authentication (token):
 
 ```python
-import openapi_client
-from openapi_client.models.v0041_openapi_ping_array_resp import V0041OpenapiPingArrayResp
-from openapi_client.rest import ApiException
+import slurmrest_python_0_0_41
+from slurmrest_python_0_0_41.models.v0041_openapi_ping_array_resp import V0041OpenapiPingArrayResp
+from slurmrest_python_0_0_41.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to http://localhost
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = slurmrest_python_0_0_41.Configuration(
     host = "http://localhost"
 )
 
@@ -1170,7 +1170,7 @@ configuration.api_key['user'] = os.environ["API_KEY"]
 # configuration.api_key_prefix['user'] = 'Bearer'
 
 # Configure Bearer authorization (JWT): bearerAuth
-configuration = openapi_client.Configuration(
+configuration = slurmrest_python_0_0_41.Configuration(
     access_token = os.environ["BEARER_TOKEN"]
 )
 
@@ -1181,9 +1181,9 @@ configuration.api_key['token'] = os.environ["API_KEY"]
 # configuration.api_key_prefix['token'] = 'Bearer'
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with slurmrest_python_0_0_41.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.SlurmApi(api_client)
+    api_instance = slurmrest_python_0_0_41.SlurmApi(api_client)
 
     try:
         # ping test
@@ -1234,14 +1234,14 @@ request slurmctld reconfigure
 * Api Key Authentication (token):
 
 ```python
-import openapi_client
-from openapi_client.models.v0041_openapi_resp import V0041OpenapiResp
-from openapi_client.rest import ApiException
+import slurmrest_python_0_0_41
+from slurmrest_python_0_0_41.models.v0041_openapi_resp import V0041OpenapiResp
+from slurmrest_python_0_0_41.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to http://localhost
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = slurmrest_python_0_0_41.Configuration(
     host = "http://localhost"
 )
 
@@ -1257,7 +1257,7 @@ configuration.api_key['user'] = os.environ["API_KEY"]
 # configuration.api_key_prefix['user'] = 'Bearer'
 
 # Configure Bearer authorization (JWT): bearerAuth
-configuration = openapi_client.Configuration(
+configuration = slurmrest_python_0_0_41.Configuration(
     access_token = os.environ["BEARER_TOKEN"]
 )
 
@@ -1268,9 +1268,9 @@ configuration.api_key['token'] = os.environ["API_KEY"]
 # configuration.api_key_prefix['token'] = 'Bearer'
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with slurmrest_python_0_0_41.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.SlurmApi(api_client)
+    api_instance = slurmrest_python_0_0_41.SlurmApi(api_client)
 
     try:
         # request slurmctld reconfigure
@@ -1321,14 +1321,14 @@ get reservation info
 * Api Key Authentication (token):
 
 ```python
-import openapi_client
-from openapi_client.models.v0041_openapi_reservation_resp import V0041OpenapiReservationResp
-from openapi_client.rest import ApiException
+import slurmrest_python_0_0_41
+from slurmrest_python_0_0_41.models.v0041_openapi_reservation_resp import V0041OpenapiReservationResp
+from slurmrest_python_0_0_41.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to http://localhost
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = slurmrest_python_0_0_41.Configuration(
     host = "http://localhost"
 )
 
@@ -1344,7 +1344,7 @@ configuration.api_key['user'] = os.environ["API_KEY"]
 # configuration.api_key_prefix['user'] = 'Bearer'
 
 # Configure Bearer authorization (JWT): bearerAuth
-configuration = openapi_client.Configuration(
+configuration = slurmrest_python_0_0_41.Configuration(
     access_token = os.environ["BEARER_TOKEN"]
 )
 
@@ -1355,9 +1355,9 @@ configuration.api_key['token'] = os.environ["API_KEY"]
 # configuration.api_key_prefix['token'] = 'Bearer'
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with slurmrest_python_0_0_41.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.SlurmApi(api_client)
+    api_instance = slurmrest_python_0_0_41.SlurmApi(api_client)
     reservation_name = 'reservation_name_example' # str | Reservation name
     update_time = 'update_time_example' # str | Filter reservations since update timestamp (optional)
 
@@ -1414,14 +1414,14 @@ get all reservation info
 * Api Key Authentication (token):
 
 ```python
-import openapi_client
-from openapi_client.models.v0041_openapi_reservation_resp import V0041OpenapiReservationResp
-from openapi_client.rest import ApiException
+import slurmrest_python_0_0_41
+from slurmrest_python_0_0_41.models.v0041_openapi_reservation_resp import V0041OpenapiReservationResp
+from slurmrest_python_0_0_41.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to http://localhost
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = slurmrest_python_0_0_41.Configuration(
     host = "http://localhost"
 )
 
@@ -1437,7 +1437,7 @@ configuration.api_key['user'] = os.environ["API_KEY"]
 # configuration.api_key_prefix['user'] = 'Bearer'
 
 # Configure Bearer authorization (JWT): bearerAuth
-configuration = openapi_client.Configuration(
+configuration = slurmrest_python_0_0_41.Configuration(
     access_token = os.environ["BEARER_TOKEN"]
 )
 
@@ -1448,9 +1448,9 @@ configuration.api_key['token'] = os.environ["API_KEY"]
 # configuration.api_key_prefix['token'] = 'Bearer'
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with slurmrest_python_0_0_41.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.SlurmApi(api_client)
+    api_instance = slurmrest_python_0_0_41.SlurmApi(api_client)
     update_time = 'update_time_example' # str | Filter reservations since update timestamp (optional)
 
     try:
@@ -1505,14 +1505,14 @@ get fairshare info
 * Api Key Authentication (token):
 
 ```python
-import openapi_client
-from openapi_client.models.v0041_openapi_shares_resp import V0041OpenapiSharesResp
-from openapi_client.rest import ApiException
+import slurmrest_python_0_0_41
+from slurmrest_python_0_0_41.models.v0041_openapi_shares_resp import V0041OpenapiSharesResp
+from slurmrest_python_0_0_41.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to http://localhost
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = slurmrest_python_0_0_41.Configuration(
     host = "http://localhost"
 )
 
@@ -1528,7 +1528,7 @@ configuration.api_key['user'] = os.environ["API_KEY"]
 # configuration.api_key_prefix['user'] = 'Bearer'
 
 # Configure Bearer authorization (JWT): bearerAuth
-configuration = openapi_client.Configuration(
+configuration = slurmrest_python_0_0_41.Configuration(
     access_token = os.environ["BEARER_TOKEN"]
 )
 
@@ -1539,9 +1539,9 @@ configuration.api_key['token'] = os.environ["API_KEY"]
 # configuration.api_key_prefix['token'] = 'Bearer'
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with slurmrest_python_0_0_41.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.SlurmApi(api_client)
+    api_instance = slurmrest_python_0_0_41.SlurmApi(api_client)
     accounts = 'accounts_example' # str | Accounts to query (optional)
     users = 'users_example' # str | Users to query (optional)
 
@@ -1598,15 +1598,15 @@ update job
 * Api Key Authentication (token):
 
 ```python
-import openapi_client
-from openapi_client.models.v0041_job_desc_msg import V0041JobDescMsg
-from openapi_client.models.v0041_openapi_job_post_response import V0041OpenapiJobPostResponse
-from openapi_client.rest import ApiException
+import slurmrest_python_0_0_41
+from slurmrest_python_0_0_41.models.v0041_job_desc_msg import V0041JobDescMsg
+from slurmrest_python_0_0_41.models.v0041_openapi_job_post_response import V0041OpenapiJobPostResponse
+from slurmrest_python_0_0_41.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to http://localhost
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = slurmrest_python_0_0_41.Configuration(
     host = "http://localhost"
 )
 
@@ -1622,7 +1622,7 @@ configuration.api_key['user'] = os.environ["API_KEY"]
 # configuration.api_key_prefix['user'] = 'Bearer'
 
 # Configure Bearer authorization (JWT): bearerAuth
-configuration = openapi_client.Configuration(
+configuration = slurmrest_python_0_0_41.Configuration(
     access_token = os.environ["BEARER_TOKEN"]
 )
 
@@ -1633,11 +1633,11 @@ configuration.api_key['token'] = os.environ["API_KEY"]
 # configuration.api_key_prefix['token'] = 'Bearer'
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with slurmrest_python_0_0_41.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.SlurmApi(api_client)
+    api_instance = slurmrest_python_0_0_41.SlurmApi(api_client)
     job_id = 'job_id_example' # str | Job ID
-    v0041_job_desc_msg = openapi_client.V0041JobDescMsg() # V0041JobDescMsg | Job update description (optional)
+    v0041_job_desc_msg = slurmrest_python_0_0_41.V0041JobDescMsg() # V0041JobDescMsg | Job update description (optional)
 
     try:
         # update job
@@ -1692,15 +1692,15 @@ submit new job allocation without any steps that must be signaled to stop
 * Api Key Authentication (token):
 
 ```python
-import openapi_client
-from openapi_client.models.v0041_job_alloc_req import V0041JobAllocReq
-from openapi_client.models.v0041_openapi_job_alloc_resp import V0041OpenapiJobAllocResp
-from openapi_client.rest import ApiException
+import slurmrest_python_0_0_41
+from slurmrest_python_0_0_41.models.v0041_job_alloc_req import V0041JobAllocReq
+from slurmrest_python_0_0_41.models.v0041_openapi_job_alloc_resp import V0041OpenapiJobAllocResp
+from slurmrest_python_0_0_41.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to http://localhost
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = slurmrest_python_0_0_41.Configuration(
     host = "http://localhost"
 )
 
@@ -1716,7 +1716,7 @@ configuration.api_key['user'] = os.environ["API_KEY"]
 # configuration.api_key_prefix['user'] = 'Bearer'
 
 # Configure Bearer authorization (JWT): bearerAuth
-configuration = openapi_client.Configuration(
+configuration = slurmrest_python_0_0_41.Configuration(
     access_token = os.environ["BEARER_TOKEN"]
 )
 
@@ -1727,10 +1727,10 @@ configuration.api_key['token'] = os.environ["API_KEY"]
 # configuration.api_key_prefix['token'] = 'Bearer'
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with slurmrest_python_0_0_41.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.SlurmApi(api_client)
-    v0041_job_alloc_req = openapi_client.V0041JobAllocReq() # V0041JobAllocReq | Job allocation description (optional)
+    api_instance = slurmrest_python_0_0_41.SlurmApi(api_client)
+    v0041_job_alloc_req = slurmrest_python_0_0_41.V0041JobAllocReq() # V0041JobAllocReq | Job allocation description (optional)
 
     try:
         # submit new job allocation without any steps that must be signaled to stop
@@ -1784,15 +1784,15 @@ submit new job
 * Api Key Authentication (token):
 
 ```python
-import openapi_client
-from openapi_client.models.v0041_job_submit_req import V0041JobSubmitReq
-from openapi_client.models.v0041_openapi_job_submit_response import V0041OpenapiJobSubmitResponse
-from openapi_client.rest import ApiException
+import slurmrest_python_0_0_41
+from slurmrest_python_0_0_41.models.v0041_job_submit_req import V0041JobSubmitReq
+from slurmrest_python_0_0_41.models.v0041_openapi_job_submit_response import V0041OpenapiJobSubmitResponse
+from slurmrest_python_0_0_41.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to http://localhost
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = slurmrest_python_0_0_41.Configuration(
     host = "http://localhost"
 )
 
@@ -1808,7 +1808,7 @@ configuration.api_key['user'] = os.environ["API_KEY"]
 # configuration.api_key_prefix['user'] = 'Bearer'
 
 # Configure Bearer authorization (JWT): bearerAuth
-configuration = openapi_client.Configuration(
+configuration = slurmrest_python_0_0_41.Configuration(
     access_token = os.environ["BEARER_TOKEN"]
 )
 
@@ -1819,10 +1819,10 @@ configuration.api_key['token'] = os.environ["API_KEY"]
 # configuration.api_key_prefix['token'] = 'Bearer'
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with slurmrest_python_0_0_41.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.SlurmApi(api_client)
-    v0041_job_submit_req = openapi_client.V0041JobSubmitReq() # V0041JobSubmitReq | Job description (optional)
+    api_instance = slurmrest_python_0_0_41.SlurmApi(api_client)
+    v0041_job_submit_req = slurmrest_python_0_0_41.V0041JobSubmitReq() # V0041JobSubmitReq | Job description (optional)
 
     try:
         # submit new job
@@ -1876,15 +1876,15 @@ update node properties
 * Api Key Authentication (token):
 
 ```python
-import openapi_client
-from openapi_client.models.v0041_openapi_resp import V0041OpenapiResp
-from openapi_client.models.v0041_update_node_msg import V0041UpdateNodeMsg
-from openapi_client.rest import ApiException
+import slurmrest_python_0_0_41
+from slurmrest_python_0_0_41.models.v0041_openapi_resp import V0041OpenapiResp
+from slurmrest_python_0_0_41.models.v0041_update_node_msg import V0041UpdateNodeMsg
+from slurmrest_python_0_0_41.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to http://localhost
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = slurmrest_python_0_0_41.Configuration(
     host = "http://localhost"
 )
 
@@ -1900,7 +1900,7 @@ configuration.api_key['user'] = os.environ["API_KEY"]
 # configuration.api_key_prefix['user'] = 'Bearer'
 
 # Configure Bearer authorization (JWT): bearerAuth
-configuration = openapi_client.Configuration(
+configuration = slurmrest_python_0_0_41.Configuration(
     access_token = os.environ["BEARER_TOKEN"]
 )
 
@@ -1911,11 +1911,11 @@ configuration.api_key['token'] = os.environ["API_KEY"]
 # configuration.api_key_prefix['token'] = 'Bearer'
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with slurmrest_python_0_0_41.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.SlurmApi(api_client)
+    api_instance = slurmrest_python_0_0_41.SlurmApi(api_client)
     node_name = 'node_name_example' # str | Node name
-    v0041_update_node_msg = openapi_client.V0041UpdateNodeMsg() # V0041UpdateNodeMsg | Node update description (optional)
+    v0041_update_node_msg = slurmrest_python_0_0_41.V0041UpdateNodeMsg() # V0041UpdateNodeMsg | Node update description (optional)
 
     try:
         # update node properties
@@ -1970,15 +1970,15 @@ batch update node(s)
 * Api Key Authentication (token):
 
 ```python
-import openapi_client
-from openapi_client.models.v0041_openapi_resp import V0041OpenapiResp
-from openapi_client.models.v0041_update_node_msg import V0041UpdateNodeMsg
-from openapi_client.rest import ApiException
+import slurmrest_python_0_0_41
+from slurmrest_python_0_0_41.models.v0041_openapi_resp import V0041OpenapiResp
+from slurmrest_python_0_0_41.models.v0041_update_node_msg import V0041UpdateNodeMsg
+from slurmrest_python_0_0_41.rest import ApiException
 from pprint import pprint
 
 # Defining the host is optional and defaults to http://localhost
 # See configuration.py for a list of all supported configuration parameters.
-configuration = openapi_client.Configuration(
+configuration = slurmrest_python_0_0_41.Configuration(
     host = "http://localhost"
 )
 
@@ -1994,7 +1994,7 @@ configuration.api_key['user'] = os.environ["API_KEY"]
 # configuration.api_key_prefix['user'] = 'Bearer'
 
 # Configure Bearer authorization (JWT): bearerAuth
-configuration = openapi_client.Configuration(
+configuration = slurmrest_python_0_0_41.Configuration(
     access_token = os.environ["BEARER_TOKEN"]
 )
 
@@ -2005,10 +2005,10 @@ configuration.api_key['token'] = os.environ["API_KEY"]
 # configuration.api_key_prefix['token'] = 'Bearer'
 
 # Enter a context with an instance of the API client
-with openapi_client.ApiClient(configuration) as api_client:
+with slurmrest_python_0_0_41.ApiClient(configuration) as api_client:
     # Create an instance of the API class
-    api_instance = openapi_client.SlurmApi(api_client)
-    v0041_update_node_msg = openapi_client.V0041UpdateNodeMsg() # V0041UpdateNodeMsg | Nodelist update description (optional)
+    api_instance = slurmrest_python_0_0_41.SlurmApi(api_client)
+    v0041_update_node_msg = slurmrest_python_0_0_41.V0041UpdateNodeMsg() # V0041UpdateNodeMsg | Nodelist update description (optional)
 
     try:
         # batch update node(s)

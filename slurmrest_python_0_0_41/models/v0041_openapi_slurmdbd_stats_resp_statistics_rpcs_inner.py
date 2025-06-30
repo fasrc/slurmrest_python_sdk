@@ -20,7 +20,7 @@ import json
 
 from pydantic import BaseModel, ConfigDict, Field, StrictInt, StrictStr
 from typing import Any, ClassVar, Dict, List, Optional
-from openapi_client.models.v0041_openapi_slurmdbd_stats_resp_statistics_rpcs_inner_time import V0041OpenapiSlurmdbdStatsRespStatisticsRPCsInnerTime
+from slurmrest_python_0_0_41.models.v0041_openapi_slurmdbd_stats_resp_statistics_rpcs_inner_time import V0041OpenapiSlurmdbdStatsRespStatisticsRPCsInnerTime
 from typing import Optional, Set
 from typing_extensions import Self
 

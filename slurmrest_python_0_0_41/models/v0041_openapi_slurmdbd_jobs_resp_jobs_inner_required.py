@@ -20,8 +20,8 @@ import json
 
 from pydantic import BaseModel, ConfigDict, Field, StrictInt
 from typing import Any, ClassVar, Dict, List, Optional
-from openapi_client.models.v0041_job_desc_msg_memory_per_cpu import V0041JobDescMsgMemoryPerCpu
-from openapi_client.models.v0041_openapi_job_info_resp_jobs_inner_memory_per_node import V0041OpenapiJobInfoRespJobsInnerMemoryPerNode
+from slurmrest_python_0_0_41.models.v0041_job_desc_msg_memory_per_cpu import V0041JobDescMsgMemoryPerCpu
+from slurmrest_python_0_0_41.models.v0041_openapi_job_info_resp_jobs_inner_memory_per_node import V0041OpenapiJobInfoRespJobsInnerMemoryPerNode
 from typing import Optional, Set
 from typing_extensions import Self
 

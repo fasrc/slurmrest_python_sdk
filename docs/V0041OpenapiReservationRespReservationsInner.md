@@ -28,7 +28,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from openapi_client.models.v0041_openapi_reservation_resp_reservations_inner import V0041OpenapiReservationRespReservationsInner
+from slurmrest_python_0_0_41.models.v0041_openapi_reservation_resp_reservations_inner import V0041OpenapiReservationRespReservationsInner
 
 # TODO update the JSON string below
 json = "{}"

@@ -1,20 +1,20 @@
 [project]
-name = "openapi_client"
-version = "1.0.0"
+name = "slurmrest_python_0_0_41"
+version = "0.0.1"
 description = "Slurm REST API"
 authors = [
   {name = "SchedMD LLC",email = "sales@schedmd.com"},
 ]
-license = "Apache-2.0"
+license = "Apache 2.0"
 readme = "README.md"
 keywords = ["OpenAPI", "OpenAPI-Generator", "Slurm REST API"]
 requires-python = ">=3.9"
 
 dependencies = [
-  "urllib3>=2.1.0,<3.0.0",
-  "python-dateutil>=2.8.2",
-  "pydantic>=2",
-  "typing-extensions>=4.7.1"
+  "urllib3 (>=2.1.0,<3.0.0)",
+  "python-dateutil (>=2.8.2)",
+  "pydantic (>=2)",
+  "typing-extensions (>=4.7.1)"
 ]
 
 [project.urls]
@@ -41,7 +41,7 @@ extension-pkg-whitelist = "pydantic"
 
 [tool.mypy]
 files = [
-  "openapi_client",
+  "slurmrest_python_0_0_41",
   #"test",  # auto-generated tests
   "tests", # hand-written tests
 ]
@@ -79,7 +79,7 @@ disallow_any_generics = true
 
 [[tool.mypy.overrides]]
 module = [
-  "openapi_client.configuration",
+  "slurmrest_python_0_0_41.configuration",
 ]
 warn_unused_ignores = true
 strict_equality = true

@@ -20,7 +20,7 @@ import json
 
 from pydantic import BaseModel, ConfigDict, Field, StrictStr
 from typing import Any, ClassVar, Dict, List, Optional
-from openapi_client.models.v0041_openapi_job_info_resp_jobs_inner_derived_exit_code_signal_id import V0041OpenapiJobInfoRespJobsInnerDerivedExitCodeSignalId
+from slurmrest_python_0_0_41.models.v0041_openapi_job_info_resp_jobs_inner_derived_exit_code_signal_id import V0041OpenapiJobInfoRespJobsInnerDerivedExitCodeSignalId
 from typing import Optional, Set
 from typing_extensions import Self
 

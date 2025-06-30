@@ -20,7 +20,7 @@ import json
 
 from pydantic import BaseModel, ConfigDict, Field, StrictInt
 from typing import Any, ClassVar, Dict, List, Optional
-from openapi_client.models.v0041_openapi_nodes_resp_nodes_inner_energy_current_watts import V0041OpenapiNodesRespNodesInnerEnergyCurrentWatts
+from slurmrest_python_0_0_41.models.v0041_openapi_nodes_resp_nodes_inner_energy_current_watts import V0041OpenapiNodesRespNodesInnerEnergyCurrentWatts
 from typing import Optional, Set
 from typing_extensions import Self
 

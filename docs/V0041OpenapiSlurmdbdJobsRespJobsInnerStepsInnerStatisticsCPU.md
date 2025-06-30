@@ -10,7 +10,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from openapi_client.models.v0041_openapi_slurmdbd_jobs_resp_jobs_inner_steps_inner_statistics_cpu import V0041OpenapiSlurmdbdJobsRespJobsInnerStepsInnerStatisticsCPU
+from slurmrest_python_0_0_41.models.v0041_openapi_slurmdbd_jobs_resp_jobs_inner_steps_inner_statistics_cpu import V0041OpenapiSlurmdbdJobsRespJobsInnerStepsInnerStatisticsCPU
 
 # TODO update the JSON string below
 json = "{}"

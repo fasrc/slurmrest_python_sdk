@@ -16,7 +16,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from openapi_client.models.v0041_openapi_users_add_cond_resp_association_condition import V0041OpenapiUsersAddCondRespAssociationCondition
+from slurmrest_python_0_0_41.models.v0041_openapi_users_add_cond_resp_association_condition import V0041OpenapiUsersAddCondRespAssociationCondition
 
 # TODO update the JSON string below
 json = "{}"

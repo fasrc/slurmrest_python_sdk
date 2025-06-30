@@ -20,7 +20,7 @@ import json
 
 from pydantic import BaseModel, ConfigDict
 from typing import Any, ClassVar, Dict, List, Optional
-from openapi_client.models.v0041_openapi_assocs_resp_associations_inner_min_priority_threshold import V0041OpenapiAssocsRespAssociationsInnerMinPriorityThreshold
+from slurmrest_python_0_0_41.models.v0041_openapi_assocs_resp_associations_inner_min_priority_threshold import V0041OpenapiAssocsRespAssociationsInnerMinPriorityThreshold
 from typing import Optional, Set
 from typing_extensions import Self
 

@@ -20,8 +20,8 @@ import json
 
 from pydantic import BaseModel, ConfigDict, Field, StrictInt, StrictStr
 from typing import Any, ClassVar, Dict, List, Optional
-from openapi_client.models.v0041_openapi_job_info_resp_jobs_inner_array_task_id import V0041OpenapiJobInfoRespJobsInnerArrayTaskId
-from openapi_client.models.v0041_openapi_slurmdbd_jobs_resp_jobs_inner_array_limits import V0041OpenapiSlurmdbdJobsRespJobsInnerArrayLimits
+from slurmrest_python_0_0_41.models.v0041_openapi_job_info_resp_jobs_inner_array_task_id import V0041OpenapiJobInfoRespJobsInnerArrayTaskId
+from slurmrest_python_0_0_41.models.v0041_openapi_slurmdbd_jobs_resp_jobs_inner_array_limits import V0041OpenapiSlurmdbdJobsRespJobsInnerArrayLimits
 from typing import Optional, Set
 from typing_extensions import Self
 

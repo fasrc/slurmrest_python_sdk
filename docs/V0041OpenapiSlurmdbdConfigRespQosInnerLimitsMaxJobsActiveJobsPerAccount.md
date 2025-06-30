@@ -13,7 +13,7 @@ Name | Type | Description | Notes
 ## Example
 
 ```python
-from openapi_client.models.v0041_openapi_slurmdbd_config_resp_qos_inner_limits_max_jobs_active_jobs_per_account import V0041OpenapiSlurmdbdConfigRespQosInnerLimitsMaxJobsActiveJobsPerAccount
+from slurmrest_python_0_0_41.models.v0041_openapi_slurmdbd_config_resp_qos_inner_limits_max_jobs_active_jobs_per_account import V0041OpenapiSlurmdbdConfigRespQosInnerLimitsMaxJobsActiveJobsPerAccount
 
 # TODO update the JSON string below
 json = "{}"
