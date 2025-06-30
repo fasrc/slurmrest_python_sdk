@@ -5,7 +5,7 @@ description = "Slurm REST API"
 authors = [
   {name = "SchedMD LLC",email = "sales@schedmd.com"},
 ]
-license = "Apache 2.0"
+license = "Apache-2.0"
 readme = "README.md"
 keywords = ["OpenAPI", "OpenAPI-Generator", "Slurm REST API"]
 requires-python = ">=3.9"

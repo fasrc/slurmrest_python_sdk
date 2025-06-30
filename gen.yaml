@@ -13,4 +13,3 @@ additionalProperties:
   packageName:    slurmrest_python_0_0_41
   projectName:    slurmrest_python_0_0_41
   packageVersion: 0.0.1
-  licenseName:    Apache-2.0
