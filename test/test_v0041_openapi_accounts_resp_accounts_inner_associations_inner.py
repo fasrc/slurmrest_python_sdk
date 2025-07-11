@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.v0041_openapi_accounts_resp_accounts_inner_associations_inner import V0041OpenapiAccountsRespAccountsInnerAssociationsInner
+from slurmrest_python_0_0_41.models.v0041_openapi_accounts_resp_accounts_inner_associations_inner import V0041OpenapiAccountsRespAccountsInnerAssociationsInner
 
 class TestV0041OpenapiAccountsRespAccountsInnerAssociationsInner(unittest.TestCase):
     """V0041OpenapiAccountsRespAccountsInnerAssociationsInner unit test stubs"""

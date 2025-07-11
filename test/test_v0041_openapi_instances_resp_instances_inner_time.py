@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.v0041_openapi_instances_resp_instances_inner_time import V0041OpenapiInstancesRespInstancesInnerTime
+from slurmrest_python_0_0_41.models.v0041_openapi_instances_resp_instances_inner_time import V0041OpenapiInstancesRespInstancesInnerTime
 
 class TestV0041OpenapiInstancesRespInstancesInnerTime(unittest.TestCase):
     """V0041OpenapiInstancesRespInstancesInnerTime unit test stubs"""

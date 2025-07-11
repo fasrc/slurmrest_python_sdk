@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.v0041_openapi_partition_resp_partitions_inner_defaults_time import V0041OpenapiPartitionRespPartitionsInnerDefaultsTime
+from slurmrest_python_0_0_41.models.v0041_openapi_partition_resp_partitions_inner_defaults_time import V0041OpenapiPartitionRespPartitionsInnerDefaultsTime
 
 class TestV0041OpenapiPartitionRespPartitionsInnerDefaultsTime(unittest.TestCase):
     """V0041OpenapiPartitionRespPartitionsInnerDefaultsTime unit test stubs"""

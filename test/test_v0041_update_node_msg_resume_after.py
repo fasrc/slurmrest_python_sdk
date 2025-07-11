@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.v0041_update_node_msg_resume_after import V0041UpdateNodeMsgResumeAfter
+from slurmrest_python_0_0_41.models.v0041_update_node_msg_resume_after import V0041UpdateNodeMsgResumeAfter
 
 class TestV0041UpdateNodeMsgResumeAfter(unittest.TestCase):
     """V0041UpdateNodeMsgResumeAfter unit test stubs"""

@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.v0041_openapi_clusters_resp_clusters_inner_associations_root import V0041OpenapiClustersRespClustersInnerAssociationsRoot
+from slurmrest_python_0_0_41.models.v0041_openapi_clusters_resp_clusters_inner_associations_root import V0041OpenapiClustersRespClustersInnerAssociationsRoot
 
 class TestV0041OpenapiClustersRespClustersInnerAssociationsRoot(unittest.TestCase):
     """V0041OpenapiClustersRespClustersInnerAssociationsRoot unit test stubs"""

@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.v0041_openapi_diag_resp_statistics_job_states_ts import V0041OpenapiDiagRespStatisticsJobStatesTs
+from slurmrest_python_0_0_41.models.v0041_openapi_diag_resp_statistics_job_states_ts import V0041OpenapiDiagRespStatisticsJobStatesTs
 
 class TestV0041OpenapiDiagRespStatisticsJobStatesTs(unittest.TestCase):
     """V0041OpenapiDiagRespStatisticsJobStatesTs unit test stubs"""

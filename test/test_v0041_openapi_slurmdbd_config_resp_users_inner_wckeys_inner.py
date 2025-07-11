@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.v0041_openapi_slurmdbd_config_resp_users_inner_wckeys_inner import V0041OpenapiSlurmdbdConfigRespUsersInnerWckeysInner
+from slurmrest_python_0_0_41.models.v0041_openapi_slurmdbd_config_resp_users_inner_wckeys_inner import V0041OpenapiSlurmdbdConfigRespUsersInnerWckeysInner
 
 class TestV0041OpenapiSlurmdbdConfigRespUsersInnerWckeysInner(unittest.TestCase):
     """V0041OpenapiSlurmdbdConfigRespUsersInnerWckeysInner unit test stubs"""
@@ -37,13 +37,13 @@ class TestV0041OpenapiSlurmdbdConfigRespUsersInnerWckeysInner(unittest.TestCase)
         if include_optional:
             return V0041OpenapiSlurmdbdConfigRespUsersInnerWckeysInner(
                 accounting = [
-                    openapi_client.models.v0_0_41_openapi_assocs_resp_associations_inner_accounting_inner.v0_0_41_openapi_assocs_resp_associations_inner_accounting_inner(
-                        tres = openapi_client.models.v0_0_41_openapi_assocs_resp_associations_inner_accounting_inner_tres.v0_0_41_openapi_assocs_resp_associations_inner_accounting_inner_TRES(
+                    slurmrest_python_0_0_41.models.v0_0_41_openapi_assocs_resp_associations_inner_accounting_inner.v0_0_41_openapi_assocs_resp_associations_inner_accounting_inner(
+                        tres = slurmrest_python_0_0_41.models.v0_0_41_openapi_assocs_resp_associations_inner_accounting_inner_tres.v0_0_41_openapi_assocs_resp_associations_inner_accounting_inner_TRES(
                             count = 56, 
                             id = 56, 
                             name = '', 
                             type = '', ), 
-                        allocated = openapi_client.models.v0_0_41_openapi_assocs_resp_associations_inner_accounting_inner_allocated.v0_0_41_openapi_assocs_resp_associations_inner_accounting_inner_allocated(
+                        allocated = slurmrest_python_0_0_41.models.v0_0_41_openapi_assocs_resp_associations_inner_accounting_inner_allocated.v0_0_41_openapi_assocs_resp_associations_inner_accounting_inner_allocated(
                             seconds = 56, ), 
                         id = 56, 
                         start = 56, )

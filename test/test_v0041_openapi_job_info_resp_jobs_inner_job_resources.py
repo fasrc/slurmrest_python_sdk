@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.v0041_openapi_job_info_resp_jobs_inner_job_resources import V0041OpenapiJobInfoRespJobsInnerJobResources
+from slurmrest_python_0_0_41.models.v0041_openapi_job_info_resp_jobs_inner_job_resources import V0041OpenapiJobInfoRespJobsInnerJobResources
 
 class TestV0041OpenapiJobInfoRespJobsInnerJobResources(unittest.TestCase):
     """V0041OpenapiJobInfoRespJobsInnerJobResources unit test stubs"""
@@ -37,21 +37,21 @@ class TestV0041OpenapiJobInfoRespJobsInnerJobResources(unittest.TestCase):
         if include_optional:
             return V0041OpenapiJobInfoRespJobsInnerJobResources(
                 cpus = 56,
-                nodes = openapi_client.models.v0_0_41_openapi_job_info_resp_jobs_inner_job_resources_nodes.v0_0_41_openapi_job_info_resp_jobs_inner_job_resources_nodes(
+                nodes = slurmrest_python_0_0_41.models.v0_0_41_openapi_job_info_resp_jobs_inner_job_resources_nodes.v0_0_41_openapi_job_info_resp_jobs_inner_job_resources_nodes(
                     allocation = [
-                        openapi_client.models.v0_0_41_openapi_job_info_resp_jobs_inner_job_resources_nodes_allocation_inner.v0_0_41_openapi_job_info_resp_jobs_inner_job_resources_nodes_allocation_inner(
-                            cpus = openapi_client.models.v0_0_41_openapi_job_info_resp_jobs_inner_job_resources_nodes_allocation_inner_cpus.v0_0_41_openapi_job_info_resp_jobs_inner_job_resources_nodes_allocation_inner_cpus(
+                        slurmrest_python_0_0_41.models.v0_0_41_openapi_job_info_resp_jobs_inner_job_resources_nodes_allocation_inner.v0_0_41_openapi_job_info_resp_jobs_inner_job_resources_nodes_allocation_inner(
+                            cpus = slurmrest_python_0_0_41.models.v0_0_41_openapi_job_info_resp_jobs_inner_job_resources_nodes_allocation_inner_cpus.v0_0_41_openapi_job_info_resp_jobs_inner_job_resources_nodes_allocation_inner_cpus(
                                 count = 56, 
                                 used = 56, ), 
                             index = 56, 
-                            memory = openapi_client.models.v0_0_41_openapi_job_info_resp_jobs_inner_job_resources_nodes_allocation_inner_memory.v0_0_41_openapi_job_info_resp_jobs_inner_job_resources_nodes_allocation_inner_memory(
+                            memory = slurmrest_python_0_0_41.models.v0_0_41_openapi_job_info_resp_jobs_inner_job_resources_nodes_allocation_inner_memory.v0_0_41_openapi_job_info_resp_jobs_inner_job_resources_nodes_allocation_inner_memory(
                                 allocated = 56, 
                                 used = 56, ), 
                             name = '', 
                             sockets = [
-                                openapi_client.models.v0_0_41_openapi_job_info_resp_jobs_inner_job_resources_nodes_allocation_inner_sockets_inner.v0_0_41_openapi_job_info_resp_jobs_inner_job_resources_nodes_allocation_inner_sockets_inner(
+                                slurmrest_python_0_0_41.models.v0_0_41_openapi_job_info_resp_jobs_inner_job_resources_nodes_allocation_inner_sockets_inner.v0_0_41_openapi_job_info_resp_jobs_inner_job_resources_nodes_allocation_inner_sockets_inner(
                                     cores = [
-                                        openapi_client.models.v0_0_41_openapi_job_info_resp_jobs_inner_job_resources_nodes_allocation_inner_sockets_inner_cores_inner.v0_0_41_openapi_job_info_resp_jobs_inner_job_resources_nodes_allocation_inner_sockets_inner_cores_inner(
+                                        slurmrest_python_0_0_41.models.v0_0_41_openapi_job_info_resp_jobs_inner_job_resources_nodes_allocation_inner_sockets_inner_cores_inner.v0_0_41_openapi_job_info_resp_jobs_inner_job_resources_nodes_allocation_inner_sockets_inner_cores_inner(
                                             index = 56, 
                                             status = [
                                                 'INVALID'
@@ -69,7 +69,7 @@ class TestV0041OpenapiJobInfoRespJobsInnerJobResources(unittest.TestCase):
                 select_type = [
                     'CPU'
                     ],
-                threads_per_core = openapi_client.models.v0_0_41_openapi_job_info_resp_jobs_inner_job_resources_threads_per_core.v0_0_41_openapi_job_info_resp_jobs_inner_job_resources_threads_per_core(
+                threads_per_core = slurmrest_python_0_0_41.models.v0_0_41_openapi_job_info_resp_jobs_inner_job_resources_threads_per_core.v0_0_41_openapi_job_info_resp_jobs_inner_job_resources_threads_per_core(
                     infinite = True, 
                     number = 56, 
                     set = True, )
@@ -80,7 +80,7 @@ class TestV0041OpenapiJobInfoRespJobsInnerJobResources(unittest.TestCase):
                 select_type = [
                     'CPU'
                     ],
-                threads_per_core = openapi_client.models.v0_0_41_openapi_job_info_resp_jobs_inner_job_resources_threads_per_core.v0_0_41_openapi_job_info_resp_jobs_inner_job_resources_threads_per_core(
+                threads_per_core = slurmrest_python_0_0_41.models.v0_0_41_openapi_job_info_resp_jobs_inner_job_resources_threads_per_core.v0_0_41_openapi_job_info_resp_jobs_inner_job_resources_threads_per_core(
                     infinite = True, 
                     number = 56, 
                     set = True, ),

@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.v0041_openapi_assocs_resp_associations_inner_min_priority_threshold import V0041OpenapiAssocsRespAssociationsInnerMinPriorityThreshold
+from slurmrest_python_0_0_41.models.v0041_openapi_assocs_resp_associations_inner_min_priority_threshold import V0041OpenapiAssocsRespAssociationsInnerMinPriorityThreshold
 
 class TestV0041OpenapiAssocsRespAssociationsInnerMinPriorityThreshold(unittest.TestCase):
     """V0041OpenapiAssocsRespAssociationsInnerMinPriorityThreshold unit test stubs"""

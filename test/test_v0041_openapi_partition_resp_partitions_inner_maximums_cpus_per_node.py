@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.v0041_openapi_partition_resp_partitions_inner_maximums_cpus_per_node import V0041OpenapiPartitionRespPartitionsInnerMaximumsCpusPerNode
+from slurmrest_python_0_0_41.models.v0041_openapi_partition_resp_partitions_inner_maximums_cpus_per_node import V0041OpenapiPartitionRespPartitionsInnerMaximumsCpusPerNode
 
 class TestV0041OpenapiPartitionRespPartitionsInnerMaximumsCpusPerNode(unittest.TestCase):
     """V0041OpenapiPartitionRespPartitionsInnerMaximumsCpusPerNode unit test stubs"""

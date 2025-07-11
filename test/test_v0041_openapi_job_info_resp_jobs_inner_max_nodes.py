@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.v0041_openapi_job_info_resp_jobs_inner_max_nodes import V0041OpenapiJobInfoRespJobsInnerMaxNodes
+from slurmrest_python_0_0_41.models.v0041_openapi_job_info_resp_jobs_inner_max_nodes import V0041OpenapiJobInfoRespJobsInnerMaxNodes
 
 class TestV0041OpenapiJobInfoRespJobsInnerMaxNodes(unittest.TestCase):
     """V0041OpenapiJobInfoRespJobsInnerMaxNodes unit test stubs"""

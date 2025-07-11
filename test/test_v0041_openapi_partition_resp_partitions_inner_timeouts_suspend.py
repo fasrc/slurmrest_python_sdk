@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.v0041_openapi_partition_resp_partitions_inner_timeouts_suspend import V0041OpenapiPartitionRespPartitionsInnerTimeoutsSuspend
+from slurmrest_python_0_0_41.models.v0041_openapi_partition_resp_partitions_inner_timeouts_suspend import V0041OpenapiPartitionRespPartitionsInnerTimeoutsSuspend
 
 class TestV0041OpenapiPartitionRespPartitionsInnerTimeoutsSuspend(unittest.TestCase):
     """V0041OpenapiPartitionRespPartitionsInnerTimeoutsSuspend unit test stubs"""

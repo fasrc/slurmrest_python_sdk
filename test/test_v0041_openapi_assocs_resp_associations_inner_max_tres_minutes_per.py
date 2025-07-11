@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.v0041_openapi_assocs_resp_associations_inner_max_tres_minutes_per import V0041OpenapiAssocsRespAssociationsInnerMaxTresMinutesPer
+from slurmrest_python_0_0_41.models.v0041_openapi_assocs_resp_associations_inner_max_tres_minutes_per import V0041OpenapiAssocsRespAssociationsInnerMaxTresMinutesPer
 
 class TestV0041OpenapiAssocsRespAssociationsInnerMaxTresMinutesPer(unittest.TestCase):
     """V0041OpenapiAssocsRespAssociationsInnerMaxTresMinutesPer unit test stubs"""
@@ -37,7 +37,7 @@ class TestV0041OpenapiAssocsRespAssociationsInnerMaxTresMinutesPer(unittest.Test
         if include_optional:
             return V0041OpenapiAssocsRespAssociationsInnerMaxTresMinutesPer(
                 job = [
-                    openapi_client.models.v0_0_41_openapi_accounts_add_cond_resp_association_condition_association_grptres_inner.v0_0_41_openapi_accounts_add_cond_resp_association_condition_association_grptres_inner(
+                    slurmrest_python_0_0_41.models.v0_0_41_openapi_accounts_add_cond_resp_association_condition_association_grptres_inner.v0_0_41_openapi_accounts_add_cond_resp_association_condition_association_grptres_inner(
                         count = 56, 
                         id = 56, 
                         name = '', 

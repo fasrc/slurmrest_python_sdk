@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.v0041_openapi_accounts_add_cond_resp_meta_slurm import V0041OpenapiAccountsAddCondRespMetaSlurm
+from slurmrest_python_0_0_41.models.v0041_openapi_accounts_add_cond_resp_meta_slurm import V0041OpenapiAccountsAddCondRespMetaSlurm
 
 class TestV0041OpenapiAccountsAddCondRespMetaSlurm(unittest.TestCase):
     """V0041OpenapiAccountsAddCondRespMetaSlurm unit test stubs"""
@@ -38,7 +38,7 @@ class TestV0041OpenapiAccountsAddCondRespMetaSlurm(unittest.TestCase):
             return V0041OpenapiAccountsAddCondRespMetaSlurm(
                 cluster = '',
                 release = '',
-                version = openapi_client.models.v0_0_41_openapi_accounts_add_cond_resp_meta_slurm_version.v0_0_41_openapi_accounts_add_cond_resp_meta_slurm_version(
+                version = slurmrest_python_0_0_41.models.v0_0_41_openapi_accounts_add_cond_resp_meta_slurm_version.v0_0_41_openapi_accounts_add_cond_resp_meta_slurm_version(
                     major = '', 
                     micro = '', 
                     minor = '', )

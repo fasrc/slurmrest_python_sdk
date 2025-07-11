@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.v0041_openapi_slurmdbd_jobs_resp_jobs_inner_time import V0041OpenapiSlurmdbdJobsRespJobsInnerTime
+from slurmrest_python_0_0_41.models.v0041_openapi_slurmdbd_jobs_resp_jobs_inner_time import V0041OpenapiSlurmdbdJobsRespJobsInnerTime
 
 class TestV0041OpenapiSlurmdbdJobsRespJobsInnerTime(unittest.TestCase):
     """V0041OpenapiSlurmdbdJobsRespJobsInnerTime unit test stubs"""
@@ -39,24 +39,24 @@ class TestV0041OpenapiSlurmdbdJobsRespJobsInnerTime(unittest.TestCase):
                 elapsed = 56,
                 eligible = 56,
                 end = 56,
-                limit = openapi_client.models.v0_0_41_job_desc_msg_time_limit.v0_0_41_job_desc_msg_time_limit(
+                limit = slurmrest_python_0_0_41.models.v0_0_41_job_desc_msg_time_limit.v0_0_41_job_desc_msg_time_limit(
                     infinite = True, 
                     number = 56, 
                     set = True, ),
-                planned = openapi_client.models.v0_0_41_openapi_slurmdbd_jobs_resp_jobs_inner_time_planned.v0_0_41_openapi_slurmdbd_jobs_resp_jobs_inner_time_planned(
+                planned = slurmrest_python_0_0_41.models.v0_0_41_openapi_slurmdbd_jobs_resp_jobs_inner_time_planned.v0_0_41_openapi_slurmdbd_jobs_resp_jobs_inner_time_planned(
                     infinite = True, 
                     number = 56, 
                     set = True, ),
                 start = 56,
                 submission = 56,
                 suspended = 56,
-                system = openapi_client.models.v0_0_41_openapi_slurmdbd_jobs_resp_jobs_inner_time_system.v0_0_41_openapi_slurmdbd_jobs_resp_jobs_inner_time_system(
+                system = slurmrest_python_0_0_41.models.v0_0_41_openapi_slurmdbd_jobs_resp_jobs_inner_time_system.v0_0_41_openapi_slurmdbd_jobs_resp_jobs_inner_time_system(
                     microseconds = 56, 
                     seconds = 56, ),
-                total = openapi_client.models.v0_0_41_openapi_slurmdbd_jobs_resp_jobs_inner_time_total.v0_0_41_openapi_slurmdbd_jobs_resp_jobs_inner_time_total(
+                total = slurmrest_python_0_0_41.models.v0_0_41_openapi_slurmdbd_jobs_resp_jobs_inner_time_total.v0_0_41_openapi_slurmdbd_jobs_resp_jobs_inner_time_total(
                     microseconds = 56, 
                     seconds = 56, ),
-                user = openapi_client.models.v0_0_41_openapi_slurmdbd_jobs_resp_jobs_inner_time_user.v0_0_41_openapi_slurmdbd_jobs_resp_jobs_inner_time_user(
+                user = slurmrest_python_0_0_41.models.v0_0_41_openapi_slurmdbd_jobs_resp_jobs_inner_time_user.v0_0_41_openapi_slurmdbd_jobs_resp_jobs_inner_time_user(
                     microseconds = 56, 
                     seconds = 56, )
             )

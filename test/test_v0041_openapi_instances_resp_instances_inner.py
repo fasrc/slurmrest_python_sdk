@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.v0041_openapi_instances_resp_instances_inner import V0041OpenapiInstancesRespInstancesInner
+from slurmrest_python_0_0_41.models.v0041_openapi_instances_resp_instances_inner import V0041OpenapiInstancesRespInstancesInner
 
 class TestV0041OpenapiInstancesRespInstancesInner(unittest.TestCase):
     """V0041OpenapiInstancesRespInstancesInner unit test stubs"""
@@ -41,7 +41,7 @@ class TestV0041OpenapiInstancesRespInstancesInner(unittest.TestCase):
                 instance_id = '',
                 instance_type = '',
                 node_name = '',
-                time = openapi_client.models.v0_0_41_openapi_instances_resp_instances_inner_time.v0_0_41_openapi_instances_resp_instances_inner_time(
+                time = slurmrest_python_0_0_41.models.v0_0_41_openapi_instances_resp_instances_inner_time.v0_0_41_openapi_instances_resp_instances_inner_time(
                     time_end = 56, 
                     time_start = 56, )
             )

@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.v0041_openapi_slurmdbd_config_resp_qos_inner_usage_threshold import V0041OpenapiSlurmdbdConfigRespQosInnerUsageThreshold
+from slurmrest_python_0_0_41.models.v0041_openapi_slurmdbd_config_resp_qos_inner_usage_threshold import V0041OpenapiSlurmdbdConfigRespQosInnerUsageThreshold
 
 class TestV0041OpenapiSlurmdbdConfigRespQosInnerUsageThreshold(unittest.TestCase):
     """V0041OpenapiSlurmdbdConfigRespQosInnerUsageThreshold unit test stubs"""

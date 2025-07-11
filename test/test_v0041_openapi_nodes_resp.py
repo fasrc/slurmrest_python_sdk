@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.v0041_openapi_nodes_resp import V0041OpenapiNodesResp
+from slurmrest_python_0_0_41.models.v0041_openapi_nodes_resp import V0041OpenapiNodesResp
 
 class TestV0041OpenapiNodesResp(unittest.TestCase):
     """V0041OpenapiNodesResp unit test stubs"""
@@ -37,38 +37,38 @@ class TestV0041OpenapiNodesResp(unittest.TestCase):
         if include_optional:
             return V0041OpenapiNodesResp(
                 errors = [
-                    openapi_client.models.v0_0_41_openapi_accounts_add_cond_resp_errors_inner.v0_0_41_openapi_accounts_add_cond_resp_errors_inner(
+                    slurmrest_python_0_0_41.models.v0_0_41_openapi_accounts_add_cond_resp_errors_inner.v0_0_41_openapi_accounts_add_cond_resp_errors_inner(
                         description = '', 
                         error = '', 
                         error_number = 56, 
                         source = '', )
                     ],
-                last_update = openapi_client.models.v0_0_41_openapi_nodes_resp_last_update.v0_0_41_openapi_nodes_resp_last_update(
+                last_update = slurmrest_python_0_0_41.models.v0_0_41_openapi_nodes_resp_last_update.v0_0_41_openapi_nodes_resp_last_update(
                     infinite = True, 
                     number = 56, 
                     set = True, ),
-                meta = openapi_client.models.v0_0_41_openapi_accounts_add_cond_resp_meta.v0_0_41_openapi_accounts_add_cond_resp_meta(
-                    client = openapi_client.models.v0_0_41_openapi_accounts_add_cond_resp_meta_client.v0_0_41_openapi_accounts_add_cond_resp_meta_client(
+                meta = slurmrest_python_0_0_41.models.v0_0_41_openapi_accounts_add_cond_resp_meta.v0_0_41_openapi_accounts_add_cond_resp_meta(
+                    client = slurmrest_python_0_0_41.models.v0_0_41_openapi_accounts_add_cond_resp_meta_client.v0_0_41_openapi_accounts_add_cond_resp_meta_client(
                         group = '', 
                         source = '', 
                         user = '', ), 
                     command = [
                         ''
                         ], 
-                    plugin = openapi_client.models.v0_0_41_openapi_accounts_add_cond_resp_meta_plugin.v0_0_41_openapi_accounts_add_cond_resp_meta_plugin(
+                    plugin = slurmrest_python_0_0_41.models.v0_0_41_openapi_accounts_add_cond_resp_meta_plugin.v0_0_41_openapi_accounts_add_cond_resp_meta_plugin(
                         accounting_storage = '', 
                         data_parser = '', 
                         name = '', 
                         type = '', ), 
-                    slurm = openapi_client.models.v0_0_41_openapi_accounts_add_cond_resp_meta_slurm.v0_0_41_openapi_accounts_add_cond_resp_meta_slurm(
+                    slurm = slurmrest_python_0_0_41.models.v0_0_41_openapi_accounts_add_cond_resp_meta_slurm.v0_0_41_openapi_accounts_add_cond_resp_meta_slurm(
                         cluster = '', 
                         release = '', 
-                        version = openapi_client.models.v0_0_41_openapi_accounts_add_cond_resp_meta_slurm_version.v0_0_41_openapi_accounts_add_cond_resp_meta_slurm_version(
+                        version = slurmrest_python_0_0_41.models.v0_0_41_openapi_accounts_add_cond_resp_meta_slurm_version.v0_0_41_openapi_accounts_add_cond_resp_meta_slurm_version(
                             major = '', 
                             micro = '', 
                             minor = '', ), ), ),
                 nodes = [
-                    openapi_client.models.v0_0_41_openapi_nodes_resp_nodes_inner.v0_0_41_openapi_nodes_resp_nodes_inner(
+                    slurmrest_python_0_0_41.models.v0_0_41_openapi_nodes_resp_nodes_inner.v0_0_41_openapi_nodes_resp_nodes_inner(
                         active_features = [
                             ''
                             ], 
@@ -78,7 +78,7 @@ class TestV0041OpenapiNodesResp(unittest.TestCase):
                         alloc_memory = 56, 
                         architecture = '', 
                         boards = 56, 
-                        boot_time = openapi_client.models.v0_0_41_openapi_nodes_resp_nodes_inner_boot_time.v0_0_41_openapi_nodes_resp_nodes_inner_boot_time(
+                        boot_time = slurmrest_python_0_0_41.models.v0_0_41_openapi_nodes_resp_nodes_inner_boot_time.v0_0_41_openapi_nodes_resp_nodes_inner_boot_time(
                             infinite = True, 
                             number = 56, 
                             set = True, ), 
@@ -90,22 +90,22 @@ class TestV0041OpenapiNodesResp(unittest.TestCase):
                         cpu_load = 56, 
                         cpus = 56, 
                         effective_cpus = 56, 
-                        energy = openapi_client.models.v0_0_41_openapi_nodes_resp_nodes_inner_energy.v0_0_41_openapi_nodes_resp_nodes_inner_energy(
+                        energy = slurmrest_python_0_0_41.models.v0_0_41_openapi_nodes_resp_nodes_inner_energy.v0_0_41_openapi_nodes_resp_nodes_inner_energy(
                             average_watts = 56, 
                             base_consumed_energy = 56, 
                             consumed_energy = 56, 
-                            current_watts = openapi_client.models.v0_0_41_openapi_nodes_resp_nodes_inner_energy_current_watts.v0_0_41_openapi_nodes_resp_nodes_inner_energy_current_watts(
+                            current_watts = slurmrest_python_0_0_41.models.v0_0_41_openapi_nodes_resp_nodes_inner_energy_current_watts.v0_0_41_openapi_nodes_resp_nodes_inner_energy_current_watts(
                                 infinite = True, 
                                 number = 56, 
                                 set = True, ), 
                             last_collected = 56, 
                             previous_consumed_energy = 56, ), 
-                        external_sensors = openapi_client.models.external_sensors.external_sensors(), 
+                        external_sensors = slurmrest_python_0_0_41.models.external_sensors.external_sensors(), 
                         extra = '', 
                         features = [
                             ''
                             ], 
-                        free_mem = openapi_client.models.v0_0_41_openapi_nodes_resp_nodes_inner_free_mem.v0_0_41_openapi_nodes_resp_nodes_inner_free_mem(
+                        free_mem = slurmrest_python_0_0_41.models.v0_0_41_openapi_nodes_resp_nodes_inner_free_mem.v0_0_41_openapi_nodes_resp_nodes_inner_free_mem(
                             infinite = True, 
                             number = 56, 
                             set = True, ), 
@@ -116,7 +116,7 @@ class TestV0041OpenapiNodesResp(unittest.TestCase):
                         hostname = '', 
                         instance_id = '', 
                         instance_type = '', 
-                        last_busy = openapi_client.models.v0_0_41_openapi_nodes_resp_nodes_inner_last_busy.v0_0_41_openapi_nodes_resp_nodes_inner_last_busy(
+                        last_busy = slurmrest_python_0_0_41.models.v0_0_41_openapi_nodes_resp_nodes_inner_last_busy.v0_0_41_openapi_nodes_resp_nodes_inner_last_busy(
                             infinite = True, 
                             number = 56, 
                             set = True, ), 
@@ -131,21 +131,21 @@ class TestV0041OpenapiNodesResp(unittest.TestCase):
                             ''
                             ], 
                         port = 56, 
-                        power = openapi_client.models.power.power(), 
+                        power = slurmrest_python_0_0_41.models.power.power(), 
                         real_memory = 56, 
                         reason = '', 
-                        reason_changed_at = openapi_client.models.v0_0_41_openapi_nodes_resp_nodes_inner_reason_changed_at.v0_0_41_openapi_nodes_resp_nodes_inner_reason_changed_at(
+                        reason_changed_at = slurmrest_python_0_0_41.models.v0_0_41_openapi_nodes_resp_nodes_inner_reason_changed_at.v0_0_41_openapi_nodes_resp_nodes_inner_reason_changed_at(
                             infinite = True, 
                             number = 56, 
                             set = True, ), 
                         reason_set_by_user = '', 
                         res_cores_per_gpu = 56, 
                         reservation = '', 
-                        resume_after = openapi_client.models.v0_0_41_openapi_nodes_resp_nodes_inner_resume_after.v0_0_41_openapi_nodes_resp_nodes_inner_resume_after(
+                        resume_after = slurmrest_python_0_0_41.models.v0_0_41_openapi_nodes_resp_nodes_inner_resume_after.v0_0_41_openapi_nodes_resp_nodes_inner_resume_after(
                             infinite = True, 
                             number = 56, 
                             set = True, ), 
-                        slurmd_start_time = openapi_client.models.v0_0_41_openapi_nodes_resp_nodes_inner_slurmd_start_time.v0_0_41_openapi_nodes_resp_nodes_inner_slurmd_start_time(
+                        slurmd_start_time = slurmrest_python_0_0_41.models.v0_0_41_openapi_nodes_resp_nodes_inner_slurmd_start_time.v0_0_41_openapi_nodes_resp_nodes_inner_slurmd_start_time(
                             infinite = True, 
                             number = 56, 
                             set = True, ), 
@@ -165,19 +165,19 @@ class TestV0041OpenapiNodesResp(unittest.TestCase):
                         weight = 56, )
                     ],
                 warnings = [
-                    openapi_client.models.v0_0_41_openapi_accounts_add_cond_resp_warnings_inner.v0_0_41_openapi_accounts_add_cond_resp_warnings_inner(
+                    slurmrest_python_0_0_41.models.v0_0_41_openapi_accounts_add_cond_resp_warnings_inner.v0_0_41_openapi_accounts_add_cond_resp_warnings_inner(
                         description = '', 
                         source = '', )
                     ]
             )
         else:
             return V0041OpenapiNodesResp(
-                last_update = openapi_client.models.v0_0_41_openapi_nodes_resp_last_update.v0_0_41_openapi_nodes_resp_last_update(
+                last_update = slurmrest_python_0_0_41.models.v0_0_41_openapi_nodes_resp_last_update.v0_0_41_openapi_nodes_resp_last_update(
                     infinite = True, 
                     number = 56, 
                     set = True, ),
                 nodes = [
-                    openapi_client.models.v0_0_41_openapi_nodes_resp_nodes_inner.v0_0_41_openapi_nodes_resp_nodes_inner(
+                    slurmrest_python_0_0_41.models.v0_0_41_openapi_nodes_resp_nodes_inner.v0_0_41_openapi_nodes_resp_nodes_inner(
                         active_features = [
                             ''
                             ], 
@@ -187,7 +187,7 @@ class TestV0041OpenapiNodesResp(unittest.TestCase):
                         alloc_memory = 56, 
                         architecture = '', 
                         boards = 56, 
-                        boot_time = openapi_client.models.v0_0_41_openapi_nodes_resp_nodes_inner_boot_time.v0_0_41_openapi_nodes_resp_nodes_inner_boot_time(
+                        boot_time = slurmrest_python_0_0_41.models.v0_0_41_openapi_nodes_resp_nodes_inner_boot_time.v0_0_41_openapi_nodes_resp_nodes_inner_boot_time(
                             infinite = True, 
                             number = 56, 
                             set = True, ), 
@@ -199,22 +199,22 @@ class TestV0041OpenapiNodesResp(unittest.TestCase):
                         cpu_load = 56, 
                         cpus = 56, 
                         effective_cpus = 56, 
-                        energy = openapi_client.models.v0_0_41_openapi_nodes_resp_nodes_inner_energy.v0_0_41_openapi_nodes_resp_nodes_inner_energy(
+                        energy = slurmrest_python_0_0_41.models.v0_0_41_openapi_nodes_resp_nodes_inner_energy.v0_0_41_openapi_nodes_resp_nodes_inner_energy(
                             average_watts = 56, 
                             base_consumed_energy = 56, 
                             consumed_energy = 56, 
-                            current_watts = openapi_client.models.v0_0_41_openapi_nodes_resp_nodes_inner_energy_current_watts.v0_0_41_openapi_nodes_resp_nodes_inner_energy_current_watts(
+                            current_watts = slurmrest_python_0_0_41.models.v0_0_41_openapi_nodes_resp_nodes_inner_energy_current_watts.v0_0_41_openapi_nodes_resp_nodes_inner_energy_current_watts(
                                 infinite = True, 
                                 number = 56, 
                                 set = True, ), 
                             last_collected = 56, 
                             previous_consumed_energy = 56, ), 
-                        external_sensors = openapi_client.models.external_sensors.external_sensors(), 
+                        external_sensors = slurmrest_python_0_0_41.models.external_sensors.external_sensors(), 
                         extra = '', 
                         features = [
                             ''
                             ], 
-                        free_mem = openapi_client.models.v0_0_41_openapi_nodes_resp_nodes_inner_free_mem.v0_0_41_openapi_nodes_resp_nodes_inner_free_mem(
+                        free_mem = slurmrest_python_0_0_41.models.v0_0_41_openapi_nodes_resp_nodes_inner_free_mem.v0_0_41_openapi_nodes_resp_nodes_inner_free_mem(
                             infinite = True, 
                             number = 56, 
                             set = True, ), 
@@ -225,7 +225,7 @@ class TestV0041OpenapiNodesResp(unittest.TestCase):
                         hostname = '', 
                         instance_id = '', 
                         instance_type = '', 
-                        last_busy = openapi_client.models.v0_0_41_openapi_nodes_resp_nodes_inner_last_busy.v0_0_41_openapi_nodes_resp_nodes_inner_last_busy(
+                        last_busy = slurmrest_python_0_0_41.models.v0_0_41_openapi_nodes_resp_nodes_inner_last_busy.v0_0_41_openapi_nodes_resp_nodes_inner_last_busy(
                             infinite = True, 
                             number = 56, 
                             set = True, ), 
@@ -240,21 +240,21 @@ class TestV0041OpenapiNodesResp(unittest.TestCase):
                             ''
                             ], 
                         port = 56, 
-                        power = openapi_client.models.power.power(), 
+                        power = slurmrest_python_0_0_41.models.power.power(), 
                         real_memory = 56, 
                         reason = '', 
-                        reason_changed_at = openapi_client.models.v0_0_41_openapi_nodes_resp_nodes_inner_reason_changed_at.v0_0_41_openapi_nodes_resp_nodes_inner_reason_changed_at(
+                        reason_changed_at = slurmrest_python_0_0_41.models.v0_0_41_openapi_nodes_resp_nodes_inner_reason_changed_at.v0_0_41_openapi_nodes_resp_nodes_inner_reason_changed_at(
                             infinite = True, 
                             number = 56, 
                             set = True, ), 
                         reason_set_by_user = '', 
                         res_cores_per_gpu = 56, 
                         reservation = '', 
-                        resume_after = openapi_client.models.v0_0_41_openapi_nodes_resp_nodes_inner_resume_after.v0_0_41_openapi_nodes_resp_nodes_inner_resume_after(
+                        resume_after = slurmrest_python_0_0_41.models.v0_0_41_openapi_nodes_resp_nodes_inner_resume_after.v0_0_41_openapi_nodes_resp_nodes_inner_resume_after(
                             infinite = True, 
                             number = 56, 
                             set = True, ), 
-                        slurmd_start_time = openapi_client.models.v0_0_41_openapi_nodes_resp_nodes_inner_slurmd_start_time.v0_0_41_openapi_nodes_resp_nodes_inner_slurmd_start_time(
+                        slurmd_start_time = slurmrest_python_0_0_41.models.v0_0_41_openapi_nodes_resp_nodes_inner_slurmd_start_time.v0_0_41_openapi_nodes_resp_nodes_inner_slurmd_start_time(
                             infinite = True, 
                             number = 56, 
                             set = True, ), 

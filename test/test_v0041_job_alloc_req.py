@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.v0041_job_alloc_req import V0041JobAllocReq
+from slurmrest_python_0_0_41.models.v0041_job_alloc_req import V0041JobAllocReq
 
 class TestV0041JobAllocReq(unittest.TestCase):
     """V0041JobAllocReq unit test stubs"""
@@ -37,7 +37,7 @@ class TestV0041JobAllocReq(unittest.TestCase):
         if include_optional:
             return V0041JobAllocReq(
                 hetjob = [
-                    openapi_client.models.v0/0/41_job_desc_msg.v0.0.41_job_desc_msg(
+                    slurmrest_python_0_0_41.models.v0/0/41_job_desc_msg.v0.0.41_job_desc_msg(
                         account = '', 
                         account_gather_frequency = '', 
                         admin_comment = '', 
@@ -48,7 +48,7 @@ class TestV0041JobAllocReq(unittest.TestCase):
                             ], 
                         array = '', 
                         batch_features = '', 
-                        begin_time = openapi_client.models.v0_0_41_job_desc_msg_begin_time.v0_0_41_job_desc_msg_begin_time(
+                        begin_time = slurmrest_python_0_0_41.models.v0_0_41_job_desc_msg_begin_time.v0_0_41_job_desc_msg_begin_time(
                             infinite = True, 
                             number = 56, 
                             set = True, ), 
@@ -68,7 +68,7 @@ class TestV0041JobAllocReq(unittest.TestCase):
                         cpu_frequency = '', 
                         cpus_per_task = 56, 
                         cpus_per_tres = '', 
-                        crontab = openapi_client.models.v0_0_41_job_desc_msg_crontab.v0_0_41_job_desc_msg_crontab(
+                        crontab = slurmrest_python_0_0_41.models.v0_0_41_job_desc_msg_crontab.v0_0_41_job_desc_msg_crontab(
                             command = '', 
                             day_of_month = '', 
                             day_of_week = '', 
@@ -76,7 +76,7 @@ class TestV0041JobAllocReq(unittest.TestCase):
                                 'WILD_MINUTE'
                                 ], 
                             hour = '', 
-                            line = openapi_client.models.v0_0_41_job_desc_msg_crontab_line.v0_0_41_job_desc_msg_crontab_line(
+                            line = slurmrest_python_0_0_41.models.v0_0_41_job_desc_msg_crontab_line.v0_0_41_job_desc_msg_crontab_line(
                                 end = 56, 
                                 start = 56, ), 
                             minute = '', 
@@ -87,7 +87,7 @@ class TestV0041JobAllocReq(unittest.TestCase):
                         delay_boot = 56, 
                         dependency = '', 
                         distribution = '', 
-                        distribution_plane_size = openapi_client.models.v0_0_41_job_desc_msg_distribution_plane_size.v0_0_41_job_desc_msg_distribution_plane_size(
+                        distribution_plane_size = slurmrest_python_0_0_41.models.v0_0_41_job_desc_msg_distribution_plane_size.v0_0_41_job_desc_msg_distribution_plane_size(
                             infinite = True, 
                             number = 56, 
                             set = True, ), 
@@ -111,7 +111,7 @@ class TestV0041JobAllocReq(unittest.TestCase):
                         immediate = True, 
                         job_id = 56, 
                         kill_on_node_fail = True, 
-                        kill_warning_delay = openapi_client.models.v0_0_41_job_desc_msg_kill_warning_delay.v0_0_41_job_desc_msg_kill_warning_delay(
+                        kill_warning_delay = slurmrest_python_0_0_41.models.v0_0_41_job_desc_msg_kill_warning_delay.v0_0_41_job_desc_msg_kill_warning_delay(
                             infinite = True, 
                             number = 56, 
                             set = True, ), 
@@ -131,11 +131,11 @@ class TestV0041JobAllocReq(unittest.TestCase):
                         memory_binding_type = [
                             'NONE'
                             ], 
-                        memory_per_cpu = openapi_client.models.v0_0_41_job_desc_msg_memory_per_cpu.v0_0_41_job_desc_msg_memory_per_cpu(
+                        memory_per_cpu = slurmrest_python_0_0_41.models.v0_0_41_job_desc_msg_memory_per_cpu.v0_0_41_job_desc_msg_memory_per_cpu(
                             infinite = True, 
                             number = 56, 
                             set = True, ), 
-                        memory_per_node = openapi_client.models.v0_0_41_job_desc_msg_memory_per_cpu.v0_0_41_job_desc_msg_memory_per_cpu(
+                        memory_per_node = slurmrest_python_0_0_41.models.v0_0_41_job_desc_msg_memory_per_cpu.v0_0_41_job_desc_msg_memory_per_cpu(
                             infinite = True, 
                             number = 56, 
                             set = True, ), 
@@ -160,7 +160,7 @@ class TestV0041JobAllocReq(unittest.TestCase):
                             null
                             ], 
                         prefer = '', 
-                        priority = openapi_client.models.v0_0_41_job_desc_msg_priority.v0_0_41_job_desc_msg_priority(
+                        priority = slurmrest_python_0_0_41.models.v0_0_41_job_desc_msg_priority.v0_0_41_job_desc_msg_priority(
                             infinite = True, 
                             number = 56, 
                             set = True, ), 
@@ -173,56 +173,56 @@ class TestV0041JobAllocReq(unittest.TestCase):
                         required_nodes = [
                             ''
                             ], 
-                        required_switches = openapi_client.models.v0_0_41_job_desc_msg_required_switches.v0_0_41_job_desc_msg_required_switches(
+                        required_switches = slurmrest_python_0_0_41.models.v0_0_41_job_desc_msg_required_switches.v0_0_41_job_desc_msg_required_switches(
                             infinite = True, 
                             number = 56, 
                             set = True, ), 
                         reservation = '', 
                         reserve_ports = 56, 
                         resv_mpi_ports = 56, 
-                        rlimits = openapi_client.models.v0_0_41_job_desc_msg_rlimits.v0_0_41_job_desc_msg_rlimits(
-                            as = openapi_client.models.v0_0_41_job_desc_msg_rlimits_as.v0_0_41_job_desc_msg_rlimits_as(
+                        rlimits = slurmrest_python_0_0_41.models.v0_0_41_job_desc_msg_rlimits.v0_0_41_job_desc_msg_rlimits(
+                            as = slurmrest_python_0_0_41.models.v0_0_41_job_desc_msg_rlimits_as.v0_0_41_job_desc_msg_rlimits_as(
                                 infinite = True, 
                                 number = 56, 
                                 set = True, ), 
-                            core = openapi_client.models.v0_0_41_job_desc_msg_rlimits_core.v0_0_41_job_desc_msg_rlimits_core(
+                            core = slurmrest_python_0_0_41.models.v0_0_41_job_desc_msg_rlimits_core.v0_0_41_job_desc_msg_rlimits_core(
                                 infinite = True, 
                                 number = 56, 
                                 set = True, ), 
-                            cpu = openapi_client.models.v0_0_41_job_desc_msg_rlimits_cpu.v0_0_41_job_desc_msg_rlimits_cpu(
+                            cpu = slurmrest_python_0_0_41.models.v0_0_41_job_desc_msg_rlimits_cpu.v0_0_41_job_desc_msg_rlimits_cpu(
                                 infinite = True, 
                                 number = 56, 
                                 set = True, ), 
-                            data = openapi_client.models.v0_0_41_job_desc_msg_rlimits_data.v0_0_41_job_desc_msg_rlimits_data(
+                            data = slurmrest_python_0_0_41.models.v0_0_41_job_desc_msg_rlimits_data.v0_0_41_job_desc_msg_rlimits_data(
                                 infinite = True, 
                                 number = 56, 
                                 set = True, ), 
-                            fsize = openapi_client.models.v0_0_41_job_desc_msg_rlimits_fsize.v0_0_41_job_desc_msg_rlimits_fsize(
+                            fsize = slurmrest_python_0_0_41.models.v0_0_41_job_desc_msg_rlimits_fsize.v0_0_41_job_desc_msg_rlimits_fsize(
                                 infinite = True, 
                                 number = 56, 
                                 set = True, ), 
-                            memlock = openapi_client.models.v0_0_41_job_desc_msg_rlimits_memlock.v0_0_41_job_desc_msg_rlimits_memlock(
+                            memlock = slurmrest_python_0_0_41.models.v0_0_41_job_desc_msg_rlimits_memlock.v0_0_41_job_desc_msg_rlimits_memlock(
                                 infinite = True, 
                                 number = 56, 
                                 set = True, ), 
-                            nofile = openapi_client.models.v0_0_41_job_desc_msg_rlimits_nofile.v0_0_41_job_desc_msg_rlimits_nofile(
+                            nofile = slurmrest_python_0_0_41.models.v0_0_41_job_desc_msg_rlimits_nofile.v0_0_41_job_desc_msg_rlimits_nofile(
                                 infinite = True, 
                                 number = 56, 
                                 set = True, ), 
-                            nproc = openapi_client.models.v0_0_41_job_desc_msg_rlimits_nproc.v0_0_41_job_desc_msg_rlimits_nproc(
+                            nproc = slurmrest_python_0_0_41.models.v0_0_41_job_desc_msg_rlimits_nproc.v0_0_41_job_desc_msg_rlimits_nproc(
                                 infinite = True, 
                                 number = 56, 
                                 set = True, ), 
-                            rss = openapi_client.models.v0_0_41_job_desc_msg_rlimits_rss.v0_0_41_job_desc_msg_rlimits_rss(
+                            rss = slurmrest_python_0_0_41.models.v0_0_41_job_desc_msg_rlimits_rss.v0_0_41_job_desc_msg_rlimits_rss(
                                 infinite = True, 
                                 number = 56, 
                                 set = True, ), 
-                            stack = openapi_client.models.v0_0_41_job_desc_msg_rlimits_stack.v0_0_41_job_desc_msg_rlimits_stack(
+                            stack = slurmrest_python_0_0_41.models.v0_0_41_job_desc_msg_rlimits_stack.v0_0_41_job_desc_msg_rlimits_stack(
                                 infinite = True, 
                                 number = 56, 
                                 set = True, ), ), 
                         script = '', 
-                        segment_size = openapi_client.models.v0_0_41_job_desc_msg_segment_size.v0_0_41_job_desc_msg_segment_size(
+                        segment_size = slurmrest_python_0_0_41.models.v0_0_41_job_desc_msg_segment_size.v0_0_41_job_desc_msg_segment_size(
                             infinite = True, 
                             number = 56, 
                             set = True, ), 
@@ -246,11 +246,11 @@ class TestV0041JobAllocReq(unittest.TestCase):
                         temporary_disk_per_node = 56, 
                         thread_specification = 56, 
                         threads_per_core = 56, 
-                        time_limit = openapi_client.models.v0_0_41_job_desc_msg_time_limit.v0_0_41_job_desc_msg_time_limit(
+                        time_limit = slurmrest_python_0_0_41.models.v0_0_41_job_desc_msg_time_limit.v0_0_41_job_desc_msg_time_limit(
                             infinite = True, 
                             number = 56, 
                             set = True, ), 
-                        time_minimum = openapi_client.models.v0_0_41_job_desc_msg_time_minimum.v0_0_41_job_desc_msg_time_minimum(
+                        time_minimum = slurmrest_python_0_0_41.models.v0_0_41_job_desc_msg_time_minimum.v0_0_41_job_desc_msg_time_minimum(
                             infinite = True, 
                             number = 56, 
                             set = True, ), 
@@ -271,7 +271,7 @@ class TestV0041JobAllocReq(unittest.TestCase):
                         x11_target_host = '', 
                         x11_target_port = 56, )
                     ],
-                job = openapi_client.models.v0/0/41_job_desc_msg.v0.0.41_job_desc_msg(
+                job = slurmrest_python_0_0_41.models.v0/0/41_job_desc_msg.v0.0.41_job_desc_msg(
                     account = '', 
                     account_gather_frequency = '', 
                     admin_comment = '', 
@@ -282,7 +282,7 @@ class TestV0041JobAllocReq(unittest.TestCase):
                         ], 
                     array = '', 
                     batch_features = '', 
-                    begin_time = openapi_client.models.v0_0_41_job_desc_msg_begin_time.v0_0_41_job_desc_msg_begin_time(
+                    begin_time = slurmrest_python_0_0_41.models.v0_0_41_job_desc_msg_begin_time.v0_0_41_job_desc_msg_begin_time(
                         infinite = True, 
                         number = 56, 
                         set = True, ), 
@@ -302,7 +302,7 @@ class TestV0041JobAllocReq(unittest.TestCase):
                     cpu_frequency = '', 
                     cpus_per_task = 56, 
                     cpus_per_tres = '', 
-                    crontab = openapi_client.models.v0_0_41_job_desc_msg_crontab.v0_0_41_job_desc_msg_crontab(
+                    crontab = slurmrest_python_0_0_41.models.v0_0_41_job_desc_msg_crontab.v0_0_41_job_desc_msg_crontab(
                         command = '', 
                         day_of_month = '', 
                         day_of_week = '', 
@@ -310,7 +310,7 @@ class TestV0041JobAllocReq(unittest.TestCase):
                             'WILD_MINUTE'
                             ], 
                         hour = '', 
-                        line = openapi_client.models.v0_0_41_job_desc_msg_crontab_line.v0_0_41_job_desc_msg_crontab_line(
+                        line = slurmrest_python_0_0_41.models.v0_0_41_job_desc_msg_crontab_line.v0_0_41_job_desc_msg_crontab_line(
                             end = 56, 
                             start = 56, ), 
                         minute = '', 
@@ -321,7 +321,7 @@ class TestV0041JobAllocReq(unittest.TestCase):
                     delay_boot = 56, 
                     dependency = '', 
                     distribution = '', 
-                    distribution_plane_size = openapi_client.models.v0_0_41_job_desc_msg_distribution_plane_size.v0_0_41_job_desc_msg_distribution_plane_size(
+                    distribution_plane_size = slurmrest_python_0_0_41.models.v0_0_41_job_desc_msg_distribution_plane_size.v0_0_41_job_desc_msg_distribution_plane_size(
                         infinite = True, 
                         number = 56, 
                         set = True, ), 
@@ -345,7 +345,7 @@ class TestV0041JobAllocReq(unittest.TestCase):
                     immediate = True, 
                     job_id = 56, 
                     kill_on_node_fail = True, 
-                    kill_warning_delay = openapi_client.models.v0_0_41_job_desc_msg_kill_warning_delay.v0_0_41_job_desc_msg_kill_warning_delay(
+                    kill_warning_delay = slurmrest_python_0_0_41.models.v0_0_41_job_desc_msg_kill_warning_delay.v0_0_41_job_desc_msg_kill_warning_delay(
                         infinite = True, 
                         number = 56, 
                         set = True, ), 
@@ -365,11 +365,11 @@ class TestV0041JobAllocReq(unittest.TestCase):
                     memory_binding_type = [
                         'NONE'
                         ], 
-                    memory_per_cpu = openapi_client.models.v0_0_41_job_desc_msg_memory_per_cpu.v0_0_41_job_desc_msg_memory_per_cpu(
+                    memory_per_cpu = slurmrest_python_0_0_41.models.v0_0_41_job_desc_msg_memory_per_cpu.v0_0_41_job_desc_msg_memory_per_cpu(
                         infinite = True, 
                         number = 56, 
                         set = True, ), 
-                    memory_per_node = openapi_client.models.v0_0_41_job_desc_msg_memory_per_cpu.v0_0_41_job_desc_msg_memory_per_cpu(
+                    memory_per_node = slurmrest_python_0_0_41.models.v0_0_41_job_desc_msg_memory_per_cpu.v0_0_41_job_desc_msg_memory_per_cpu(
                         infinite = True, 
                         number = 56, 
                         set = True, ), 
@@ -394,7 +394,7 @@ class TestV0041JobAllocReq(unittest.TestCase):
                         null
                         ], 
                     prefer = '', 
-                    priority = openapi_client.models.v0_0_41_job_desc_msg_priority.v0_0_41_job_desc_msg_priority(
+                    priority = slurmrest_python_0_0_41.models.v0_0_41_job_desc_msg_priority.v0_0_41_job_desc_msg_priority(
                         infinite = True, 
                         number = 56, 
                         set = True, ), 
@@ -407,56 +407,56 @@ class TestV0041JobAllocReq(unittest.TestCase):
                     required_nodes = [
                         ''
                         ], 
-                    required_switches = openapi_client.models.v0_0_41_job_desc_msg_required_switches.v0_0_41_job_desc_msg_required_switches(
+                    required_switches = slurmrest_python_0_0_41.models.v0_0_41_job_desc_msg_required_switches.v0_0_41_job_desc_msg_required_switches(
                         infinite = True, 
                         number = 56, 
                         set = True, ), 
                     reservation = '', 
                     reserve_ports = 56, 
                     resv_mpi_ports = 56, 
-                    rlimits = openapi_client.models.v0_0_41_job_desc_msg_rlimits.v0_0_41_job_desc_msg_rlimits(
-                        as = openapi_client.models.v0_0_41_job_desc_msg_rlimits_as.v0_0_41_job_desc_msg_rlimits_as(
+                    rlimits = slurmrest_python_0_0_41.models.v0_0_41_job_desc_msg_rlimits.v0_0_41_job_desc_msg_rlimits(
+                        as = slurmrest_python_0_0_41.models.v0_0_41_job_desc_msg_rlimits_as.v0_0_41_job_desc_msg_rlimits_as(
                             infinite = True, 
                             number = 56, 
                             set = True, ), 
-                        core = openapi_client.models.v0_0_41_job_desc_msg_rlimits_core.v0_0_41_job_desc_msg_rlimits_core(
+                        core = slurmrest_python_0_0_41.models.v0_0_41_job_desc_msg_rlimits_core.v0_0_41_job_desc_msg_rlimits_core(
                             infinite = True, 
                             number = 56, 
                             set = True, ), 
-                        cpu = openapi_client.models.v0_0_41_job_desc_msg_rlimits_cpu.v0_0_41_job_desc_msg_rlimits_cpu(
+                        cpu = slurmrest_python_0_0_41.models.v0_0_41_job_desc_msg_rlimits_cpu.v0_0_41_job_desc_msg_rlimits_cpu(
                             infinite = True, 
                             number = 56, 
                             set = True, ), 
-                        data = openapi_client.models.v0_0_41_job_desc_msg_rlimits_data.v0_0_41_job_desc_msg_rlimits_data(
+                        data = slurmrest_python_0_0_41.models.v0_0_41_job_desc_msg_rlimits_data.v0_0_41_job_desc_msg_rlimits_data(
                             infinite = True, 
                             number = 56, 
                             set = True, ), 
-                        fsize = openapi_client.models.v0_0_41_job_desc_msg_rlimits_fsize.v0_0_41_job_desc_msg_rlimits_fsize(
+                        fsize = slurmrest_python_0_0_41.models.v0_0_41_job_desc_msg_rlimits_fsize.v0_0_41_job_desc_msg_rlimits_fsize(
                             infinite = True, 
                             number = 56, 
                             set = True, ), 
-                        memlock = openapi_client.models.v0_0_41_job_desc_msg_rlimits_memlock.v0_0_41_job_desc_msg_rlimits_memlock(
+                        memlock = slurmrest_python_0_0_41.models.v0_0_41_job_desc_msg_rlimits_memlock.v0_0_41_job_desc_msg_rlimits_memlock(
                             infinite = True, 
                             number = 56, 
                             set = True, ), 
-                        nofile = openapi_client.models.v0_0_41_job_desc_msg_rlimits_nofile.v0_0_41_job_desc_msg_rlimits_nofile(
+                        nofile = slurmrest_python_0_0_41.models.v0_0_41_job_desc_msg_rlimits_nofile.v0_0_41_job_desc_msg_rlimits_nofile(
                             infinite = True, 
                             number = 56, 
                             set = True, ), 
-                        nproc = openapi_client.models.v0_0_41_job_desc_msg_rlimits_nproc.v0_0_41_job_desc_msg_rlimits_nproc(
+                        nproc = slurmrest_python_0_0_41.models.v0_0_41_job_desc_msg_rlimits_nproc.v0_0_41_job_desc_msg_rlimits_nproc(
                             infinite = True, 
                             number = 56, 
                             set = True, ), 
-                        rss = openapi_client.models.v0_0_41_job_desc_msg_rlimits_rss.v0_0_41_job_desc_msg_rlimits_rss(
+                        rss = slurmrest_python_0_0_41.models.v0_0_41_job_desc_msg_rlimits_rss.v0_0_41_job_desc_msg_rlimits_rss(
                             infinite = True, 
                             number = 56, 
                             set = True, ), 
-                        stack = openapi_client.models.v0_0_41_job_desc_msg_rlimits_stack.v0_0_41_job_desc_msg_rlimits_stack(
+                        stack = slurmrest_python_0_0_41.models.v0_0_41_job_desc_msg_rlimits_stack.v0_0_41_job_desc_msg_rlimits_stack(
                             infinite = True, 
                             number = 56, 
                             set = True, ), ), 
                     script = '', 
-                    segment_size = openapi_client.models.v0_0_41_job_desc_msg_segment_size.v0_0_41_job_desc_msg_segment_size(
+                    segment_size = slurmrest_python_0_0_41.models.v0_0_41_job_desc_msg_segment_size.v0_0_41_job_desc_msg_segment_size(
                         infinite = True, 
                         number = 56, 
                         set = True, ), 
@@ -480,11 +480,11 @@ class TestV0041JobAllocReq(unittest.TestCase):
                     temporary_disk_per_node = 56, 
                     thread_specification = 56, 
                     threads_per_core = 56, 
-                    time_limit = openapi_client.models.v0_0_41_job_desc_msg_time_limit.v0_0_41_job_desc_msg_time_limit(
+                    time_limit = slurmrest_python_0_0_41.models.v0_0_41_job_desc_msg_time_limit.v0_0_41_job_desc_msg_time_limit(
                         infinite = True, 
                         number = 56, 
                         set = True, ), 
-                    time_minimum = openapi_client.models.v0_0_41_job_desc_msg_time_minimum.v0_0_41_job_desc_msg_time_minimum(
+                    time_minimum = slurmrest_python_0_0_41.models.v0_0_41_job_desc_msg_time_minimum.v0_0_41_job_desc_msg_time_minimum(
                         infinite = True, 
                         number = 56, 
                         set = True, ), 

@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.v0041_openapi_job_info_resp_jobs_inner_sockets_per_node import V0041OpenapiJobInfoRespJobsInnerSocketsPerNode
+from slurmrest_python_0_0_41.models.v0041_openapi_job_info_resp_jobs_inner_sockets_per_node import V0041OpenapiJobInfoRespJobsInnerSocketsPerNode
 
 class TestV0041OpenapiJobInfoRespJobsInnerSocketsPerNode(unittest.TestCase):
     """V0041OpenapiJobInfoRespJobsInnerSocketsPerNode unit test stubs"""

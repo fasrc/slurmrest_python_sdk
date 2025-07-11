@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.v0041_openapi_slurmdbd_jobs_resp_jobs_inner_array_limits import V0041OpenapiSlurmdbdJobsRespJobsInnerArrayLimits
+from slurmrest_python_0_0_41.models.v0041_openapi_slurmdbd_jobs_resp_jobs_inner_array_limits import V0041OpenapiSlurmdbdJobsRespJobsInnerArrayLimits
 
 class TestV0041OpenapiSlurmdbdJobsRespJobsInnerArrayLimits(unittest.TestCase):
     """V0041OpenapiSlurmdbdJobsRespJobsInnerArrayLimits unit test stubs"""
@@ -36,8 +36,8 @@ class TestV0041OpenapiSlurmdbdJobsRespJobsInnerArrayLimits(unittest.TestCase):
         model = V0041OpenapiSlurmdbdJobsRespJobsInnerArrayLimits()
         if include_optional:
             return V0041OpenapiSlurmdbdJobsRespJobsInnerArrayLimits(
-                max = openapi_client.models.v0_0_41_openapi_slurmdbd_jobs_resp_jobs_inner_array_limits_max.v0_0_41_openapi_slurmdbd_jobs_resp_jobs_inner_array_limits_max(
-                    running = openapi_client.models.v0_0_41_openapi_slurmdbd_jobs_resp_jobs_inner_array_limits_max_running.v0_0_41_openapi_slurmdbd_jobs_resp_jobs_inner_array_limits_max_running(
+                max = slurmrest_python_0_0_41.models.v0_0_41_openapi_slurmdbd_jobs_resp_jobs_inner_array_limits_max.v0_0_41_openapi_slurmdbd_jobs_resp_jobs_inner_array_limits_max(
+                    running = slurmrest_python_0_0_41.models.v0_0_41_openapi_slurmdbd_jobs_resp_jobs_inner_array_limits_max_running.v0_0_41_openapi_slurmdbd_jobs_resp_jobs_inner_array_limits_max_running(
                         tasks = 56, ), )
             )
         else:

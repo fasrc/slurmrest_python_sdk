@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.v0041_job_desc_msg_crontab import V0041JobDescMsgCrontab
+from slurmrest_python_0_0_41.models.v0041_job_desc_msg_crontab import V0041JobDescMsgCrontab
 
 class TestV0041JobDescMsgCrontab(unittest.TestCase):
     """V0041JobDescMsgCrontab unit test stubs"""
@@ -43,7 +43,7 @@ class TestV0041JobDescMsgCrontab(unittest.TestCase):
                     'WILD_MINUTE'
                     ],
                 hour = '',
-                line = openapi_client.models.v0_0_41_job_desc_msg_crontab_line.v0_0_41_job_desc_msg_crontab_line(
+                line = slurmrest_python_0_0_41.models.v0_0_41_job_desc_msg_crontab_line.v0_0_41_job_desc_msg_crontab_line(
                     end = 56, 
                     start = 56, ),
                 minute = '',

@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.v0041_openapi_reservation_resp import V0041OpenapiReservationResp
+from slurmrest_python_0_0_41.models.v0041_openapi_reservation_resp import V0041OpenapiReservationResp
 
 class TestV0041OpenapiReservationResp(unittest.TestCase):
     """V0041OpenapiReservationResp unit test stubs"""
@@ -37,47 +37,47 @@ class TestV0041OpenapiReservationResp(unittest.TestCase):
         if include_optional:
             return V0041OpenapiReservationResp(
                 errors = [
-                    openapi_client.models.v0_0_41_openapi_accounts_add_cond_resp_errors_inner.v0_0_41_openapi_accounts_add_cond_resp_errors_inner(
+                    slurmrest_python_0_0_41.models.v0_0_41_openapi_accounts_add_cond_resp_errors_inner.v0_0_41_openapi_accounts_add_cond_resp_errors_inner(
                         description = '', 
                         error = '', 
                         error_number = 56, 
                         source = '', )
                     ],
-                last_update = openapi_client.models.v0_0_41_openapi_reservation_resp_last_update.v0_0_41_openapi_reservation_resp_last_update(
+                last_update = slurmrest_python_0_0_41.models.v0_0_41_openapi_reservation_resp_last_update.v0_0_41_openapi_reservation_resp_last_update(
                     infinite = True, 
                     number = 56, 
                     set = True, ),
-                meta = openapi_client.models.v0_0_41_openapi_accounts_add_cond_resp_meta.v0_0_41_openapi_accounts_add_cond_resp_meta(
-                    client = openapi_client.models.v0_0_41_openapi_accounts_add_cond_resp_meta_client.v0_0_41_openapi_accounts_add_cond_resp_meta_client(
+                meta = slurmrest_python_0_0_41.models.v0_0_41_openapi_accounts_add_cond_resp_meta.v0_0_41_openapi_accounts_add_cond_resp_meta(
+                    client = slurmrest_python_0_0_41.models.v0_0_41_openapi_accounts_add_cond_resp_meta_client.v0_0_41_openapi_accounts_add_cond_resp_meta_client(
                         group = '', 
                         source = '', 
                         user = '', ), 
                     command = [
                         ''
                         ], 
-                    plugin = openapi_client.models.v0_0_41_openapi_accounts_add_cond_resp_meta_plugin.v0_0_41_openapi_accounts_add_cond_resp_meta_plugin(
+                    plugin = slurmrest_python_0_0_41.models.v0_0_41_openapi_accounts_add_cond_resp_meta_plugin.v0_0_41_openapi_accounts_add_cond_resp_meta_plugin(
                         accounting_storage = '', 
                         data_parser = '', 
                         name = '', 
                         type = '', ), 
-                    slurm = openapi_client.models.v0_0_41_openapi_accounts_add_cond_resp_meta_slurm.v0_0_41_openapi_accounts_add_cond_resp_meta_slurm(
+                    slurm = slurmrest_python_0_0_41.models.v0_0_41_openapi_accounts_add_cond_resp_meta_slurm.v0_0_41_openapi_accounts_add_cond_resp_meta_slurm(
                         cluster = '', 
                         release = '', 
-                        version = openapi_client.models.v0_0_41_openapi_accounts_add_cond_resp_meta_slurm_version.v0_0_41_openapi_accounts_add_cond_resp_meta_slurm_version(
+                        version = slurmrest_python_0_0_41.models.v0_0_41_openapi_accounts_add_cond_resp_meta_slurm_version.v0_0_41_openapi_accounts_add_cond_resp_meta_slurm_version(
                             major = '', 
                             micro = '', 
                             minor = '', ), ), ),
                 reservations = [
-                    openapi_client.models.v0_0_41_openapi_reservation_resp_reservations_inner.v0_0_41_openapi_reservation_resp_reservations_inner(
+                    slurmrest_python_0_0_41.models.v0_0_41_openapi_reservation_resp_reservations_inner.v0_0_41_openapi_reservation_resp_reservations_inner(
                         accounts = '', 
                         burst_buffer = '', 
                         core_count = 56, 
                         core_specializations = [
-                            openapi_client.models.v0_0_41_openapi_reservation_resp_reservations_inner_core_specializations_inner.v0_0_41_openapi_reservation_resp_reservations_inner_core_specializations_inner(
+                            slurmrest_python_0_0_41.models.v0_0_41_openapi_reservation_resp_reservations_inner_core_specializations_inner.v0_0_41_openapi_reservation_resp_reservations_inner_core_specializations_inner(
                                 core = '', 
                                 node = '', )
                             ], 
-                        end_time = openapi_client.models.v0_0_41_openapi_reservation_resp_reservations_inner_end_time.v0_0_41_openapi_reservation_resp_reservations_inner_end_time(
+                        end_time = slurmrest_python_0_0_41.models.v0_0_41_openapi_reservation_resp_reservations_inner_end_time.v0_0_41_openapi_reservation_resp_reservations_inner_end_time(
                             infinite = True, 
                             number = 56, 
                             set = True, ), 
@@ -92,45 +92,45 @@ class TestV0041OpenapiReservationResp(unittest.TestCase):
                         node_count = 56, 
                         node_list = '', 
                         partition = '', 
-                        purge_completed = openapi_client.models.v0_0_41_openapi_reservation_resp_reservations_inner_purge_completed.v0_0_41_openapi_reservation_resp_reservations_inner_purge_completed(
-                            time = openapi_client.models.v0_0_41_openapi_reservation_resp_reservations_inner_purge_completed_time.v0_0_41_openapi_reservation_resp_reservations_inner_purge_completed_time(
+                        purge_completed = slurmrest_python_0_0_41.models.v0_0_41_openapi_reservation_resp_reservations_inner_purge_completed.v0_0_41_openapi_reservation_resp_reservations_inner_purge_completed(
+                            time = slurmrest_python_0_0_41.models.v0_0_41_openapi_reservation_resp_reservations_inner_purge_completed_time.v0_0_41_openapi_reservation_resp_reservations_inner_purge_completed_time(
                                 infinite = True, 
                                 number = 56, 
                                 set = True, ), ), 
-                        start_time = openapi_client.models.v0_0_41_openapi_reservation_resp_reservations_inner_start_time.v0_0_41_openapi_reservation_resp_reservations_inner_start_time(
+                        start_time = slurmrest_python_0_0_41.models.v0_0_41_openapi_reservation_resp_reservations_inner_start_time.v0_0_41_openapi_reservation_resp_reservations_inner_start_time(
                             infinite = True, 
                             number = 56, 
                             set = True, ), 
                         tres = '', 
                         users = '', 
-                        watts = openapi_client.models.v0_0_41_openapi_reservation_resp_reservations_inner_watts.v0_0_41_openapi_reservation_resp_reservations_inner_watts(
+                        watts = slurmrest_python_0_0_41.models.v0_0_41_openapi_reservation_resp_reservations_inner_watts.v0_0_41_openapi_reservation_resp_reservations_inner_watts(
                             infinite = True, 
                             number = 56, 
                             set = True, ), )
                     ],
                 warnings = [
-                    openapi_client.models.v0_0_41_openapi_accounts_add_cond_resp_warnings_inner.v0_0_41_openapi_accounts_add_cond_resp_warnings_inner(
+                    slurmrest_python_0_0_41.models.v0_0_41_openapi_accounts_add_cond_resp_warnings_inner.v0_0_41_openapi_accounts_add_cond_resp_warnings_inner(
                         description = '', 
                         source = '', )
                     ]
             )
         else:
             return V0041OpenapiReservationResp(
-                last_update = openapi_client.models.v0_0_41_openapi_reservation_resp_last_update.v0_0_41_openapi_reservation_resp_last_update(
+                last_update = slurmrest_python_0_0_41.models.v0_0_41_openapi_reservation_resp_last_update.v0_0_41_openapi_reservation_resp_last_update(
                     infinite = True, 
                     number = 56, 
                     set = True, ),
                 reservations = [
-                    openapi_client.models.v0_0_41_openapi_reservation_resp_reservations_inner.v0_0_41_openapi_reservation_resp_reservations_inner(
+                    slurmrest_python_0_0_41.models.v0_0_41_openapi_reservation_resp_reservations_inner.v0_0_41_openapi_reservation_resp_reservations_inner(
                         accounts = '', 
                         burst_buffer = '', 
                         core_count = 56, 
                         core_specializations = [
-                            openapi_client.models.v0_0_41_openapi_reservation_resp_reservations_inner_core_specializations_inner.v0_0_41_openapi_reservation_resp_reservations_inner_core_specializations_inner(
+                            slurmrest_python_0_0_41.models.v0_0_41_openapi_reservation_resp_reservations_inner_core_specializations_inner.v0_0_41_openapi_reservation_resp_reservations_inner_core_specializations_inner(
                                 core = '', 
                                 node = '', )
                             ], 
-                        end_time = openapi_client.models.v0_0_41_openapi_reservation_resp_reservations_inner_end_time.v0_0_41_openapi_reservation_resp_reservations_inner_end_time(
+                        end_time = slurmrest_python_0_0_41.models.v0_0_41_openapi_reservation_resp_reservations_inner_end_time.v0_0_41_openapi_reservation_resp_reservations_inner_end_time(
                             infinite = True, 
                             number = 56, 
                             set = True, ), 
@@ -145,18 +145,18 @@ class TestV0041OpenapiReservationResp(unittest.TestCase):
                         node_count = 56, 
                         node_list = '', 
                         partition = '', 
-                        purge_completed = openapi_client.models.v0_0_41_openapi_reservation_resp_reservations_inner_purge_completed.v0_0_41_openapi_reservation_resp_reservations_inner_purge_completed(
-                            time = openapi_client.models.v0_0_41_openapi_reservation_resp_reservations_inner_purge_completed_time.v0_0_41_openapi_reservation_resp_reservations_inner_purge_completed_time(
+                        purge_completed = slurmrest_python_0_0_41.models.v0_0_41_openapi_reservation_resp_reservations_inner_purge_completed.v0_0_41_openapi_reservation_resp_reservations_inner_purge_completed(
+                            time = slurmrest_python_0_0_41.models.v0_0_41_openapi_reservation_resp_reservations_inner_purge_completed_time.v0_0_41_openapi_reservation_resp_reservations_inner_purge_completed_time(
                                 infinite = True, 
                                 number = 56, 
                                 set = True, ), ), 
-                        start_time = openapi_client.models.v0_0_41_openapi_reservation_resp_reservations_inner_start_time.v0_0_41_openapi_reservation_resp_reservations_inner_start_time(
+                        start_time = slurmrest_python_0_0_41.models.v0_0_41_openapi_reservation_resp_reservations_inner_start_time.v0_0_41_openapi_reservation_resp_reservations_inner_start_time(
                             infinite = True, 
                             number = 56, 
                             set = True, ), 
                         tres = '', 
                         users = '', 
-                        watts = openapi_client.models.v0_0_41_openapi_reservation_resp_reservations_inner_watts.v0_0_41_openapi_reservation_resp_reservations_inner_watts(
+                        watts = slurmrest_python_0_0_41.models.v0_0_41_openapi_reservation_resp_reservations_inner_watts.v0_0_41_openapi_reservation_resp_reservations_inner_watts(
                             infinite = True, 
                             number = 56, 
                             set = True, ), )

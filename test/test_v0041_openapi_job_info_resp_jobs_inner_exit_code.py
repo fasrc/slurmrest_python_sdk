@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.v0041_openapi_job_info_resp_jobs_inner_exit_code import V0041OpenapiJobInfoRespJobsInnerExitCode
+from slurmrest_python_0_0_41.models.v0041_openapi_job_info_resp_jobs_inner_exit_code import V0041OpenapiJobInfoRespJobsInnerExitCode
 
 class TestV0041OpenapiJobInfoRespJobsInnerExitCode(unittest.TestCase):
     """V0041OpenapiJobInfoRespJobsInnerExitCode unit test stubs"""
@@ -36,12 +36,12 @@ class TestV0041OpenapiJobInfoRespJobsInnerExitCode(unittest.TestCase):
         model = V0041OpenapiJobInfoRespJobsInnerExitCode()
         if include_optional:
             return V0041OpenapiJobInfoRespJobsInnerExitCode(
-                return_code = openapi_client.models.v0_0_41_openapi_job_info_resp_jobs_inner_derived_exit_code_return_code.v0_0_41_openapi_job_info_resp_jobs_inner_derived_exit_code_return_code(
+                return_code = slurmrest_python_0_0_41.models.v0_0_41_openapi_job_info_resp_jobs_inner_derived_exit_code_return_code.v0_0_41_openapi_job_info_resp_jobs_inner_derived_exit_code_return_code(
                     infinite = True, 
                     number = 56, 
                     set = True, ),
-                signal = openapi_client.models.v0_0_41_openapi_job_info_resp_jobs_inner_derived_exit_code_signal.v0_0_41_openapi_job_info_resp_jobs_inner_derived_exit_code_signal(
-                    id = openapi_client.models.v0_0_41_openapi_job_info_resp_jobs_inner_derived_exit_code_signal_id.v0_0_41_openapi_job_info_resp_jobs_inner_derived_exit_code_signal_id(
+                signal = slurmrest_python_0_0_41.models.v0_0_41_openapi_job_info_resp_jobs_inner_derived_exit_code_signal.v0_0_41_openapi_job_info_resp_jobs_inner_derived_exit_code_signal(
+                    id = slurmrest_python_0_0_41.models.v0_0_41_openapi_job_info_resp_jobs_inner_derived_exit_code_signal_id.v0_0_41_openapi_job_info_resp_jobs_inner_derived_exit_code_signal_id(
                         infinite = True, 
                         number = 56, 
                         set = True, ), 

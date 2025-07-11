@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.v0041_job_desc_msg_rlimits_rss import V0041JobDescMsgRlimitsRss
+from slurmrest_python_0_0_41.models.v0041_job_desc_msg_rlimits_rss import V0041JobDescMsgRlimitsRss
 
 class TestV0041JobDescMsgRlimitsRss(unittest.TestCase):
     """V0041JobDescMsgRlimitsRss unit test stubs"""

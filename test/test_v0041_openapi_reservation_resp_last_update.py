@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.v0041_openapi_reservation_resp_last_update import V0041OpenapiReservationRespLastUpdate
+from slurmrest_python_0_0_41.models.v0041_openapi_reservation_resp_last_update import V0041OpenapiReservationRespLastUpdate
 
 class TestV0041OpenapiReservationRespLastUpdate(unittest.TestCase):
     """V0041OpenapiReservationRespLastUpdate unit test stubs"""

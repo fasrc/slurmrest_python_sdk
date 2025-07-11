@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.v0041_job_desc_msg_required_switches import V0041JobDescMsgRequiredSwitches
+from slurmrest_python_0_0_41.models.v0041_job_desc_msg_required_switches import V0041JobDescMsgRequiredSwitches
 
 class TestV0041JobDescMsgRequiredSwitches(unittest.TestCase):
     """V0041JobDescMsgRequiredSwitches unit test stubs"""

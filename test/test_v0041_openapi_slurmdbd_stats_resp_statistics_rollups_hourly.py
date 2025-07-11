@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.v0041_openapi_slurmdbd_stats_resp_statistics_rollups_hourly import V0041OpenapiSlurmdbdStatsRespStatisticsRollupsHourly
+from slurmrest_python_0_0_41.models.v0041_openapi_slurmdbd_stats_resp_statistics_rollups_hourly import V0041OpenapiSlurmdbdStatsRespStatisticsRollupsHourly
 
 class TestV0041OpenapiSlurmdbdStatsRespStatisticsRollupsHourly(unittest.TestCase):
     """V0041OpenapiSlurmdbdStatsRespStatisticsRollupsHourly unit test stubs"""
@@ -37,7 +37,7 @@ class TestV0041OpenapiSlurmdbdStatsRespStatisticsRollupsHourly(unittest.TestCase
         if include_optional:
             return V0041OpenapiSlurmdbdStatsRespStatisticsRollupsHourly(
                 count = 56,
-                duration = openapi_client.models.v0_0_41_openapi_slurmdbd_stats_resp_statistics_rollups_hourly_duration.v0_0_41_openapi_slurmdbd_stats_resp_statistics_rollups_hourly_duration(
+                duration = slurmrest_python_0_0_41.models.v0_0_41_openapi_slurmdbd_stats_resp_statistics_rollups_hourly_duration.v0_0_41_openapi_slurmdbd_stats_resp_statistics_rollups_hourly_duration(
                     last = 56, 
                     max = 56, 
                     time = 56, ),

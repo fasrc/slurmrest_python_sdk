@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.v0041_openapi_slurmdbd_jobs_resp_jobs_inner_steps_inner_step import V0041OpenapiSlurmdbdJobsRespJobsInnerStepsInnerStep
+from slurmrest_python_0_0_41.models.v0041_openapi_slurmdbd_jobs_resp_jobs_inner_steps_inner_step import V0041OpenapiSlurmdbdJobsRespJobsInnerStepsInnerStep
 
 class TestV0041OpenapiSlurmdbdJobsRespJobsInnerStepsInnerStep(unittest.TestCase):
     """V0041OpenapiSlurmdbdJobsRespJobsInnerStepsInnerStep unit test stubs"""

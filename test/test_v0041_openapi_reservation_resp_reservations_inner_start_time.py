@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.v0041_openapi_reservation_resp_reservations_inner_start_time import V0041OpenapiReservationRespReservationsInnerStartTime
+from slurmrest_python_0_0_41.models.v0041_openapi_reservation_resp_reservations_inner_start_time import V0041OpenapiReservationRespReservationsInnerStartTime
 
 class TestV0041OpenapiReservationRespReservationsInnerStartTime(unittest.TestCase):
     """V0041OpenapiReservationRespReservationsInnerStartTime unit test stubs"""

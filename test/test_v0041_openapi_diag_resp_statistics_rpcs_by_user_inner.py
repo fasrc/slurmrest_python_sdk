@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.v0041_openapi_diag_resp_statistics_rpcs_by_user_inner import V0041OpenapiDiagRespStatisticsRpcsByUserInner
+from slurmrest_python_0_0_41.models.v0041_openapi_diag_resp_statistics_rpcs_by_user_inner import V0041OpenapiDiagRespStatisticsRpcsByUserInner
 
 class TestV0041OpenapiDiagRespStatisticsRpcsByUserInner(unittest.TestCase):
     """V0041OpenapiDiagRespStatisticsRpcsByUserInner unit test stubs"""
@@ -36,7 +36,7 @@ class TestV0041OpenapiDiagRespStatisticsRpcsByUserInner(unittest.TestCase):
         model = V0041OpenapiDiagRespStatisticsRpcsByUserInner()
         if include_optional:
             return V0041OpenapiDiagRespStatisticsRpcsByUserInner(
-                average_time = openapi_client.models.v0_0_41_openapi_diag_resp_statistics_rpcs_by_message_type_inner_average_time.v0_0_41_openapi_diag_resp_statistics_rpcs_by_message_type_inner_average_time(
+                average_time = slurmrest_python_0_0_41.models.v0_0_41_openapi_diag_resp_statistics_rpcs_by_message_type_inner_average_time.v0_0_41_openapi_diag_resp_statistics_rpcs_by_message_type_inner_average_time(
                     infinite = True, 
                     number = 56, 
                     set = True, ),
@@ -47,7 +47,7 @@ class TestV0041OpenapiDiagRespStatisticsRpcsByUserInner(unittest.TestCase):
             )
         else:
             return V0041OpenapiDiagRespStatisticsRpcsByUserInner(
-                average_time = openapi_client.models.v0_0_41_openapi_diag_resp_statistics_rpcs_by_message_type_inner_average_time.v0_0_41_openapi_diag_resp_statistics_rpcs_by_message_type_inner_average_time(
+                average_time = slurmrest_python_0_0_41.models.v0_0_41_openapi_diag_resp_statistics_rpcs_by_message_type_inner_average_time.v0_0_41_openapi_diag_resp_statistics_rpcs_by_message_type_inner_average_time(
                     infinite = True, 
                     number = 56, 
                     set = True, ),

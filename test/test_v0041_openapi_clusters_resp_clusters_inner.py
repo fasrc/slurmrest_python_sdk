@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.v0041_openapi_clusters_resp_clusters_inner import V0041OpenapiClustersRespClustersInner
+from slurmrest_python_0_0_41.models.v0041_openapi_clusters_resp_clusters_inner import V0041OpenapiClustersRespClustersInner
 
 class TestV0041OpenapiClustersRespClustersInner(unittest.TestCase):
     """V0041OpenapiClustersRespClustersInner unit test stubs"""
@@ -36,14 +36,14 @@ class TestV0041OpenapiClustersRespClustersInner(unittest.TestCase):
         model = V0041OpenapiClustersRespClustersInner()
         if include_optional:
             return V0041OpenapiClustersRespClustersInner(
-                associations = openapi_client.models.v0_0_41_openapi_clusters_resp_clusters_inner_associations.v0_0_41_openapi_clusters_resp_clusters_inner_associations(
-                    root = openapi_client.models.v0_0_41_openapi_clusters_resp_clusters_inner_associations_root.v0_0_41_openapi_clusters_resp_clusters_inner_associations_root(
+                associations = slurmrest_python_0_0_41.models.v0_0_41_openapi_clusters_resp_clusters_inner_associations.v0_0_41_openapi_clusters_resp_clusters_inner_associations(
+                    root = slurmrest_python_0_0_41.models.v0_0_41_openapi_clusters_resp_clusters_inner_associations_root.v0_0_41_openapi_clusters_resp_clusters_inner_associations_root(
                         account = '', 
                         cluster = '', 
                         id = 56, 
                         partition = '', 
                         user = '', ), ),
-                controller = openapi_client.models.v0_0_41_openapi_clusters_resp_clusters_inner_controller.v0_0_41_openapi_clusters_resp_clusters_inner_controller(
+                controller = slurmrest_python_0_0_41.models.v0_0_41_openapi_clusters_resp_clusters_inner_controller.v0_0_41_openapi_clusters_resp_clusters_inner_controller(
                     host = '', 
                     port = 56, ),
                 flags = [
@@ -54,7 +54,7 @@ class TestV0041OpenapiClustersRespClustersInner(unittest.TestCase):
                 rpc_version = 56,
                 select_plugin = '',
                 tres = [
-                    openapi_client.models.v0_0_41_openapi_accounts_add_cond_resp_association_condition_association_grptres_inner.v0_0_41_openapi_accounts_add_cond_resp_association_condition_association_grptres_inner(
+                    slurmrest_python_0_0_41.models.v0_0_41_openapi_accounts_add_cond_resp_association_condition_association_grptres_inner.v0_0_41_openapi_accounts_add_cond_resp_association_condition_association_grptres_inner(
                         count = 56, 
                         id = 56, 
                         name = '', 

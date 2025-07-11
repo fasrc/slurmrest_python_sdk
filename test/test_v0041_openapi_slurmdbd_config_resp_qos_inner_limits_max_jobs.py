@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.v0041_openapi_slurmdbd_config_resp_qos_inner_limits_max_jobs import V0041OpenapiSlurmdbdConfigRespQosInnerLimitsMaxJobs
+from slurmrest_python_0_0_41.models.v0041_openapi_slurmdbd_config_resp_qos_inner_limits_max_jobs import V0041OpenapiSlurmdbdConfigRespQosInnerLimitsMaxJobs
 
 class TestV0041OpenapiSlurmdbdConfigRespQosInnerLimitsMaxJobs(unittest.TestCase):
     """V0041OpenapiSlurmdbdConfigRespQosInnerLimitsMaxJobs unit test stubs"""
@@ -36,22 +36,22 @@ class TestV0041OpenapiSlurmdbdConfigRespQosInnerLimitsMaxJobs(unittest.TestCase)
         model = V0041OpenapiSlurmdbdConfigRespQosInnerLimitsMaxJobs()
         if include_optional:
             return V0041OpenapiSlurmdbdConfigRespQosInnerLimitsMaxJobs(
-                active_jobs = openapi_client.models.v0_0_41_openapi_slurmdbd_config_resp_qos_inner_limits_max_jobs_active_jobs.v0_0_41_openapi_slurmdbd_config_resp_qos_inner_limits_max_jobs_active_jobs(
-                    per = openapi_client.models.v0_0_41_openapi_slurmdbd_config_resp_qos_inner_limits_max_jobs_active_jobs_per.v0_0_41_openapi_slurmdbd_config_resp_qos_inner_limits_max_jobs_active_jobs_per(
-                        account = openapi_client.models.v0_0_41_openapi_slurmdbd_config_resp_qos_inner_limits_max_jobs_active_jobs_per_account.v0_0_41_openapi_slurmdbd_config_resp_qos_inner_limits_max_jobs_active_jobs_per_account(
+                active_jobs = slurmrest_python_0_0_41.models.v0_0_41_openapi_slurmdbd_config_resp_qos_inner_limits_max_jobs_active_jobs.v0_0_41_openapi_slurmdbd_config_resp_qos_inner_limits_max_jobs_active_jobs(
+                    per = slurmrest_python_0_0_41.models.v0_0_41_openapi_slurmdbd_config_resp_qos_inner_limits_max_jobs_active_jobs_per.v0_0_41_openapi_slurmdbd_config_resp_qos_inner_limits_max_jobs_active_jobs_per(
+                        account = slurmrest_python_0_0_41.models.v0_0_41_openapi_slurmdbd_config_resp_qos_inner_limits_max_jobs_active_jobs_per_account.v0_0_41_openapi_slurmdbd_config_resp_qos_inner_limits_max_jobs_active_jobs_per_account(
                             infinite = True, 
                             number = 56, 
                             set = True, ), 
-                        user = openapi_client.models.v0_0_41_openapi_slurmdbd_config_resp_qos_inner_limits_max_jobs_active_jobs_per_user.v0_0_41_openapi_slurmdbd_config_resp_qos_inner_limits_max_jobs_active_jobs_per_user(
+                        user = slurmrest_python_0_0_41.models.v0_0_41_openapi_slurmdbd_config_resp_qos_inner_limits_max_jobs_active_jobs_per_user.v0_0_41_openapi_slurmdbd_config_resp_qos_inner_limits_max_jobs_active_jobs_per_user(
                             infinite = True, 
                             number = 56, 
                             set = True, ), ), ),
-                per = openapi_client.models.v0_0_41_openapi_slurmdbd_config_resp_qos_inner_limits_max_jobs_per.v0_0_41_openapi_slurmdbd_config_resp_qos_inner_limits_max_jobs_per(
-                    account = openapi_client.models.v0_0_41_openapi_slurmdbd_config_resp_qos_inner_limits_max_jobs_per_account.v0_0_41_openapi_slurmdbd_config_resp_qos_inner_limits_max_jobs_per_account(
+                per = slurmrest_python_0_0_41.models.v0_0_41_openapi_slurmdbd_config_resp_qos_inner_limits_max_jobs_per.v0_0_41_openapi_slurmdbd_config_resp_qos_inner_limits_max_jobs_per(
+                    account = slurmrest_python_0_0_41.models.v0_0_41_openapi_slurmdbd_config_resp_qos_inner_limits_max_jobs_per_account.v0_0_41_openapi_slurmdbd_config_resp_qos_inner_limits_max_jobs_per_account(
                         infinite = True, 
                         number = 56, 
                         set = True, ), 
-                    user = openapi_client.models.v0_0_41_openapi_slurmdbd_config_resp_qos_inner_limits_max_jobs_per_user.v0_0_41_openapi_slurmdbd_config_resp_qos_inner_limits_max_jobs_per_user(
+                    user = slurmrest_python_0_0_41.models.v0_0_41_openapi_slurmdbd_config_resp_qos_inner_limits_max_jobs_per_user.v0_0_41_openapi_slurmdbd_config_resp_qos_inner_limits_max_jobs_per_user(
                         infinite = True, 
                         number = 56, 
                         set = True, ), )

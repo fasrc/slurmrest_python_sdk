@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.v0041_openapi_accounts_add_cond_resp_meta_plugin import V0041OpenapiAccountsAddCondRespMetaPlugin
+from slurmrest_python_0_0_41.models.v0041_openapi_accounts_add_cond_resp_meta_plugin import V0041OpenapiAccountsAddCondRespMetaPlugin
 
 class TestV0041OpenapiAccountsAddCondRespMetaPlugin(unittest.TestCase):
     """V0041OpenapiAccountsAddCondRespMetaPlugin unit test stubs"""

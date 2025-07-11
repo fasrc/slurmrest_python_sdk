@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.v0041_openapi_slurmdbd_stats_resp import V0041OpenapiSlurmdbdStatsResp
+from slurmrest_python_0_0_41.models.v0041_openapi_slurmdbd_stats_resp import V0041OpenapiSlurmdbdStatsResp
 
 class TestV0041OpenapiSlurmdbdStatsResp(unittest.TestCase):
     """V0041OpenapiSlurmdbdStatsResp unit test stubs"""
@@ -37,93 +37,93 @@ class TestV0041OpenapiSlurmdbdStatsResp(unittest.TestCase):
         if include_optional:
             return V0041OpenapiSlurmdbdStatsResp(
                 errors = [
-                    openapi_client.models.v0_0_41_openapi_accounts_add_cond_resp_errors_inner.v0_0_41_openapi_accounts_add_cond_resp_errors_inner(
+                    slurmrest_python_0_0_41.models.v0_0_41_openapi_accounts_add_cond_resp_errors_inner.v0_0_41_openapi_accounts_add_cond_resp_errors_inner(
                         description = '', 
                         error = '', 
                         error_number = 56, 
                         source = '', )
                     ],
-                meta = openapi_client.models.v0_0_41_openapi_accounts_add_cond_resp_meta.v0_0_41_openapi_accounts_add_cond_resp_meta(
-                    client = openapi_client.models.v0_0_41_openapi_accounts_add_cond_resp_meta_client.v0_0_41_openapi_accounts_add_cond_resp_meta_client(
+                meta = slurmrest_python_0_0_41.models.v0_0_41_openapi_accounts_add_cond_resp_meta.v0_0_41_openapi_accounts_add_cond_resp_meta(
+                    client = slurmrest_python_0_0_41.models.v0_0_41_openapi_accounts_add_cond_resp_meta_client.v0_0_41_openapi_accounts_add_cond_resp_meta_client(
                         group = '', 
                         source = '', 
                         user = '', ), 
                     command = [
                         ''
                         ], 
-                    plugin = openapi_client.models.v0_0_41_openapi_accounts_add_cond_resp_meta_plugin.v0_0_41_openapi_accounts_add_cond_resp_meta_plugin(
+                    plugin = slurmrest_python_0_0_41.models.v0_0_41_openapi_accounts_add_cond_resp_meta_plugin.v0_0_41_openapi_accounts_add_cond_resp_meta_plugin(
                         accounting_storage = '', 
                         data_parser = '', 
                         name = '', 
                         type = '', ), 
-                    slurm = openapi_client.models.v0_0_41_openapi_accounts_add_cond_resp_meta_slurm.v0_0_41_openapi_accounts_add_cond_resp_meta_slurm(
+                    slurm = slurmrest_python_0_0_41.models.v0_0_41_openapi_accounts_add_cond_resp_meta_slurm.v0_0_41_openapi_accounts_add_cond_resp_meta_slurm(
                         cluster = '', 
                         release = '', 
-                        version = openapi_client.models.v0_0_41_openapi_accounts_add_cond_resp_meta_slurm_version.v0_0_41_openapi_accounts_add_cond_resp_meta_slurm_version(
+                        version = slurmrest_python_0_0_41.models.v0_0_41_openapi_accounts_add_cond_resp_meta_slurm_version.v0_0_41_openapi_accounts_add_cond_resp_meta_slurm_version(
                             major = '', 
                             micro = '', 
                             minor = '', ), ), ),
-                statistics = openapi_client.models.v0_0_41_openapi_slurmdbd_stats_resp_statistics.v0_0_41_openapi_slurmdbd_stats_resp_statistics(
+                statistics = slurmrest_python_0_0_41.models.v0_0_41_openapi_slurmdbd_stats_resp_statistics.v0_0_41_openapi_slurmdbd_stats_resp_statistics(
                     rpcs = [
-                        openapi_client.models.v0_0_41_openapi_slurmdbd_stats_resp_statistics_rpcs_inner.v0_0_41_openapi_slurmdbd_stats_resp_statistics_RPCs_inner(
+                        slurmrest_python_0_0_41.models.v0_0_41_openapi_slurmdbd_stats_resp_statistics_rpcs_inner.v0_0_41_openapi_slurmdbd_stats_resp_statistics_RPCs_inner(
                             count = 56, 
                             rpc = '', 
-                            time = openapi_client.models.v0_0_41_openapi_slurmdbd_stats_resp_statistics_rpcs_inner_time.v0_0_41_openapi_slurmdbd_stats_resp_statistics_RPCs_inner_time(
+                            time = slurmrest_python_0_0_41.models.v0_0_41_openapi_slurmdbd_stats_resp_statistics_rpcs_inner_time.v0_0_41_openapi_slurmdbd_stats_resp_statistics_RPCs_inner_time(
                                 average = 56, 
                                 total = 56, ), )
                         ], 
-                    rollups = openapi_client.models.v0_0_41_openapi_slurmdbd_stats_resp_statistics_rollups.v0_0_41_openapi_slurmdbd_stats_resp_statistics_rollups(
-                        daily = openapi_client.models.v0_0_41_openapi_slurmdbd_stats_resp_statistics_rollups_daily.v0_0_41_openapi_slurmdbd_stats_resp_statistics_rollups_daily(
+                    rollups = slurmrest_python_0_0_41.models.v0_0_41_openapi_slurmdbd_stats_resp_statistics_rollups.v0_0_41_openapi_slurmdbd_stats_resp_statistics_rollups(
+                        daily = slurmrest_python_0_0_41.models.v0_0_41_openapi_slurmdbd_stats_resp_statistics_rollups_daily.v0_0_41_openapi_slurmdbd_stats_resp_statistics_rollups_daily(
                             count = 56, 
-                            duration = openapi_client.models.v0_0_41_openapi_slurmdbd_stats_resp_statistics_rollups_daily_duration.v0_0_41_openapi_slurmdbd_stats_resp_statistics_rollups_daily_duration(
+                            duration = slurmrest_python_0_0_41.models.v0_0_41_openapi_slurmdbd_stats_resp_statistics_rollups_daily_duration.v0_0_41_openapi_slurmdbd_stats_resp_statistics_rollups_daily_duration(
                                 last = 56, 
                                 max = 56, ), 
                             last_run = 56, ), 
-                        hourly = openapi_client.models.v0_0_41_openapi_slurmdbd_stats_resp_statistics_rollups_hourly.v0_0_41_openapi_slurmdbd_stats_resp_statistics_rollups_hourly(
+                        hourly = slurmrest_python_0_0_41.models.v0_0_41_openapi_slurmdbd_stats_resp_statistics_rollups_hourly.v0_0_41_openapi_slurmdbd_stats_resp_statistics_rollups_hourly(
                             count = 56, 
                             last_run = 56, ), 
-                        monthly = openapi_client.models.v0_0_41_openapi_slurmdbd_stats_resp_statistics_rollups_monthly.v0_0_41_openapi_slurmdbd_stats_resp_statistics_rollups_monthly(
+                        monthly = slurmrest_python_0_0_41.models.v0_0_41_openapi_slurmdbd_stats_resp_statistics_rollups_monthly.v0_0_41_openapi_slurmdbd_stats_resp_statistics_rollups_monthly(
                             count = 56, 
                             last_run = 56, ), ), 
                     time_start = 56, 
                     users = [
-                        openapi_client.models.v0_0_41_openapi_slurmdbd_stats_resp_statistics_users_inner.v0_0_41_openapi_slurmdbd_stats_resp_statistics_users_inner(
+                        slurmrest_python_0_0_41.models.v0_0_41_openapi_slurmdbd_stats_resp_statistics_users_inner.v0_0_41_openapi_slurmdbd_stats_resp_statistics_users_inner(
                             count = 56, 
                             user = '', )
                         ], ),
                 warnings = [
-                    openapi_client.models.v0_0_41_openapi_accounts_add_cond_resp_warnings_inner.v0_0_41_openapi_accounts_add_cond_resp_warnings_inner(
+                    slurmrest_python_0_0_41.models.v0_0_41_openapi_accounts_add_cond_resp_warnings_inner.v0_0_41_openapi_accounts_add_cond_resp_warnings_inner(
                         description = '', 
                         source = '', )
                     ]
             )
         else:
             return V0041OpenapiSlurmdbdStatsResp(
-                statistics = openapi_client.models.v0_0_41_openapi_slurmdbd_stats_resp_statistics.v0_0_41_openapi_slurmdbd_stats_resp_statistics(
+                statistics = slurmrest_python_0_0_41.models.v0_0_41_openapi_slurmdbd_stats_resp_statistics.v0_0_41_openapi_slurmdbd_stats_resp_statistics(
                     rpcs = [
-                        openapi_client.models.v0_0_41_openapi_slurmdbd_stats_resp_statistics_rpcs_inner.v0_0_41_openapi_slurmdbd_stats_resp_statistics_RPCs_inner(
+                        slurmrest_python_0_0_41.models.v0_0_41_openapi_slurmdbd_stats_resp_statistics_rpcs_inner.v0_0_41_openapi_slurmdbd_stats_resp_statistics_RPCs_inner(
                             count = 56, 
                             rpc = '', 
-                            time = openapi_client.models.v0_0_41_openapi_slurmdbd_stats_resp_statistics_rpcs_inner_time.v0_0_41_openapi_slurmdbd_stats_resp_statistics_RPCs_inner_time(
+                            time = slurmrest_python_0_0_41.models.v0_0_41_openapi_slurmdbd_stats_resp_statistics_rpcs_inner_time.v0_0_41_openapi_slurmdbd_stats_resp_statistics_RPCs_inner_time(
                                 average = 56, 
                                 total = 56, ), )
                         ], 
-                    rollups = openapi_client.models.v0_0_41_openapi_slurmdbd_stats_resp_statistics_rollups.v0_0_41_openapi_slurmdbd_stats_resp_statistics_rollups(
-                        daily = openapi_client.models.v0_0_41_openapi_slurmdbd_stats_resp_statistics_rollups_daily.v0_0_41_openapi_slurmdbd_stats_resp_statistics_rollups_daily(
+                    rollups = slurmrest_python_0_0_41.models.v0_0_41_openapi_slurmdbd_stats_resp_statistics_rollups.v0_0_41_openapi_slurmdbd_stats_resp_statistics_rollups(
+                        daily = slurmrest_python_0_0_41.models.v0_0_41_openapi_slurmdbd_stats_resp_statistics_rollups_daily.v0_0_41_openapi_slurmdbd_stats_resp_statistics_rollups_daily(
                             count = 56, 
-                            duration = openapi_client.models.v0_0_41_openapi_slurmdbd_stats_resp_statistics_rollups_daily_duration.v0_0_41_openapi_slurmdbd_stats_resp_statistics_rollups_daily_duration(
+                            duration = slurmrest_python_0_0_41.models.v0_0_41_openapi_slurmdbd_stats_resp_statistics_rollups_daily_duration.v0_0_41_openapi_slurmdbd_stats_resp_statistics_rollups_daily_duration(
                                 last = 56, 
                                 max = 56, ), 
                             last_run = 56, ), 
-                        hourly = openapi_client.models.v0_0_41_openapi_slurmdbd_stats_resp_statistics_rollups_hourly.v0_0_41_openapi_slurmdbd_stats_resp_statistics_rollups_hourly(
+                        hourly = slurmrest_python_0_0_41.models.v0_0_41_openapi_slurmdbd_stats_resp_statistics_rollups_hourly.v0_0_41_openapi_slurmdbd_stats_resp_statistics_rollups_hourly(
                             count = 56, 
                             last_run = 56, ), 
-                        monthly = openapi_client.models.v0_0_41_openapi_slurmdbd_stats_resp_statistics_rollups_monthly.v0_0_41_openapi_slurmdbd_stats_resp_statistics_rollups_monthly(
+                        monthly = slurmrest_python_0_0_41.models.v0_0_41_openapi_slurmdbd_stats_resp_statistics_rollups_monthly.v0_0_41_openapi_slurmdbd_stats_resp_statistics_rollups_monthly(
                             count = 56, 
                             last_run = 56, ), ), 
                     time_start = 56, 
                     users = [
-                        openapi_client.models.v0_0_41_openapi_slurmdbd_stats_resp_statistics_users_inner.v0_0_41_openapi_slurmdbd_stats_resp_statistics_users_inner(
+                        slurmrest_python_0_0_41.models.v0_0_41_openapi_slurmdbd_stats_resp_statistics_users_inner.v0_0_41_openapi_slurmdbd_stats_resp_statistics_users_inner(
                             count = 56, 
                             user = '', )
                         ], ),

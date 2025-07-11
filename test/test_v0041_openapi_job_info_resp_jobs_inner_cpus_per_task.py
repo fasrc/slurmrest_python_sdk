@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.v0041_openapi_job_info_resp_jobs_inner_cpus_per_task import V0041OpenapiJobInfoRespJobsInnerCpusPerTask
+from slurmrest_python_0_0_41.models.v0041_openapi_job_info_resp_jobs_inner_cpus_per_task import V0041OpenapiJobInfoRespJobsInnerCpusPerTask
 
 class TestV0041OpenapiJobInfoRespJobsInnerCpusPerTask(unittest.TestCase):
     """V0041OpenapiJobInfoRespJobsInnerCpusPerTask unit test stubs"""

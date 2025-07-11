@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.v0041_openapi_shares_resp import V0041OpenapiSharesResp
+from slurmrest_python_0_0_41.models.v0041_openapi_shares_resp import V0041OpenapiSharesResp
 
 class TestV0041OpenapiSharesResp(unittest.TestCase):
     """V0041OpenapiSharesResp unit test stubs"""
@@ -37,121 +37,121 @@ class TestV0041OpenapiSharesResp(unittest.TestCase):
         if include_optional:
             return V0041OpenapiSharesResp(
                 errors = [
-                    openapi_client.models.v0_0_41_openapi_accounts_add_cond_resp_errors_inner.v0_0_41_openapi_accounts_add_cond_resp_errors_inner(
+                    slurmrest_python_0_0_41.models.v0_0_41_openapi_accounts_add_cond_resp_errors_inner.v0_0_41_openapi_accounts_add_cond_resp_errors_inner(
                         description = '', 
                         error = '', 
                         error_number = 56, 
                         source = '', )
                     ],
-                meta = openapi_client.models.v0_0_41_openapi_accounts_add_cond_resp_meta.v0_0_41_openapi_accounts_add_cond_resp_meta(
-                    client = openapi_client.models.v0_0_41_openapi_accounts_add_cond_resp_meta_client.v0_0_41_openapi_accounts_add_cond_resp_meta_client(
+                meta = slurmrest_python_0_0_41.models.v0_0_41_openapi_accounts_add_cond_resp_meta.v0_0_41_openapi_accounts_add_cond_resp_meta(
+                    client = slurmrest_python_0_0_41.models.v0_0_41_openapi_accounts_add_cond_resp_meta_client.v0_0_41_openapi_accounts_add_cond_resp_meta_client(
                         group = '', 
                         source = '', 
                         user = '', ), 
                     command = [
                         ''
                         ], 
-                    plugin = openapi_client.models.v0_0_41_openapi_accounts_add_cond_resp_meta_plugin.v0_0_41_openapi_accounts_add_cond_resp_meta_plugin(
+                    plugin = slurmrest_python_0_0_41.models.v0_0_41_openapi_accounts_add_cond_resp_meta_plugin.v0_0_41_openapi_accounts_add_cond_resp_meta_plugin(
                         accounting_storage = '', 
                         data_parser = '', 
                         name = '', 
                         type = '', ), 
-                    slurm = openapi_client.models.v0_0_41_openapi_accounts_add_cond_resp_meta_slurm.v0_0_41_openapi_accounts_add_cond_resp_meta_slurm(
+                    slurm = slurmrest_python_0_0_41.models.v0_0_41_openapi_accounts_add_cond_resp_meta_slurm.v0_0_41_openapi_accounts_add_cond_resp_meta_slurm(
                         cluster = '', 
                         release = '', 
-                        version = openapi_client.models.v0_0_41_openapi_accounts_add_cond_resp_meta_slurm_version.v0_0_41_openapi_accounts_add_cond_resp_meta_slurm_version(
+                        version = slurmrest_python_0_0_41.models.v0_0_41_openapi_accounts_add_cond_resp_meta_slurm_version.v0_0_41_openapi_accounts_add_cond_resp_meta_slurm_version(
                             major = '', 
                             micro = '', 
                             minor = '', ), ), ),
-                shares = openapi_client.models.v0_0_41_openapi_shares_resp_shares.v0_0_41_openapi_shares_resp_shares(
+                shares = slurmrest_python_0_0_41.models.v0_0_41_openapi_shares_resp_shares.v0_0_41_openapi_shares_resp_shares(
                     shares = [
-                        openapi_client.models.v0_0_41_openapi_shares_resp_shares_shares_inner.v0_0_41_openapi_shares_resp_shares_shares_inner(
+                        slurmrest_python_0_0_41.models.v0_0_41_openapi_shares_resp_shares_shares_inner.v0_0_41_openapi_shares_resp_shares_shares_inner(
                             cluster = '', 
                             effective_usage = 1.337, 
-                            fairshare = openapi_client.models.v0_0_41_openapi_shares_resp_shares_shares_inner_fairshare.v0_0_41_openapi_shares_resp_shares_shares_inner_fairshare(
+                            fairshare = slurmrest_python_0_0_41.models.v0_0_41_openapi_shares_resp_shares_shares_inner_fairshare.v0_0_41_openapi_shares_resp_shares_shares_inner_fairshare(
                                 factor = 1.337, 
                                 level = 1.337, ), 
                             id = 56, 
                             name = '', 
                             parent = '', 
                             partition = '', 
-                            shares_normalized = openapi_client.models.v0_0_41_openapi_shares_resp_shares_shares_inner_shares_normalized.v0_0_41_openapi_shares_resp_shares_shares_inner_shares_normalized(
+                            shares_normalized = slurmrest_python_0_0_41.models.v0_0_41_openapi_shares_resp_shares_shares_inner_shares_normalized.v0_0_41_openapi_shares_resp_shares_shares_inner_shares_normalized(
                                 infinite = True, 
                                 number = 1.337, 
                                 set = True, ), 
-                            tres = openapi_client.models.v0_0_41_openapi_shares_resp_shares_shares_inner_tres.v0_0_41_openapi_shares_resp_shares_shares_inner_tres(
+                            tres = slurmrest_python_0_0_41.models.v0_0_41_openapi_shares_resp_shares_shares_inner_tres.v0_0_41_openapi_shares_resp_shares_shares_inner_tres(
                                 group_minutes = [
-                                    openapi_client.models.v0_0_41_openapi_shares_resp_shares_shares_inner_tres_group_minutes_inner.v0_0_41_openapi_shares_resp_shares_shares_inner_tres_group_minutes_inner(
+                                    slurmrest_python_0_0_41.models.v0_0_41_openapi_shares_resp_shares_shares_inner_tres_group_minutes_inner.v0_0_41_openapi_shares_resp_shares_shares_inner_tres_group_minutes_inner(
                                         name = '', 
-                                        value = openapi_client.models.v0_0_41_openapi_shares_resp_shares_shares_inner_tres_group_minutes_inner_value.v0_0_41_openapi_shares_resp_shares_shares_inner_tres_group_minutes_inner_value(
+                                        value = slurmrest_python_0_0_41.models.v0_0_41_openapi_shares_resp_shares_shares_inner_tres_group_minutes_inner_value.v0_0_41_openapi_shares_resp_shares_shares_inner_tres_group_minutes_inner_value(
                                             infinite = True, 
                                             number = 56, 
                                             set = True, ), )
                                     ], 
                                 run_seconds = [
-                                    openapi_client.models.v0_0_41_openapi_shares_resp_shares_shares_inner_tres_group_minutes_inner.v0_0_41_openapi_shares_resp_shares_shares_inner_tres_group_minutes_inner(
+                                    slurmrest_python_0_0_41.models.v0_0_41_openapi_shares_resp_shares_shares_inner_tres_group_minutes_inner.v0_0_41_openapi_shares_resp_shares_shares_inner_tres_group_minutes_inner(
                                         name = '', )
                                     ], 
                                 usage = [
-                                    openapi_client.models.v0_0_41_openapi_shares_resp_shares_shares_inner_tres_usage_inner.v0_0_41_openapi_shares_resp_shares_shares_inner_tres_usage_inner(
+                                    slurmrest_python_0_0_41.models.v0_0_41_openapi_shares_resp_shares_shares_inner_tres_usage_inner.v0_0_41_openapi_shares_resp_shares_shares_inner_tres_usage_inner(
                                         name = '', )
                                     ], ), 
                             type = [
                                 'USER'
                                 ], 
                             usage = 56, 
-                            usage_normalized = openapi_client.models.v0_0_41_openapi_shares_resp_shares_shares_inner_usage_normalized.v0_0_41_openapi_shares_resp_shares_shares_inner_usage_normalized(
+                            usage_normalized = slurmrest_python_0_0_41.models.v0_0_41_openapi_shares_resp_shares_shares_inner_usage_normalized.v0_0_41_openapi_shares_resp_shares_shares_inner_usage_normalized(
                                 infinite = True, 
                                 number = 1.337, 
                                 set = True, ), )
                         ], 
                     total_shares = 56, ),
                 warnings = [
-                    openapi_client.models.v0_0_41_openapi_accounts_add_cond_resp_warnings_inner.v0_0_41_openapi_accounts_add_cond_resp_warnings_inner(
+                    slurmrest_python_0_0_41.models.v0_0_41_openapi_accounts_add_cond_resp_warnings_inner.v0_0_41_openapi_accounts_add_cond_resp_warnings_inner(
                         description = '', 
                         source = '', )
                     ]
             )
         else:
             return V0041OpenapiSharesResp(
-                shares = openapi_client.models.v0_0_41_openapi_shares_resp_shares.v0_0_41_openapi_shares_resp_shares(
+                shares = slurmrest_python_0_0_41.models.v0_0_41_openapi_shares_resp_shares.v0_0_41_openapi_shares_resp_shares(
                     shares = [
-                        openapi_client.models.v0_0_41_openapi_shares_resp_shares_shares_inner.v0_0_41_openapi_shares_resp_shares_shares_inner(
+                        slurmrest_python_0_0_41.models.v0_0_41_openapi_shares_resp_shares_shares_inner.v0_0_41_openapi_shares_resp_shares_shares_inner(
                             cluster = '', 
                             effective_usage = 1.337, 
-                            fairshare = openapi_client.models.v0_0_41_openapi_shares_resp_shares_shares_inner_fairshare.v0_0_41_openapi_shares_resp_shares_shares_inner_fairshare(
+                            fairshare = slurmrest_python_0_0_41.models.v0_0_41_openapi_shares_resp_shares_shares_inner_fairshare.v0_0_41_openapi_shares_resp_shares_shares_inner_fairshare(
                                 factor = 1.337, 
                                 level = 1.337, ), 
                             id = 56, 
                             name = '', 
                             parent = '', 
                             partition = '', 
-                            shares_normalized = openapi_client.models.v0_0_41_openapi_shares_resp_shares_shares_inner_shares_normalized.v0_0_41_openapi_shares_resp_shares_shares_inner_shares_normalized(
+                            shares_normalized = slurmrest_python_0_0_41.models.v0_0_41_openapi_shares_resp_shares_shares_inner_shares_normalized.v0_0_41_openapi_shares_resp_shares_shares_inner_shares_normalized(
                                 infinite = True, 
                                 number = 1.337, 
                                 set = True, ), 
-                            tres = openapi_client.models.v0_0_41_openapi_shares_resp_shares_shares_inner_tres.v0_0_41_openapi_shares_resp_shares_shares_inner_tres(
+                            tres = slurmrest_python_0_0_41.models.v0_0_41_openapi_shares_resp_shares_shares_inner_tres.v0_0_41_openapi_shares_resp_shares_shares_inner_tres(
                                 group_minutes = [
-                                    openapi_client.models.v0_0_41_openapi_shares_resp_shares_shares_inner_tres_group_minutes_inner.v0_0_41_openapi_shares_resp_shares_shares_inner_tres_group_minutes_inner(
+                                    slurmrest_python_0_0_41.models.v0_0_41_openapi_shares_resp_shares_shares_inner_tres_group_minutes_inner.v0_0_41_openapi_shares_resp_shares_shares_inner_tres_group_minutes_inner(
                                         name = '', 
-                                        value = openapi_client.models.v0_0_41_openapi_shares_resp_shares_shares_inner_tres_group_minutes_inner_value.v0_0_41_openapi_shares_resp_shares_shares_inner_tres_group_minutes_inner_value(
+                                        value = slurmrest_python_0_0_41.models.v0_0_41_openapi_shares_resp_shares_shares_inner_tres_group_minutes_inner_value.v0_0_41_openapi_shares_resp_shares_shares_inner_tres_group_minutes_inner_value(
                                             infinite = True, 
                                             number = 56, 
                                             set = True, ), )
                                     ], 
                                 run_seconds = [
-                                    openapi_client.models.v0_0_41_openapi_shares_resp_shares_shares_inner_tres_group_minutes_inner.v0_0_41_openapi_shares_resp_shares_shares_inner_tres_group_minutes_inner(
+                                    slurmrest_python_0_0_41.models.v0_0_41_openapi_shares_resp_shares_shares_inner_tres_group_minutes_inner.v0_0_41_openapi_shares_resp_shares_shares_inner_tres_group_minutes_inner(
                                         name = '', )
                                     ], 
                                 usage = [
-                                    openapi_client.models.v0_0_41_openapi_shares_resp_shares_shares_inner_tres_usage_inner.v0_0_41_openapi_shares_resp_shares_shares_inner_tres_usage_inner(
+                                    slurmrest_python_0_0_41.models.v0_0_41_openapi_shares_resp_shares_shares_inner_tres_usage_inner.v0_0_41_openapi_shares_resp_shares_shares_inner_tres_usage_inner(
                                         name = '', )
                                     ], ), 
                             type = [
                                 'USER'
                                 ], 
                             usage = 56, 
-                            usage_normalized = openapi_client.models.v0_0_41_openapi_shares_resp_shares_shares_inner_usage_normalized.v0_0_41_openapi_shares_resp_shares_shares_inner_usage_normalized(
+                            usage_normalized = slurmrest_python_0_0_41.models.v0_0_41_openapi_shares_resp_shares_shares_inner_usage_normalized.v0_0_41_openapi_shares_resp_shares_shares_inner_usage_normalized(
                                 infinite = True, 
                                 number = 1.337, 
                                 set = True, ), )

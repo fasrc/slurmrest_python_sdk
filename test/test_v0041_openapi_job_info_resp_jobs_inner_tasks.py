@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.v0041_openapi_job_info_resp_jobs_inner_tasks import V0041OpenapiJobInfoRespJobsInnerTasks
+from slurmrest_python_0_0_41.models.v0041_openapi_job_info_resp_jobs_inner_tasks import V0041OpenapiJobInfoRespJobsInnerTasks
 
 class TestV0041OpenapiJobInfoRespJobsInnerTasks(unittest.TestCase):
     """V0041OpenapiJobInfoRespJobsInnerTasks unit test stubs"""

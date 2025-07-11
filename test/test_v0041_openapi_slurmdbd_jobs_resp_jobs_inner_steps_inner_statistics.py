@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.v0041_openapi_slurmdbd_jobs_resp_jobs_inner_steps_inner_statistics import V0041OpenapiSlurmdbdJobsRespJobsInnerStepsInnerStatistics
+from slurmrest_python_0_0_41.models.v0041_openapi_slurmdbd_jobs_resp_jobs_inner_steps_inner_statistics import V0041OpenapiSlurmdbdJobsRespJobsInnerStepsInnerStatistics
 
 class TestV0041OpenapiSlurmdbdJobsRespJobsInnerStepsInnerStatistics(unittest.TestCase):
     """V0041OpenapiSlurmdbdJobsRespJobsInnerStepsInnerStatistics unit test stubs"""
@@ -36,10 +36,10 @@ class TestV0041OpenapiSlurmdbdJobsRespJobsInnerStepsInnerStatistics(unittest.Tes
         model = V0041OpenapiSlurmdbdJobsRespJobsInnerStepsInnerStatistics()
         if include_optional:
             return V0041OpenapiSlurmdbdJobsRespJobsInnerStepsInnerStatistics(
-                cpu = openapi_client.models.v0_0_41_openapi_slurmdbd_jobs_resp_jobs_inner_steps_inner_statistics_cpu.v0_0_41_openapi_slurmdbd_jobs_resp_jobs_inner_steps_inner_statistics_CPU(
+                cpu = slurmrest_python_0_0_41.models.v0_0_41_openapi_slurmdbd_jobs_resp_jobs_inner_steps_inner_statistics_cpu.v0_0_41_openapi_slurmdbd_jobs_resp_jobs_inner_steps_inner_statistics_CPU(
                     actual_frequency = 56, ),
-                energy = openapi_client.models.v0_0_41_openapi_slurmdbd_jobs_resp_jobs_inner_steps_inner_statistics_energy.v0_0_41_openapi_slurmdbd_jobs_resp_jobs_inner_steps_inner_statistics_energy(
-                    consumed = openapi_client.models.v0_0_41_openapi_slurmdbd_jobs_resp_jobs_inner_steps_inner_statistics_energy_consumed.v0_0_41_openapi_slurmdbd_jobs_resp_jobs_inner_steps_inner_statistics_energy_consumed(
+                energy = slurmrest_python_0_0_41.models.v0_0_41_openapi_slurmdbd_jobs_resp_jobs_inner_steps_inner_statistics_energy.v0_0_41_openapi_slurmdbd_jobs_resp_jobs_inner_steps_inner_statistics_energy(
+                    consumed = slurmrest_python_0_0_41.models.v0_0_41_openapi_slurmdbd_jobs_resp_jobs_inner_steps_inner_statistics_energy_consumed.v0_0_41_openapi_slurmdbd_jobs_resp_jobs_inner_steps_inner_statistics_energy_consumed(
                         infinite = True, 
                         number = 56, 
                         set = True, ), )

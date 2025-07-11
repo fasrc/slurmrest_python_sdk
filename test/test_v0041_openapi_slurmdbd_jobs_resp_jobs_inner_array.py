@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.v0041_openapi_slurmdbd_jobs_resp_jobs_inner_array import V0041OpenapiSlurmdbdJobsRespJobsInnerArray
+from slurmrest_python_0_0_41.models.v0041_openapi_slurmdbd_jobs_resp_jobs_inner_array import V0041OpenapiSlurmdbdJobsRespJobsInnerArray
 
 class TestV0041OpenapiSlurmdbdJobsRespJobsInnerArray(unittest.TestCase):
     """V0041OpenapiSlurmdbdJobsRespJobsInnerArray unit test stubs"""
@@ -37,12 +37,12 @@ class TestV0041OpenapiSlurmdbdJobsRespJobsInnerArray(unittest.TestCase):
         if include_optional:
             return V0041OpenapiSlurmdbdJobsRespJobsInnerArray(
                 job_id = 56,
-                limits = openapi_client.models.v0_0_41_openapi_slurmdbd_jobs_resp_jobs_inner_array_limits.v0_0_41_openapi_slurmdbd_jobs_resp_jobs_inner_array_limits(
-                    max = openapi_client.models.v0_0_41_openapi_slurmdbd_jobs_resp_jobs_inner_array_limits_max.v0_0_41_openapi_slurmdbd_jobs_resp_jobs_inner_array_limits_max(
-                        running = openapi_client.models.v0_0_41_openapi_slurmdbd_jobs_resp_jobs_inner_array_limits_max_running.v0_0_41_openapi_slurmdbd_jobs_resp_jobs_inner_array_limits_max_running(
+                limits = slurmrest_python_0_0_41.models.v0_0_41_openapi_slurmdbd_jobs_resp_jobs_inner_array_limits.v0_0_41_openapi_slurmdbd_jobs_resp_jobs_inner_array_limits(
+                    max = slurmrest_python_0_0_41.models.v0_0_41_openapi_slurmdbd_jobs_resp_jobs_inner_array_limits_max.v0_0_41_openapi_slurmdbd_jobs_resp_jobs_inner_array_limits_max(
+                        running = slurmrest_python_0_0_41.models.v0_0_41_openapi_slurmdbd_jobs_resp_jobs_inner_array_limits_max_running.v0_0_41_openapi_slurmdbd_jobs_resp_jobs_inner_array_limits_max_running(
                             tasks = 56, ), ), ),
                 task = '',
-                task_id = openapi_client.models.v0_0_41_openapi_job_info_resp_jobs_inner_array_task_id.v0_0_41_openapi_job_info_resp_jobs_inner_array_task_id(
+                task_id = slurmrest_python_0_0_41.models.v0_0_41_openapi_job_info_resp_jobs_inner_array_task_id.v0_0_41_openapi_job_info_resp_jobs_inner_array_task_id(
                     infinite = True, 
                     number = 56, 
                     set = True, )

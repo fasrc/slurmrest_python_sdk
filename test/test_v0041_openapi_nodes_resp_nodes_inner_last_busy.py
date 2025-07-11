@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.v0041_openapi_nodes_resp_nodes_inner_last_busy import V0041OpenapiNodesRespNodesInnerLastBusy
+from slurmrest_python_0_0_41.models.v0041_openapi_nodes_resp_nodes_inner_last_busy import V0041OpenapiNodesRespNodesInnerLastBusy
 
 class TestV0041OpenapiNodesRespNodesInnerLastBusy(unittest.TestCase):
     """V0041OpenapiNodesRespNodesInnerLastBusy unit test stubs"""

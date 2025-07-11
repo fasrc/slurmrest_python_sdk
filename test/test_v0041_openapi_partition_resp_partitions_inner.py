@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.v0041_openapi_partition_resp_partitions_inner import V0041OpenapiPartitionRespPartitionsInner
+from slurmrest_python_0_0_41.models.v0041_openapi_partition_resp_partitions_inner import V0041OpenapiPartitionRespPartitionsInner
 
 class TestV0041OpenapiPartitionRespPartitionsInner(unittest.TestCase):
     """V0041OpenapiPartitionRespPartitionsInner unit test stubs"""
@@ -36,104 +36,104 @@ class TestV0041OpenapiPartitionRespPartitionsInner(unittest.TestCase):
         model = V0041OpenapiPartitionRespPartitionsInner()
         if include_optional:
             return V0041OpenapiPartitionRespPartitionsInner(
-                accounts = openapi_client.models.v0_0_41_openapi_partition_resp_partitions_inner_accounts.v0_0_41_openapi_partition_resp_partitions_inner_accounts(
+                accounts = slurmrest_python_0_0_41.models.v0_0_41_openapi_partition_resp_partitions_inner_accounts.v0_0_41_openapi_partition_resp_partitions_inner_accounts(
                     allowed = '', 
                     deny = '', ),
                 alternate = '',
                 cluster = '',
-                cpus = openapi_client.models.v0_0_41_openapi_partition_resp_partitions_inner_cpus.v0_0_41_openapi_partition_resp_partitions_inner_cpus(
+                cpus = slurmrest_python_0_0_41.models.v0_0_41_openapi_partition_resp_partitions_inner_cpus.v0_0_41_openapi_partition_resp_partitions_inner_cpus(
                     task_binding = 56, 
                     total = 56, ),
-                defaults = openapi_client.models.v0_0_41_openapi_partition_resp_partitions_inner_defaults.v0_0_41_openapi_partition_resp_partitions_inner_defaults(
+                defaults = slurmrest_python_0_0_41.models.v0_0_41_openapi_partition_resp_partitions_inner_defaults.v0_0_41_openapi_partition_resp_partitions_inner_defaults(
                     job = '', 
                     memory_per_cpu = 56, 
-                    partition_memory_per_cpu = openapi_client.models.v0_0_41_openapi_partition_resp_partitions_inner_defaults_partition_memory_per_cpu.v0_0_41_openapi_partition_resp_partitions_inner_defaults_partition_memory_per_cpu(
+                    partition_memory_per_cpu = slurmrest_python_0_0_41.models.v0_0_41_openapi_partition_resp_partitions_inner_defaults_partition_memory_per_cpu.v0_0_41_openapi_partition_resp_partitions_inner_defaults_partition_memory_per_cpu(
                         infinite = True, 
                         number = 56, 
                         set = True, ), 
-                    partition_memory_per_node = openapi_client.models.v0_0_41_openapi_partition_resp_partitions_inner_defaults_partition_memory_per_node.v0_0_41_openapi_partition_resp_partitions_inner_defaults_partition_memory_per_node(
+                    partition_memory_per_node = slurmrest_python_0_0_41.models.v0_0_41_openapi_partition_resp_partitions_inner_defaults_partition_memory_per_node.v0_0_41_openapi_partition_resp_partitions_inner_defaults_partition_memory_per_node(
                         infinite = True, 
                         number = 56, 
                         set = True, ), 
-                    time = openapi_client.models.v0_0_41_openapi_partition_resp_partitions_inner_defaults_time.v0_0_41_openapi_partition_resp_partitions_inner_defaults_time(
+                    time = slurmrest_python_0_0_41.models.v0_0_41_openapi_partition_resp_partitions_inner_defaults_time.v0_0_41_openapi_partition_resp_partitions_inner_defaults_time(
                         infinite = True, 
                         number = 56, 
                         set = True, ), ),
                 grace_time = 56,
-                groups = openapi_client.models.v0_0_41_openapi_partition_resp_partitions_inner_groups.v0_0_41_openapi_partition_resp_partitions_inner_groups(
+                groups = slurmrest_python_0_0_41.models.v0_0_41_openapi_partition_resp_partitions_inner_groups.v0_0_41_openapi_partition_resp_partitions_inner_groups(
                     allowed = '', ),
-                maximums = openapi_client.models.v0_0_41_openapi_partition_resp_partitions_inner_maximums.v0_0_41_openapi_partition_resp_partitions_inner_maximums(
-                    cpus_per_node = openapi_client.models.v0_0_41_openapi_partition_resp_partitions_inner_maximums_cpus_per_node.v0_0_41_openapi_partition_resp_partitions_inner_maximums_cpus_per_node(
+                maximums = slurmrest_python_0_0_41.models.v0_0_41_openapi_partition_resp_partitions_inner_maximums.v0_0_41_openapi_partition_resp_partitions_inner_maximums(
+                    cpus_per_node = slurmrest_python_0_0_41.models.v0_0_41_openapi_partition_resp_partitions_inner_maximums_cpus_per_node.v0_0_41_openapi_partition_resp_partitions_inner_maximums_cpus_per_node(
                         infinite = True, 
                         number = 56, 
                         set = True, ), 
-                    cpus_per_socket = openapi_client.models.v0_0_41_openapi_partition_resp_partitions_inner_maximums_cpus_per_socket.v0_0_41_openapi_partition_resp_partitions_inner_maximums_cpus_per_socket(
+                    cpus_per_socket = slurmrest_python_0_0_41.models.v0_0_41_openapi_partition_resp_partitions_inner_maximums_cpus_per_socket.v0_0_41_openapi_partition_resp_partitions_inner_maximums_cpus_per_socket(
                         infinite = True, 
                         number = 56, 
                         set = True, ), 
                     memory_per_cpu = 56, 
-                    nodes = openapi_client.models.v0_0_41_openapi_partition_resp_partitions_inner_maximums_nodes.v0_0_41_openapi_partition_resp_partitions_inner_maximums_nodes(
+                    nodes = slurmrest_python_0_0_41.models.v0_0_41_openapi_partition_resp_partitions_inner_maximums_nodes.v0_0_41_openapi_partition_resp_partitions_inner_maximums_nodes(
                         infinite = True, 
                         number = 56, 
                         set = True, ), 
-                    over_time_limit = openapi_client.models.v0_0_41_openapi_partition_resp_partitions_inner_maximums_over_time_limit.v0_0_41_openapi_partition_resp_partitions_inner_maximums_over_time_limit(
+                    over_time_limit = slurmrest_python_0_0_41.models.v0_0_41_openapi_partition_resp_partitions_inner_maximums_over_time_limit.v0_0_41_openapi_partition_resp_partitions_inner_maximums_over_time_limit(
                         infinite = True, 
                         number = 56, 
                         set = True, ), 
-                    oversubscribe = openapi_client.models.v0_0_41_openapi_partition_resp_partitions_inner_maximums_oversubscribe.v0_0_41_openapi_partition_resp_partitions_inner_maximums_oversubscribe(
+                    oversubscribe = slurmrest_python_0_0_41.models.v0_0_41_openapi_partition_resp_partitions_inner_maximums_oversubscribe.v0_0_41_openapi_partition_resp_partitions_inner_maximums_oversubscribe(
                         flags = [
                             'force'
                             ], 
                         jobs = 56, ), 
-                    partition_memory_per_cpu = openapi_client.models.v0_0_41_openapi_partition_resp_partitions_inner_maximums_partition_memory_per_cpu.v0_0_41_openapi_partition_resp_partitions_inner_maximums_partition_memory_per_cpu(
+                    partition_memory_per_cpu = slurmrest_python_0_0_41.models.v0_0_41_openapi_partition_resp_partitions_inner_maximums_partition_memory_per_cpu.v0_0_41_openapi_partition_resp_partitions_inner_maximums_partition_memory_per_cpu(
                         infinite = True, 
                         number = 56, 
                         set = True, ), 
-                    partition_memory_per_node = openapi_client.models.v0_0_41_openapi_partition_resp_partitions_inner_maximums_partition_memory_per_node.v0_0_41_openapi_partition_resp_partitions_inner_maximums_partition_memory_per_node(
+                    partition_memory_per_node = slurmrest_python_0_0_41.models.v0_0_41_openapi_partition_resp_partitions_inner_maximums_partition_memory_per_node.v0_0_41_openapi_partition_resp_partitions_inner_maximums_partition_memory_per_node(
                         infinite = True, 
                         number = 56, 
                         set = True, ), 
                     shares = 56, 
-                    time = openapi_client.models.v0_0_41_openapi_partition_resp_partitions_inner_maximums_time.v0_0_41_openapi_partition_resp_partitions_inner_maximums_time(
+                    time = slurmrest_python_0_0_41.models.v0_0_41_openapi_partition_resp_partitions_inner_maximums_time.v0_0_41_openapi_partition_resp_partitions_inner_maximums_time(
                         infinite = True, 
                         number = 56, 
                         set = True, ), ),
-                minimums = openapi_client.models.v0_0_41_openapi_partition_resp_partitions_inner_minimums.v0_0_41_openapi_partition_resp_partitions_inner_minimums(
+                minimums = slurmrest_python_0_0_41.models.v0_0_41_openapi_partition_resp_partitions_inner_minimums.v0_0_41_openapi_partition_resp_partitions_inner_minimums(
                     nodes = 56, ),
                 name = '',
                 node_sets = '',
-                nodes = openapi_client.models.v0_0_41_openapi_partition_resp_partitions_inner_nodes.v0_0_41_openapi_partition_resp_partitions_inner_nodes(
+                nodes = slurmrest_python_0_0_41.models.v0_0_41_openapi_partition_resp_partitions_inner_nodes.v0_0_41_openapi_partition_resp_partitions_inner_nodes(
                     allowed_allocation = '', 
                     configured = '', 
                     total = 56, ),
-                partition = openapi_client.models.v0_0_41_openapi_partition_resp_partitions_inner_partition.v0_0_41_openapi_partition_resp_partitions_inner_partition(
+                partition = slurmrest_python_0_0_41.models.v0_0_41_openapi_partition_resp_partitions_inner_partition.v0_0_41_openapi_partition_resp_partitions_inner_partition(
                     state = [
                         'INACTIVE'
                         ], ),
-                priority = openapi_client.models.v0_0_41_openapi_partition_resp_partitions_inner_priority.v0_0_41_openapi_partition_resp_partitions_inner_priority(
+                priority = slurmrest_python_0_0_41.models.v0_0_41_openapi_partition_resp_partitions_inner_priority.v0_0_41_openapi_partition_resp_partitions_inner_priority(
                     job_factor = 56, 
                     tier = 56, ),
-                qos = openapi_client.models.v0_0_41_openapi_partition_resp_partitions_inner_qos.v0_0_41_openapi_partition_resp_partitions_inner_qos(
+                qos = slurmrest_python_0_0_41.models.v0_0_41_openapi_partition_resp_partitions_inner_qos.v0_0_41_openapi_partition_resp_partitions_inner_qos(
                     allowed = '', 
                     assigned = '', 
                     deny = '', ),
                 select_type = [
                     'CPU'
                     ],
-                suspend_time = openapi_client.models.v0_0_41_openapi_partition_resp_partitions_inner_suspend_time.v0_0_41_openapi_partition_resp_partitions_inner_suspend_time(
+                suspend_time = slurmrest_python_0_0_41.models.v0_0_41_openapi_partition_resp_partitions_inner_suspend_time.v0_0_41_openapi_partition_resp_partitions_inner_suspend_time(
                     infinite = True, 
                     number = 56, 
                     set = True, ),
-                timeouts = openapi_client.models.v0_0_41_openapi_partition_resp_partitions_inner_timeouts.v0_0_41_openapi_partition_resp_partitions_inner_timeouts(
-                    resume = openapi_client.models.v0_0_41_openapi_partition_resp_partitions_inner_timeouts_resume.v0_0_41_openapi_partition_resp_partitions_inner_timeouts_resume(
+                timeouts = slurmrest_python_0_0_41.models.v0_0_41_openapi_partition_resp_partitions_inner_timeouts.v0_0_41_openapi_partition_resp_partitions_inner_timeouts(
+                    resume = slurmrest_python_0_0_41.models.v0_0_41_openapi_partition_resp_partitions_inner_timeouts_resume.v0_0_41_openapi_partition_resp_partitions_inner_timeouts_resume(
                         infinite = True, 
                         number = 56, 
                         set = True, ), 
-                    suspend = openapi_client.models.v0_0_41_openapi_partition_resp_partitions_inner_timeouts_suspend.v0_0_41_openapi_partition_resp_partitions_inner_timeouts_suspend(
+                    suspend = slurmrest_python_0_0_41.models.v0_0_41_openapi_partition_resp_partitions_inner_timeouts_suspend.v0_0_41_openapi_partition_resp_partitions_inner_timeouts_suspend(
                         infinite = True, 
                         number = 56, 
                         set = True, ), ),
-                tres = openapi_client.models.v0_0_41_openapi_partition_resp_partitions_inner_tres.v0_0_41_openapi_partition_resp_partitions_inner_tres(
+                tres = slurmrest_python_0_0_41.models.v0_0_41_openapi_partition_resp_partitions_inner_tres.v0_0_41_openapi_partition_resp_partitions_inner_tres(
                     billing_weights = '', 
                     configured = '', )
             )

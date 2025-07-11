@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.v0041_openapi_assocs_resp_associations_inner_accounting_inner_tres import V0041OpenapiAssocsRespAssociationsInnerAccountingInnerTRES
+from slurmrest_python_0_0_41.models.v0041_openapi_assocs_resp_associations_inner_accounting_inner_tres import V0041OpenapiAssocsRespAssociationsInnerAccountingInnerTRES
 
 class TestV0041OpenapiAssocsRespAssociationsInnerAccountingInnerTRES(unittest.TestCase):
     """V0041OpenapiAssocsRespAssociationsInnerAccountingInnerTRES unit test stubs"""

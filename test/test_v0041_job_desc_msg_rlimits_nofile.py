@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.v0041_job_desc_msg_rlimits_nofile import V0041JobDescMsgRlimitsNofile
+from slurmrest_python_0_0_41.models.v0041_job_desc_msg_rlimits_nofile import V0041JobDescMsgRlimitsNofile
 
 class TestV0041JobDescMsgRlimitsNofile(unittest.TestCase):
     """V0041JobDescMsgRlimitsNofile unit test stubs"""

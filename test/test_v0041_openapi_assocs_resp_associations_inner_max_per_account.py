@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.v0041_openapi_assocs_resp_associations_inner_max_per_account import V0041OpenapiAssocsRespAssociationsInnerMaxPerAccount
+from slurmrest_python_0_0_41.models.v0041_openapi_assocs_resp_associations_inner_max_per_account import V0041OpenapiAssocsRespAssociationsInnerMaxPerAccount
 
 class TestV0041OpenapiAssocsRespAssociationsInnerMaxPerAccount(unittest.TestCase):
     """V0041OpenapiAssocsRespAssociationsInnerMaxPerAccount unit test stubs"""
@@ -36,7 +36,7 @@ class TestV0041OpenapiAssocsRespAssociationsInnerMaxPerAccount(unittest.TestCase
         model = V0041OpenapiAssocsRespAssociationsInnerMaxPerAccount()
         if include_optional:
             return V0041OpenapiAssocsRespAssociationsInnerMaxPerAccount(
-                wall_clock = openapi_client.models.v0_0_41_openapi_assocs_resp_associations_inner_max_per_account_wall_clock.v0_0_41_openapi_assocs_resp_associations_inner_max_per_account_wall_clock(
+                wall_clock = slurmrest_python_0_0_41.models.v0_0_41_openapi_assocs_resp_associations_inner_max_per_account_wall_clock.v0_0_41_openapi_assocs_resp_associations_inner_max_per_account_wall_clock(
                     infinite = True, 
                     number = 56, 
                     set = True, )

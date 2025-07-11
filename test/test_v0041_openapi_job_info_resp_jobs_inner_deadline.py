@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.v0041_openapi_job_info_resp_jobs_inner_deadline import V0041OpenapiJobInfoRespJobsInnerDeadline
+from slurmrest_python_0_0_41.models.v0041_openapi_job_info_resp_jobs_inner_deadline import V0041OpenapiJobInfoRespJobsInnerDeadline
 
 class TestV0041OpenapiJobInfoRespJobsInnerDeadline(unittest.TestCase):
     """V0041OpenapiJobInfoRespJobsInnerDeadline unit test stubs"""

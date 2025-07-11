@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.v0041_openapi_diag_resp_statistics import V0041OpenapiDiagRespStatistics
+from slurmrest_python_0_0_41.models.v0041_openapi_diag_resp_statistics import V0041OpenapiDiagRespStatistics
 
 class TestV0041OpenapiDiagRespStatistics(unittest.TestCase):
     """V0041OpenapiDiagRespStatistics unit test stubs"""
@@ -51,7 +51,7 @@ class TestV0041OpenapiDiagRespStatistics(unittest.TestCase):
                 bf_depth_mean_try = 56,
                 bf_depth_sum = 56,
                 bf_depth_try_sum = 56,
-                bf_exit = openapi_client.models.v0_0_41_openapi_diag_resp_statistics_bf_exit.v0_0_41_openapi_diag_resp_statistics_bf_exit(
+                bf_exit = slurmrest_python_0_0_41.models.v0_0_41_openapi_diag_resp_statistics_bf_exit.v0_0_41_openapi_diag_resp_statistics_bf_exit(
                     bf_max_job_start = 56, 
                     bf_max_job_test = 56, 
                     bf_max_time = 56, 
@@ -67,13 +67,13 @@ class TestV0041OpenapiDiagRespStatistics(unittest.TestCase):
                 bf_table_size = 56,
                 bf_table_size_mean = 56,
                 bf_table_size_sum = 56,
-                bf_when_last_cycle = openapi_client.models.v0_0_41_openapi_diag_resp_statistics_bf_when_last_cycle.v0_0_41_openapi_diag_resp_statistics_bf_when_last_cycle(
+                bf_when_last_cycle = slurmrest_python_0_0_41.models.v0_0_41_openapi_diag_resp_statistics_bf_when_last_cycle.v0_0_41_openapi_diag_resp_statistics_bf_when_last_cycle(
                     infinite = True, 
                     number = 56, 
                     set = True, ),
                 dbd_agent_queue_size = 56,
                 gettimeofday_latency = 56,
-                job_states_ts = openapi_client.models.v0_0_41_openapi_diag_resp_statistics_job_states_ts.v0_0_41_openapi_diag_resp_statistics_job_states_ts(
+                job_states_ts = slurmrest_python_0_0_41.models.v0_0_41_openapi_diag_resp_statistics_job_states_ts.v0_0_41_openapi_diag_resp_statistics_job_states_ts(
                     infinite = True, 
                     number = 56, 
                     set = True, ),
@@ -86,30 +86,30 @@ class TestV0041OpenapiDiagRespStatistics(unittest.TestCase):
                 jobs_submitted = 56,
                 parts_packed = 56,
                 pending_rpcs = [
-                    openapi_client.models.v0_0_41_openapi_diag_resp_statistics_pending_rpcs_inner.v0_0_41_openapi_diag_resp_statistics_pending_rpcs_inner(
+                    slurmrest_python_0_0_41.models.v0_0_41_openapi_diag_resp_statistics_pending_rpcs_inner.v0_0_41_openapi_diag_resp_statistics_pending_rpcs_inner(
                         count = 56, 
                         message_type = '', 
                         type_id = 56, )
                     ],
                 pending_rpcs_by_hostlist = [
-                    openapi_client.models.v0_0_41_openapi_diag_resp_statistics_pending_rpcs_by_hostlist_inner.v0_0_41_openapi_diag_resp_statistics_pending_rpcs_by_hostlist_inner(
+                    slurmrest_python_0_0_41.models.v0_0_41_openapi_diag_resp_statistics_pending_rpcs_by_hostlist_inner.v0_0_41_openapi_diag_resp_statistics_pending_rpcs_by_hostlist_inner(
                         count = [
                             ''
                             ], 
                         message_type = '', 
                         type_id = 56, )
                     ],
-                req_time = openapi_client.models.v0_0_41_openapi_diag_resp_statistics_req_time.v0_0_41_openapi_diag_resp_statistics_req_time(
+                req_time = slurmrest_python_0_0_41.models.v0_0_41_openapi_diag_resp_statistics_req_time.v0_0_41_openapi_diag_resp_statistics_req_time(
                     infinite = True, 
                     number = 56, 
                     set = True, ),
-                req_time_start = openapi_client.models.v0_0_41_openapi_diag_resp_statistics_req_time_start.v0_0_41_openapi_diag_resp_statistics_req_time_start(
+                req_time_start = slurmrest_python_0_0_41.models.v0_0_41_openapi_diag_resp_statistics_req_time_start.v0_0_41_openapi_diag_resp_statistics_req_time_start(
                     infinite = True, 
                     number = 56, 
                     set = True, ),
                 rpcs_by_message_type = [
-                    openapi_client.models.v0_0_41_openapi_diag_resp_statistics_rpcs_by_message_type_inner.v0_0_41_openapi_diag_resp_statistics_rpcs_by_message_type_inner(
-                        average_time = openapi_client.models.v0_0_41_openapi_diag_resp_statistics_rpcs_by_message_type_inner_average_time.v0_0_41_openapi_diag_resp_statistics_rpcs_by_message_type_inner_average_time(
+                    slurmrest_python_0_0_41.models.v0_0_41_openapi_diag_resp_statistics_rpcs_by_message_type_inner.v0_0_41_openapi_diag_resp_statistics_rpcs_by_message_type_inner(
+                        average_time = slurmrest_python_0_0_41.models.v0_0_41_openapi_diag_resp_statistics_rpcs_by_message_type_inner_average_time.v0_0_41_openapi_diag_resp_statistics_rpcs_by_message_type_inner_average_time(
                             infinite = True, 
                             number = 56, 
                             set = True, ), 
@@ -123,8 +123,8 @@ class TestV0041OpenapiDiagRespStatistics(unittest.TestCase):
                         type_id = 56, )
                     ],
                 rpcs_by_user = [
-                    openapi_client.models.v0_0_41_openapi_diag_resp_statistics_rpcs_by_user_inner.v0_0_41_openapi_diag_resp_statistics_rpcs_by_user_inner(
-                        average_time = openapi_client.models.v0_0_41_openapi_diag_resp_statistics_rpcs_by_message_type_inner_average_time.v0_0_41_openapi_diag_resp_statistics_rpcs_by_message_type_inner_average_time(
+                    slurmrest_python_0_0_41.models.v0_0_41_openapi_diag_resp_statistics_rpcs_by_user_inner.v0_0_41_openapi_diag_resp_statistics_rpcs_by_user_inner(
+                        average_time = slurmrest_python_0_0_41.models.v0_0_41_openapi_diag_resp_statistics_rpcs_by_message_type_inner_average_time.v0_0_41_openapi_diag_resp_statistics_rpcs_by_message_type_inner_average_time(
                             infinite = True, 
                             number = 56, 
                             set = True, ), 
@@ -141,7 +141,7 @@ class TestV0041OpenapiDiagRespStatistics(unittest.TestCase):
                 schedule_cycle_per_minute = 56,
                 schedule_cycle_sum = 56,
                 schedule_cycle_total = 56,
-                schedule_exit = openapi_client.models.v0_0_41_openapi_diag_resp_statistics_schedule_exit.v0_0_41_openapi_diag_resp_statistics_schedule_exit(
+                schedule_exit = slurmrest_python_0_0_41.models.v0_0_41_openapi_diag_resp_statistics_schedule_exit.v0_0_41_openapi_diag_resp_statistics_schedule_exit(
                     default_queue_depth = 56, 
                     end_job_queue = 56, 
                     licenses = 56, 

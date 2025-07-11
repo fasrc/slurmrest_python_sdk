@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.v0041_openapi_assocs_resp_associations_inner_max_jobs_active import V0041OpenapiAssocsRespAssociationsInnerMaxJobsActive
+from slurmrest_python_0_0_41.models.v0041_openapi_assocs_resp_associations_inner_max_jobs_active import V0041OpenapiAssocsRespAssociationsInnerMaxJobsActive
 
 class TestV0041OpenapiAssocsRespAssociationsInnerMaxJobsActive(unittest.TestCase):
     """V0041OpenapiAssocsRespAssociationsInnerMaxJobsActive unit test stubs"""

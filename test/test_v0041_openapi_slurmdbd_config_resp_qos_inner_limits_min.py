@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.v0041_openapi_slurmdbd_config_resp_qos_inner_limits_min import V0041OpenapiSlurmdbdConfigRespQosInnerLimitsMin
+from slurmrest_python_0_0_41.models.v0041_openapi_slurmdbd_config_resp_qos_inner_limits_min import V0041OpenapiSlurmdbdConfigRespQosInnerLimitsMin
 
 class TestV0041OpenapiSlurmdbdConfigRespQosInnerLimitsMin(unittest.TestCase):
     """V0041OpenapiSlurmdbdConfigRespQosInnerLimitsMin unit test stubs"""
@@ -36,14 +36,14 @@ class TestV0041OpenapiSlurmdbdConfigRespQosInnerLimitsMin(unittest.TestCase):
         model = V0041OpenapiSlurmdbdConfigRespQosInnerLimitsMin()
         if include_optional:
             return V0041OpenapiSlurmdbdConfigRespQosInnerLimitsMin(
-                priority_threshold = openapi_client.models.v0_0_41_openapi_assocs_resp_associations_inner_min_priority_threshold.v0_0_41_openapi_assocs_resp_associations_inner_min_priority_threshold(
+                priority_threshold = slurmrest_python_0_0_41.models.v0_0_41_openapi_assocs_resp_associations_inner_min_priority_threshold.v0_0_41_openapi_assocs_resp_associations_inner_min_priority_threshold(
                     infinite = True, 
                     number = 56, 
                     set = True, ),
-                tres = openapi_client.models.v0_0_41_openapi_slurmdbd_config_resp_qos_inner_limits_min_tres.v0_0_41_openapi_slurmdbd_config_resp_qos_inner_limits_min_tres(
-                    per = openapi_client.models.v0_0_41_openapi_slurmdbd_config_resp_qos_inner_limits_min_tres_per.v0_0_41_openapi_slurmdbd_config_resp_qos_inner_limits_min_tres_per(
+                tres = slurmrest_python_0_0_41.models.v0_0_41_openapi_slurmdbd_config_resp_qos_inner_limits_min_tres.v0_0_41_openapi_slurmdbd_config_resp_qos_inner_limits_min_tres(
+                    per = slurmrest_python_0_0_41.models.v0_0_41_openapi_slurmdbd_config_resp_qos_inner_limits_min_tres_per.v0_0_41_openapi_slurmdbd_config_resp_qos_inner_limits_min_tres_per(
                         job = [
-                            openapi_client.models.v0_0_41_openapi_accounts_add_cond_resp_association_condition_association_grptres_inner.v0_0_41_openapi_accounts_add_cond_resp_association_condition_association_grptres_inner(
+                            slurmrest_python_0_0_41.models.v0_0_41_openapi_accounts_add_cond_resp_association_condition_association_grptres_inner.v0_0_41_openapi_accounts_add_cond_resp_association_condition_association_grptres_inner(
                                 count = 56, 
                                 id = 56, 
                                 name = '', 

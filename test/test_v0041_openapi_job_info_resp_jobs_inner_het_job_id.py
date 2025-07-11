@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.v0041_openapi_job_info_resp_jobs_inner_het_job_id import V0041OpenapiJobInfoRespJobsInnerHetJobId
+from slurmrest_python_0_0_41.models.v0041_openapi_job_info_resp_jobs_inner_het_job_id import V0041OpenapiJobInfoRespJobsInnerHetJobId
 
 class TestV0041OpenapiJobInfoRespJobsInnerHetJobId(unittest.TestCase):
     """V0041OpenapiJobInfoRespJobsInnerHetJobId unit test stubs"""

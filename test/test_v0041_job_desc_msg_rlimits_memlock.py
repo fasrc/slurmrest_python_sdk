@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.v0041_job_desc_msg_rlimits_memlock import V0041JobDescMsgRlimitsMemlock
+from slurmrest_python_0_0_41.models.v0041_job_desc_msg_rlimits_memlock import V0041JobDescMsgRlimitsMemlock
 
 class TestV0041JobDescMsgRlimitsMemlock(unittest.TestCase):
     """V0041JobDescMsgRlimitsMemlock unit test stubs"""

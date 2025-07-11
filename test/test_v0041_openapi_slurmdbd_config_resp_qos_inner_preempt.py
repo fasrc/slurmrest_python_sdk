@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.v0041_openapi_slurmdbd_config_resp_qos_inner_preempt import V0041OpenapiSlurmdbdConfigRespQosInnerPreempt
+from slurmrest_python_0_0_41.models.v0041_openapi_slurmdbd_config_resp_qos_inner_preempt import V0041OpenapiSlurmdbdConfigRespQosInnerPreempt
 
 class TestV0041OpenapiSlurmdbdConfigRespQosInnerPreempt(unittest.TestCase):
     """V0041OpenapiSlurmdbdConfigRespQosInnerPreempt unit test stubs"""
@@ -36,7 +36,7 @@ class TestV0041OpenapiSlurmdbdConfigRespQosInnerPreempt(unittest.TestCase):
         model = V0041OpenapiSlurmdbdConfigRespQosInnerPreempt()
         if include_optional:
             return V0041OpenapiSlurmdbdConfigRespQosInnerPreempt(
-                exempt_time = openapi_client.models.v0_0_41_openapi_slurmdbd_config_resp_qos_inner_preempt_exempt_time.v0_0_41_openapi_slurmdbd_config_resp_qos_inner_preempt_exempt_time(
+                exempt_time = slurmrest_python_0_0_41.models.v0_0_41_openapi_slurmdbd_config_resp_qos_inner_preempt_exempt_time.v0_0_41_openapi_slurmdbd_config_resp_qos_inner_preempt_exempt_time(
                     infinite = True, 
                     number = 56, 
                     set = True, ),

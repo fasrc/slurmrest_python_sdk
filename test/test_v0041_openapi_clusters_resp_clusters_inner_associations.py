@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.v0041_openapi_clusters_resp_clusters_inner_associations import V0041OpenapiClustersRespClustersInnerAssociations
+from slurmrest_python_0_0_41.models.v0041_openapi_clusters_resp_clusters_inner_associations import V0041OpenapiClustersRespClustersInnerAssociations
 
 class TestV0041OpenapiClustersRespClustersInnerAssociations(unittest.TestCase):
     """V0041OpenapiClustersRespClustersInnerAssociations unit test stubs"""
@@ -36,7 +36,7 @@ class TestV0041OpenapiClustersRespClustersInnerAssociations(unittest.TestCase):
         model = V0041OpenapiClustersRespClustersInnerAssociations()
         if include_optional:
             return V0041OpenapiClustersRespClustersInnerAssociations(
-                root = openapi_client.models.v0_0_41_openapi_clusters_resp_clusters_inner_associations_root.v0_0_41_openapi_clusters_resp_clusters_inner_associations_root(
+                root = slurmrest_python_0_0_41.models.v0_0_41_openapi_clusters_resp_clusters_inner_associations_root.v0_0_41_openapi_clusters_resp_clusters_inner_associations_root(
                     account = '', 
                     cluster = '', 
                     id = 56, 

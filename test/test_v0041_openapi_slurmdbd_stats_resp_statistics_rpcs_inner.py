@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.v0041_openapi_slurmdbd_stats_resp_statistics_rpcs_inner import V0041OpenapiSlurmdbdStatsRespStatisticsRPCsInner
+from slurmrest_python_0_0_41.models.v0041_openapi_slurmdbd_stats_resp_statistics_rpcs_inner import V0041OpenapiSlurmdbdStatsRespStatisticsRPCsInner
 
 class TestV0041OpenapiSlurmdbdStatsRespStatisticsRPCsInner(unittest.TestCase):
     """V0041OpenapiSlurmdbdStatsRespStatisticsRPCsInner unit test stubs"""
@@ -38,7 +38,7 @@ class TestV0041OpenapiSlurmdbdStatsRespStatisticsRPCsInner(unittest.TestCase):
             return V0041OpenapiSlurmdbdStatsRespStatisticsRPCsInner(
                 count = 56,
                 rpc = '',
-                time = openapi_client.models.v0_0_41_openapi_slurmdbd_stats_resp_statistics_rpcs_inner_time.v0_0_41_openapi_slurmdbd_stats_resp_statistics_RPCs_inner_time(
+                time = slurmrest_python_0_0_41.models.v0_0_41_openapi_slurmdbd_stats_resp_statistics_rpcs_inner_time.v0_0_41_openapi_slurmdbd_stats_resp_statistics_RPCs_inner_time(
                     average = 56, 
                     total = 56, )
             )

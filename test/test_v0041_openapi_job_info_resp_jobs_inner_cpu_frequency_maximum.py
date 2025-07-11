@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.v0041_openapi_job_info_resp_jobs_inner_cpu_frequency_maximum import V0041OpenapiJobInfoRespJobsInnerCpuFrequencyMaximum
+from slurmrest_python_0_0_41.models.v0041_openapi_job_info_resp_jobs_inner_cpu_frequency_maximum import V0041OpenapiJobInfoRespJobsInnerCpuFrequencyMaximum
 
 class TestV0041OpenapiJobInfoRespJobsInnerCpuFrequencyMaximum(unittest.TestCase):
     """V0041OpenapiJobInfoRespJobsInnerCpuFrequencyMaximum unit test stubs"""

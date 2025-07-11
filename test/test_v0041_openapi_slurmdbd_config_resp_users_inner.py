@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.v0041_openapi_slurmdbd_config_resp_users_inner import V0041OpenapiSlurmdbdConfigRespUsersInner
+from slurmrest_python_0_0_41.models.v0041_openapi_slurmdbd_config_resp_users_inner import V0041OpenapiSlurmdbdConfigRespUsersInner
 
 class TestV0041OpenapiSlurmdbdConfigRespUsersInner(unittest.TestCase):
     """V0041OpenapiSlurmdbdConfigRespUsersInner unit test stubs"""
@@ -40,7 +40,7 @@ class TestV0041OpenapiSlurmdbdConfigRespUsersInner(unittest.TestCase):
                     'Not Set'
                     ],
                 associations = [
-                    openapi_client.models.v0_0_41_openapi_accounts_resp_accounts_inner_associations_inner.v0_0_41_openapi_accounts_resp_accounts_inner_associations_inner(
+                    slurmrest_python_0_0_41.models.v0_0_41_openapi_accounts_resp_accounts_inner_associations_inner.v0_0_41_openapi_accounts_resp_accounts_inner_associations_inner(
                         account = '', 
                         cluster = '', 
                         id = 56, 
@@ -48,11 +48,11 @@ class TestV0041OpenapiSlurmdbdConfigRespUsersInner(unittest.TestCase):
                         user = '', )
                     ],
                 coordinators = [
-                    openapi_client.models.v0_0_41_openapi_accounts_resp_accounts_inner_coordinators_inner.v0_0_41_openapi_accounts_resp_accounts_inner_coordinators_inner(
+                    slurmrest_python_0_0_41.models.v0_0_41_openapi_accounts_resp_accounts_inner_coordinators_inner.v0_0_41_openapi_accounts_resp_accounts_inner_coordinators_inner(
                         direct = True, 
                         name = '', )
                     ],
-                default = openapi_client.models.v0_0_41_openapi_slurmdbd_config_resp_users_inner_default.v0_0_41_openapi_slurmdbd_config_resp_users_inner_default(
+                default = slurmrest_python_0_0_41.models.v0_0_41_openapi_slurmdbd_config_resp_users_inner_default.v0_0_41_openapi_slurmdbd_config_resp_users_inner_default(
                     account = '', 
                     wckey = '', ),
                 flags = [
@@ -61,15 +61,15 @@ class TestV0041OpenapiSlurmdbdConfigRespUsersInner(unittest.TestCase):
                 name = '',
                 old_name = '',
                 wckeys = [
-                    openapi_client.models.v0_0_41_openapi_slurmdbd_config_resp_users_inner_wckeys_inner.v0_0_41_openapi_slurmdbd_config_resp_users_inner_wckeys_inner(
+                    slurmrest_python_0_0_41.models.v0_0_41_openapi_slurmdbd_config_resp_users_inner_wckeys_inner.v0_0_41_openapi_slurmdbd_config_resp_users_inner_wckeys_inner(
                         accounting = [
-                            openapi_client.models.v0_0_41_openapi_assocs_resp_associations_inner_accounting_inner.v0_0_41_openapi_assocs_resp_associations_inner_accounting_inner(
-                                tres = openapi_client.models.v0_0_41_openapi_assocs_resp_associations_inner_accounting_inner_tres.v0_0_41_openapi_assocs_resp_associations_inner_accounting_inner_TRES(
+                            slurmrest_python_0_0_41.models.v0_0_41_openapi_assocs_resp_associations_inner_accounting_inner.v0_0_41_openapi_assocs_resp_associations_inner_accounting_inner(
+                                tres = slurmrest_python_0_0_41.models.v0_0_41_openapi_assocs_resp_associations_inner_accounting_inner_tres.v0_0_41_openapi_assocs_resp_associations_inner_accounting_inner_TRES(
                                     count = 56, 
                                     id = 56, 
                                     name = '', 
                                     type = '', ), 
-                                allocated = openapi_client.models.v0_0_41_openapi_assocs_resp_associations_inner_accounting_inner_allocated.v0_0_41_openapi_assocs_resp_associations_inner_accounting_inner_allocated(
+                                allocated = slurmrest_python_0_0_41.models.v0_0_41_openapi_assocs_resp_associations_inner_accounting_inner_allocated.v0_0_41_openapi_assocs_resp_associations_inner_accounting_inner_allocated(
                                     seconds = 56, ), 
                                 id = 56, 
                                 start = 56, )

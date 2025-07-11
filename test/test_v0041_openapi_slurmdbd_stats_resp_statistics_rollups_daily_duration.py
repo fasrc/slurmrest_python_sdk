@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.v0041_openapi_slurmdbd_stats_resp_statistics_rollups_daily_duration import V0041OpenapiSlurmdbdStatsRespStatisticsRollupsDailyDuration
+from slurmrest_python_0_0_41.models.v0041_openapi_slurmdbd_stats_resp_statistics_rollups_daily_duration import V0041OpenapiSlurmdbdStatsRespStatisticsRollupsDailyDuration
 
 class TestV0041OpenapiSlurmdbdStatsRespStatisticsRollupsDailyDuration(unittest.TestCase):
     """V0041OpenapiSlurmdbdStatsRespStatisticsRollupsDailyDuration unit test stubs"""

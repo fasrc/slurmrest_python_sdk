@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.v0041_openapi_assocs_resp_associations_inner_max_tres_minutes import V0041OpenapiAssocsRespAssociationsInnerMaxTresMinutes
+from slurmrest_python_0_0_41.models.v0041_openapi_assocs_resp_associations_inner_max_tres_minutes import V0041OpenapiAssocsRespAssociationsInnerMaxTresMinutes
 
 class TestV0041OpenapiAssocsRespAssociationsInnerMaxTresMinutes(unittest.TestCase):
     """V0041OpenapiAssocsRespAssociationsInnerMaxTresMinutes unit test stubs"""
@@ -36,16 +36,16 @@ class TestV0041OpenapiAssocsRespAssociationsInnerMaxTresMinutes(unittest.TestCas
         model = V0041OpenapiAssocsRespAssociationsInnerMaxTresMinutes()
         if include_optional:
             return V0041OpenapiAssocsRespAssociationsInnerMaxTresMinutes(
-                per = openapi_client.models.v0_0_41_openapi_assocs_resp_associations_inner_max_tres_minutes_per.v0_0_41_openapi_assocs_resp_associations_inner_max_tres_minutes_per(
+                per = slurmrest_python_0_0_41.models.v0_0_41_openapi_assocs_resp_associations_inner_max_tres_minutes_per.v0_0_41_openapi_assocs_resp_associations_inner_max_tres_minutes_per(
                     job = [
-                        openapi_client.models.v0_0_41_openapi_accounts_add_cond_resp_association_condition_association_grptres_inner.v0_0_41_openapi_accounts_add_cond_resp_association_condition_association_grptres_inner(
+                        slurmrest_python_0_0_41.models.v0_0_41_openapi_accounts_add_cond_resp_association_condition_association_grptres_inner.v0_0_41_openapi_accounts_add_cond_resp_association_condition_association_grptres_inner(
                             count = 56, 
                             id = 56, 
                             name = '', 
                             type = '', )
                         ], ),
                 total = [
-                    openapi_client.models.v0_0_41_openapi_accounts_add_cond_resp_association_condition_association_grptres_inner.v0_0_41_openapi_accounts_add_cond_resp_association_condition_association_grptres_inner(
+                    slurmrest_python_0_0_41.models.v0_0_41_openapi_accounts_add_cond_resp_association_condition_association_grptres_inner.v0_0_41_openapi_accounts_add_cond_resp_association_condition_association_grptres_inner(
                         count = 56, 
                         id = 56, 
                         name = '', 

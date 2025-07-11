@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.v0041_openapi_slurmdbd_config_resp_qos_inner_limits_max_wall_clock import V0041OpenapiSlurmdbdConfigRespQosInnerLimitsMaxWallClock
+from slurmrest_python_0_0_41.models.v0041_openapi_slurmdbd_config_resp_qos_inner_limits_max_wall_clock import V0041OpenapiSlurmdbdConfigRespQosInnerLimitsMaxWallClock
 
 class TestV0041OpenapiSlurmdbdConfigRespQosInnerLimitsMaxWallClock(unittest.TestCase):
     """V0041OpenapiSlurmdbdConfigRespQosInnerLimitsMaxWallClock unit test stubs"""
@@ -36,12 +36,12 @@ class TestV0041OpenapiSlurmdbdConfigRespQosInnerLimitsMaxWallClock(unittest.Test
         model = V0041OpenapiSlurmdbdConfigRespQosInnerLimitsMaxWallClock()
         if include_optional:
             return V0041OpenapiSlurmdbdConfigRespQosInnerLimitsMaxWallClock(
-                per = openapi_client.models.v0_0_41_openapi_slurmdbd_config_resp_qos_inner_limits_max_wall_clock_per.v0_0_41_openapi_slurmdbd_config_resp_qos_inner_limits_max_wall_clock_per(
-                    job = openapi_client.models.v0_0_41_openapi_assocs_resp_associations_inner_max_jobs_per_wall_clock.v0_0_41_openapi_assocs_resp_associations_inner_max_jobs_per_wall_clock(
+                per = slurmrest_python_0_0_41.models.v0_0_41_openapi_slurmdbd_config_resp_qos_inner_limits_max_wall_clock_per.v0_0_41_openapi_slurmdbd_config_resp_qos_inner_limits_max_wall_clock_per(
+                    job = slurmrest_python_0_0_41.models.v0_0_41_openapi_assocs_resp_associations_inner_max_jobs_per_wall_clock.v0_0_41_openapi_assocs_resp_associations_inner_max_jobs_per_wall_clock(
                         infinite = True, 
                         number = 56, 
                         set = True, ), 
-                    qos = openapi_client.models.v0_0_41_openapi_assocs_resp_associations_inner_max_per_account_wall_clock.v0_0_41_openapi_assocs_resp_associations_inner_max_per_account_wall_clock(
+                    qos = slurmrest_python_0_0_41.models.v0_0_41_openapi_assocs_resp_associations_inner_max_per_account_wall_clock.v0_0_41_openapi_assocs_resp_associations_inner_max_per_account_wall_clock(
                         infinite = True, 
                         number = 56, 
                         set = True, ), )

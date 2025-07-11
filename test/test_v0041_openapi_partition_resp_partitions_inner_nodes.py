@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.v0041_openapi_partition_resp_partitions_inner_nodes import V0041OpenapiPartitionRespPartitionsInnerNodes
+from slurmrest_python_0_0_41.models.v0041_openapi_partition_resp_partitions_inner_nodes import V0041OpenapiPartitionRespPartitionsInnerNodes
 
 class TestV0041OpenapiPartitionRespPartitionsInnerNodes(unittest.TestCase):
     """V0041OpenapiPartitionRespPartitionsInnerNodes unit test stubs"""

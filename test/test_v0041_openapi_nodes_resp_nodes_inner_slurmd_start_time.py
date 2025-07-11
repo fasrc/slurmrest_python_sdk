@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.v0041_openapi_nodes_resp_nodes_inner_slurmd_start_time import V0041OpenapiNodesRespNodesInnerSlurmdStartTime
+from slurmrest_python_0_0_41.models.v0041_openapi_nodes_resp_nodes_inner_slurmd_start_time import V0041OpenapiNodesRespNodesInnerSlurmdStartTime
 
 class TestV0041OpenapiNodesRespNodesInnerSlurmdStartTime(unittest.TestCase):
     """V0041OpenapiNodesRespNodesInnerSlurmdStartTime unit test stubs"""

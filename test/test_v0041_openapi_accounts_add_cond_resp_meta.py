@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.v0041_openapi_accounts_add_cond_resp_meta import V0041OpenapiAccountsAddCondRespMeta
+from slurmrest_python_0_0_41.models.v0041_openapi_accounts_add_cond_resp_meta import V0041OpenapiAccountsAddCondRespMeta
 
 class TestV0041OpenapiAccountsAddCondRespMeta(unittest.TestCase):
     """V0041OpenapiAccountsAddCondRespMeta unit test stubs"""
@@ -36,22 +36,22 @@ class TestV0041OpenapiAccountsAddCondRespMeta(unittest.TestCase):
         model = V0041OpenapiAccountsAddCondRespMeta()
         if include_optional:
             return V0041OpenapiAccountsAddCondRespMeta(
-                client = openapi_client.models.v0_0_41_openapi_accounts_add_cond_resp_meta_client.v0_0_41_openapi_accounts_add_cond_resp_meta_client(
+                client = slurmrest_python_0_0_41.models.v0_0_41_openapi_accounts_add_cond_resp_meta_client.v0_0_41_openapi_accounts_add_cond_resp_meta_client(
                     group = '', 
                     source = '', 
                     user = '', ),
                 command = [
                     ''
                     ],
-                plugin = openapi_client.models.v0_0_41_openapi_accounts_add_cond_resp_meta_plugin.v0_0_41_openapi_accounts_add_cond_resp_meta_plugin(
+                plugin = slurmrest_python_0_0_41.models.v0_0_41_openapi_accounts_add_cond_resp_meta_plugin.v0_0_41_openapi_accounts_add_cond_resp_meta_plugin(
                     accounting_storage = '', 
                     data_parser = '', 
                     name = '', 
                     type = '', ),
-                slurm = openapi_client.models.v0_0_41_openapi_accounts_add_cond_resp_meta_slurm.v0_0_41_openapi_accounts_add_cond_resp_meta_slurm(
+                slurm = slurmrest_python_0_0_41.models.v0_0_41_openapi_accounts_add_cond_resp_meta_slurm.v0_0_41_openapi_accounts_add_cond_resp_meta_slurm(
                     cluster = '', 
                     release = '', 
-                    version = openapi_client.models.v0_0_41_openapi_accounts_add_cond_resp_meta_slurm_version.v0_0_41_openapi_accounts_add_cond_resp_meta_slurm_version(
+                    version = slurmrest_python_0_0_41.models.v0_0_41_openapi_accounts_add_cond_resp_meta_slurm_version.v0_0_41_openapi_accounts_add_cond_resp_meta_slurm_version(
                         major = '', 
                         micro = '', 
                         minor = '', ), )

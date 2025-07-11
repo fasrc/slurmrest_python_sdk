@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.v0041_job_desc_msg_time_minimum import V0041JobDescMsgTimeMinimum
+from slurmrest_python_0_0_41.models.v0041_job_desc_msg_time_minimum import V0041JobDescMsgTimeMinimum
 
 class TestV0041JobDescMsgTimeMinimum(unittest.TestCase):
     """V0041JobDescMsgTimeMinimum unit test stubs"""

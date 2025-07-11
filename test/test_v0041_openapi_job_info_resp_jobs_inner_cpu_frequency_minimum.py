@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.v0041_openapi_job_info_resp_jobs_inner_cpu_frequency_minimum import V0041OpenapiJobInfoRespJobsInnerCpuFrequencyMinimum
+from slurmrest_python_0_0_41.models.v0041_openapi_job_info_resp_jobs_inner_cpu_frequency_minimum import V0041OpenapiJobInfoRespJobsInnerCpuFrequencyMinimum
 
 class TestV0041OpenapiJobInfoRespJobsInnerCpuFrequencyMinimum(unittest.TestCase):
     """V0041OpenapiJobInfoRespJobsInnerCpuFrequencyMinimum unit test stubs"""

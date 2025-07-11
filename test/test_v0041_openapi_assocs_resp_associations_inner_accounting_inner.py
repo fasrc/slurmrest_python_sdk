@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.v0041_openapi_assocs_resp_associations_inner_accounting_inner import V0041OpenapiAssocsRespAssociationsInnerAccountingInner
+from slurmrest_python_0_0_41.models.v0041_openapi_assocs_resp_associations_inner_accounting_inner import V0041OpenapiAssocsRespAssociationsInnerAccountingInner
 
 class TestV0041OpenapiAssocsRespAssociationsInnerAccountingInner(unittest.TestCase):
     """V0041OpenapiAssocsRespAssociationsInnerAccountingInner unit test stubs"""
@@ -36,12 +36,12 @@ class TestV0041OpenapiAssocsRespAssociationsInnerAccountingInner(unittest.TestCa
         model = V0041OpenapiAssocsRespAssociationsInnerAccountingInner()
         if include_optional:
             return V0041OpenapiAssocsRespAssociationsInnerAccountingInner(
-                tres = openapi_client.models.v0_0_41_openapi_assocs_resp_associations_inner_accounting_inner_tres.v0_0_41_openapi_assocs_resp_associations_inner_accounting_inner_TRES(
+                tres = slurmrest_python_0_0_41.models.v0_0_41_openapi_assocs_resp_associations_inner_accounting_inner_tres.v0_0_41_openapi_assocs_resp_associations_inner_accounting_inner_TRES(
                     count = 56, 
                     id = 56, 
                     name = '', 
                     type = '', ),
-                allocated = openapi_client.models.v0_0_41_openapi_assocs_resp_associations_inner_accounting_inner_allocated.v0_0_41_openapi_assocs_resp_associations_inner_accounting_inner_allocated(
+                allocated = slurmrest_python_0_0_41.models.v0_0_41_openapi_assocs_resp_associations_inner_accounting_inner_allocated.v0_0_41_openapi_assocs_resp_associations_inner_accounting_inner_allocated(
                     seconds = 56, ),
                 id = 56,
                 start = 56

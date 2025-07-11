@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.v0041_openapi_job_info_resp_jobs_inner_delay_boot import V0041OpenapiJobInfoRespJobsInnerDelayBoot
+from slurmrest_python_0_0_41.models.v0041_openapi_job_info_resp_jobs_inner_delay_boot import V0041OpenapiJobInfoRespJobsInnerDelayBoot
 
 class TestV0041OpenapiJobInfoRespJobsInnerDelayBoot(unittest.TestCase):
     """V0041OpenapiJobInfoRespJobsInnerDelayBoot unit test stubs"""

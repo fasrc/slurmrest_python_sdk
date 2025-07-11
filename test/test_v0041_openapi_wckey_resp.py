@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.v0041_openapi_wckey_resp import V0041OpenapiWckeyResp
+from slurmrest_python_0_0_41.models.v0041_openapi_wckey_resp import V0041OpenapiWckeyResp
 
 class TestV0041OpenapiWckeyResp(unittest.TestCase):
     """V0041OpenapiWckeyResp unit test stubs"""
@@ -37,47 +37,47 @@ class TestV0041OpenapiWckeyResp(unittest.TestCase):
         if include_optional:
             return V0041OpenapiWckeyResp(
                 errors = [
-                    openapi_client.models.v0_0_41_openapi_accounts_add_cond_resp_errors_inner.v0_0_41_openapi_accounts_add_cond_resp_errors_inner(
+                    slurmrest_python_0_0_41.models.v0_0_41_openapi_accounts_add_cond_resp_errors_inner.v0_0_41_openapi_accounts_add_cond_resp_errors_inner(
                         description = '', 
                         error = '', 
                         error_number = 56, 
                         source = '', )
                     ],
-                meta = openapi_client.models.v0_0_41_openapi_accounts_add_cond_resp_meta.v0_0_41_openapi_accounts_add_cond_resp_meta(
-                    client = openapi_client.models.v0_0_41_openapi_accounts_add_cond_resp_meta_client.v0_0_41_openapi_accounts_add_cond_resp_meta_client(
+                meta = slurmrest_python_0_0_41.models.v0_0_41_openapi_accounts_add_cond_resp_meta.v0_0_41_openapi_accounts_add_cond_resp_meta(
+                    client = slurmrest_python_0_0_41.models.v0_0_41_openapi_accounts_add_cond_resp_meta_client.v0_0_41_openapi_accounts_add_cond_resp_meta_client(
                         group = '', 
                         source = '', 
                         user = '', ), 
                     command = [
                         ''
                         ], 
-                    plugin = openapi_client.models.v0_0_41_openapi_accounts_add_cond_resp_meta_plugin.v0_0_41_openapi_accounts_add_cond_resp_meta_plugin(
+                    plugin = slurmrest_python_0_0_41.models.v0_0_41_openapi_accounts_add_cond_resp_meta_plugin.v0_0_41_openapi_accounts_add_cond_resp_meta_plugin(
                         accounting_storage = '', 
                         data_parser = '', 
                         name = '', 
                         type = '', ), 
-                    slurm = openapi_client.models.v0_0_41_openapi_accounts_add_cond_resp_meta_slurm.v0_0_41_openapi_accounts_add_cond_resp_meta_slurm(
+                    slurm = slurmrest_python_0_0_41.models.v0_0_41_openapi_accounts_add_cond_resp_meta_slurm.v0_0_41_openapi_accounts_add_cond_resp_meta_slurm(
                         cluster = '', 
                         release = '', 
-                        version = openapi_client.models.v0_0_41_openapi_accounts_add_cond_resp_meta_slurm_version.v0_0_41_openapi_accounts_add_cond_resp_meta_slurm_version(
+                        version = slurmrest_python_0_0_41.models.v0_0_41_openapi_accounts_add_cond_resp_meta_slurm_version.v0_0_41_openapi_accounts_add_cond_resp_meta_slurm_version(
                             major = '', 
                             micro = '', 
                             minor = '', ), ), ),
                 warnings = [
-                    openapi_client.models.v0_0_41_openapi_accounts_add_cond_resp_warnings_inner.v0_0_41_openapi_accounts_add_cond_resp_warnings_inner(
+                    slurmrest_python_0_0_41.models.v0_0_41_openapi_accounts_add_cond_resp_warnings_inner.v0_0_41_openapi_accounts_add_cond_resp_warnings_inner(
                         description = '', 
                         source = '', )
                     ],
                 wckeys = [
-                    openapi_client.models.v0_0_41_openapi_slurmdbd_config_resp_users_inner_wckeys_inner.v0_0_41_openapi_slurmdbd_config_resp_users_inner_wckeys_inner(
+                    slurmrest_python_0_0_41.models.v0_0_41_openapi_slurmdbd_config_resp_users_inner_wckeys_inner.v0_0_41_openapi_slurmdbd_config_resp_users_inner_wckeys_inner(
                         accounting = [
-                            openapi_client.models.v0_0_41_openapi_assocs_resp_associations_inner_accounting_inner.v0_0_41_openapi_assocs_resp_associations_inner_accounting_inner(
-                                tres = openapi_client.models.v0_0_41_openapi_assocs_resp_associations_inner_accounting_inner_tres.v0_0_41_openapi_assocs_resp_associations_inner_accounting_inner_TRES(
+                            slurmrest_python_0_0_41.models.v0_0_41_openapi_assocs_resp_associations_inner_accounting_inner.v0_0_41_openapi_assocs_resp_associations_inner_accounting_inner(
+                                tres = slurmrest_python_0_0_41.models.v0_0_41_openapi_assocs_resp_associations_inner_accounting_inner_tres.v0_0_41_openapi_assocs_resp_associations_inner_accounting_inner_TRES(
                                     count = 56, 
                                     id = 56, 
                                     name = '', 
                                     type = '', ), 
-                                allocated = openapi_client.models.v0_0_41_openapi_assocs_resp_associations_inner_accounting_inner_allocated.v0_0_41_openapi_assocs_resp_associations_inner_accounting_inner_allocated(
+                                allocated = slurmrest_python_0_0_41.models.v0_0_41_openapi_assocs_resp_associations_inner_accounting_inner_allocated.v0_0_41_openapi_assocs_resp_associations_inner_accounting_inner_allocated(
                                     seconds = 56, ), 
                                 id = 56, 
                                 start = 56, )
@@ -94,15 +94,15 @@ class TestV0041OpenapiWckeyResp(unittest.TestCase):
         else:
             return V0041OpenapiWckeyResp(
                 wckeys = [
-                    openapi_client.models.v0_0_41_openapi_slurmdbd_config_resp_users_inner_wckeys_inner.v0_0_41_openapi_slurmdbd_config_resp_users_inner_wckeys_inner(
+                    slurmrest_python_0_0_41.models.v0_0_41_openapi_slurmdbd_config_resp_users_inner_wckeys_inner.v0_0_41_openapi_slurmdbd_config_resp_users_inner_wckeys_inner(
                         accounting = [
-                            openapi_client.models.v0_0_41_openapi_assocs_resp_associations_inner_accounting_inner.v0_0_41_openapi_assocs_resp_associations_inner_accounting_inner(
-                                tres = openapi_client.models.v0_0_41_openapi_assocs_resp_associations_inner_accounting_inner_tres.v0_0_41_openapi_assocs_resp_associations_inner_accounting_inner_TRES(
+                            slurmrest_python_0_0_41.models.v0_0_41_openapi_assocs_resp_associations_inner_accounting_inner.v0_0_41_openapi_assocs_resp_associations_inner_accounting_inner(
+                                tres = slurmrest_python_0_0_41.models.v0_0_41_openapi_assocs_resp_associations_inner_accounting_inner_tres.v0_0_41_openapi_assocs_resp_associations_inner_accounting_inner_TRES(
                                     count = 56, 
                                     id = 56, 
                                     name = '', 
                                     type = '', ), 
-                                allocated = openapi_client.models.v0_0_41_openapi_assocs_resp_associations_inner_accounting_inner_allocated.v0_0_41_openapi_assocs_resp_associations_inner_accounting_inner_allocated(
+                                allocated = slurmrest_python_0_0_41.models.v0_0_41_openapi_assocs_resp_associations_inner_accounting_inner_allocated.v0_0_41_openapi_assocs_resp_associations_inner_accounting_inner_allocated(
                                     seconds = 56, ), 
                                 id = 56, 
                                 start = 56, )

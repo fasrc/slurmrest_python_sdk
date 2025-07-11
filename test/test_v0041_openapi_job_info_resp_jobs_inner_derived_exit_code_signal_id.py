@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.v0041_openapi_job_info_resp_jobs_inner_derived_exit_code_signal_id import V0041OpenapiJobInfoRespJobsInnerDerivedExitCodeSignalId
+from slurmrest_python_0_0_41.models.v0041_openapi_job_info_resp_jobs_inner_derived_exit_code_signal_id import V0041OpenapiJobInfoRespJobsInnerDerivedExitCodeSignalId
 
 class TestV0041OpenapiJobInfoRespJobsInnerDerivedExitCodeSignalId(unittest.TestCase):
     """V0041OpenapiJobInfoRespJobsInnerDerivedExitCodeSignalId unit test stubs"""

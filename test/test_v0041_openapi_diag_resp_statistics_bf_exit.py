@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.v0041_openapi_diag_resp_statistics_bf_exit import V0041OpenapiDiagRespStatisticsBfExit
+from slurmrest_python_0_0_41.models.v0041_openapi_diag_resp_statistics_bf_exit import V0041OpenapiDiagRespStatisticsBfExit
 
 class TestV0041OpenapiDiagRespStatisticsBfExit(unittest.TestCase):
     """V0041OpenapiDiagRespStatisticsBfExit unit test stubs"""

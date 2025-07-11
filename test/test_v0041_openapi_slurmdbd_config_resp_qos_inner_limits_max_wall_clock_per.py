@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.v0041_openapi_slurmdbd_config_resp_qos_inner_limits_max_wall_clock_per import V0041OpenapiSlurmdbdConfigRespQosInnerLimitsMaxWallClockPer
+from slurmrest_python_0_0_41.models.v0041_openapi_slurmdbd_config_resp_qos_inner_limits_max_wall_clock_per import V0041OpenapiSlurmdbdConfigRespQosInnerLimitsMaxWallClockPer
 
 class TestV0041OpenapiSlurmdbdConfigRespQosInnerLimitsMaxWallClockPer(unittest.TestCase):
     """V0041OpenapiSlurmdbdConfigRespQosInnerLimitsMaxWallClockPer unit test stubs"""
@@ -36,11 +36,11 @@ class TestV0041OpenapiSlurmdbdConfigRespQosInnerLimitsMaxWallClockPer(unittest.T
         model = V0041OpenapiSlurmdbdConfigRespQosInnerLimitsMaxWallClockPer()
         if include_optional:
             return V0041OpenapiSlurmdbdConfigRespQosInnerLimitsMaxWallClockPer(
-                job = openapi_client.models.v0_0_41_openapi_assocs_resp_associations_inner_max_jobs_per_wall_clock.v0_0_41_openapi_assocs_resp_associations_inner_max_jobs_per_wall_clock(
+                job = slurmrest_python_0_0_41.models.v0_0_41_openapi_assocs_resp_associations_inner_max_jobs_per_wall_clock.v0_0_41_openapi_assocs_resp_associations_inner_max_jobs_per_wall_clock(
                     infinite = True, 
                     number = 56, 
                     set = True, ),
-                qos = openapi_client.models.v0_0_41_openapi_assocs_resp_associations_inner_max_per_account_wall_clock.v0_0_41_openapi_assocs_resp_associations_inner_max_per_account_wall_clock(
+                qos = slurmrest_python_0_0_41.models.v0_0_41_openapi_assocs_resp_associations_inner_max_per_account_wall_clock.v0_0_41_openapi_assocs_resp_associations_inner_max_per_account_wall_clock(
                     infinite = True, 
                     number = 56, 
                     set = True, )

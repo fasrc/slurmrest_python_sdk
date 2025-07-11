@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.v0041_openapi_slurmdbd_jobs_resp_jobs_inner_steps_inner_cpu_requested_frequency import V0041OpenapiSlurmdbdJobsRespJobsInnerStepsInnerCPURequestedFrequency
+from slurmrest_python_0_0_41.models.v0041_openapi_slurmdbd_jobs_resp_jobs_inner_steps_inner_cpu_requested_frequency import V0041OpenapiSlurmdbdJobsRespJobsInnerStepsInnerCPURequestedFrequency
 
 class TestV0041OpenapiSlurmdbdJobsRespJobsInnerStepsInnerCPURequestedFrequency(unittest.TestCase):
     """V0041OpenapiSlurmdbdJobsRespJobsInnerStepsInnerCPURequestedFrequency unit test stubs"""
@@ -36,11 +36,11 @@ class TestV0041OpenapiSlurmdbdJobsRespJobsInnerStepsInnerCPURequestedFrequency(u
         model = V0041OpenapiSlurmdbdJobsRespJobsInnerStepsInnerCPURequestedFrequency()
         if include_optional:
             return V0041OpenapiSlurmdbdJobsRespJobsInnerStepsInnerCPURequestedFrequency(
-                max = openapi_client.models.v0_0_41_openapi_slurmdbd_jobs_resp_jobs_inner_steps_inner_cpu_requested_frequency_max.v0_0_41_openapi_slurmdbd_jobs_resp_jobs_inner_steps_inner_CPU_requested_frequency_max(
+                max = slurmrest_python_0_0_41.models.v0_0_41_openapi_slurmdbd_jobs_resp_jobs_inner_steps_inner_cpu_requested_frequency_max.v0_0_41_openapi_slurmdbd_jobs_resp_jobs_inner_steps_inner_CPU_requested_frequency_max(
                     infinite = True, 
                     number = 56, 
                     set = True, ),
-                min = openapi_client.models.v0_0_41_openapi_slurmdbd_jobs_resp_jobs_inner_steps_inner_cpu_requested_frequency_min.v0_0_41_openapi_slurmdbd_jobs_resp_jobs_inner_steps_inner_CPU_requested_frequency_min(
+                min = slurmrest_python_0_0_41.models.v0_0_41_openapi_slurmdbd_jobs_resp_jobs_inner_steps_inner_cpu_requested_frequency_min.v0_0_41_openapi_slurmdbd_jobs_resp_jobs_inner_steps_inner_CPU_requested_frequency_min(
                     infinite = True, 
                     number = 56, 
                     set = True, )

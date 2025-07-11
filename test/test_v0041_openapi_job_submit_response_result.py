@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.v0041_openapi_job_submit_response_result import V0041OpenapiJobSubmitResponseResult
+from slurmrest_python_0_0_41.models.v0041_openapi_job_submit_response_result import V0041OpenapiJobSubmitResponseResult
 
 class TestV0041OpenapiJobSubmitResponseResult(unittest.TestCase):
     """V0041OpenapiJobSubmitResponseResult unit test stubs"""

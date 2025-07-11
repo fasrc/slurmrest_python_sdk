@@ -1,7 +1,6 @@
 # gen.yaml ----------------------------------------------------------
 generatorName: python
 inputSpec:    v0_0_41.json
-# outputDir:    slurmrest_python_0_0_41
 
 # Git metadata ------------------------------------------------------
 gitHost:   github.com

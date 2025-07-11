@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.v0041_openapi_slurmdbd_config_resp_qos_inner_limits_factor import V0041OpenapiSlurmdbdConfigRespQosInnerLimitsFactor
+from slurmrest_python_0_0_41.models.v0041_openapi_slurmdbd_config_resp_qos_inner_limits_factor import V0041OpenapiSlurmdbdConfigRespQosInnerLimitsFactor
 
 class TestV0041OpenapiSlurmdbdConfigRespQosInnerLimitsFactor(unittest.TestCase):
     """V0041OpenapiSlurmdbdConfigRespQosInnerLimitsFactor unit test stubs"""

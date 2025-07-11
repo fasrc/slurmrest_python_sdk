@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.v0041_openapi_accounts_resp_accounts_inner import V0041OpenapiAccountsRespAccountsInner
+from slurmrest_python_0_0_41.models.v0041_openapi_accounts_resp_accounts_inner import V0041OpenapiAccountsRespAccountsInner
 
 class TestV0041OpenapiAccountsRespAccountsInner(unittest.TestCase):
     """V0041OpenapiAccountsRespAccountsInner unit test stubs"""
@@ -37,7 +37,7 @@ class TestV0041OpenapiAccountsRespAccountsInner(unittest.TestCase):
         if include_optional:
             return V0041OpenapiAccountsRespAccountsInner(
                 associations = [
-                    openapi_client.models.v0_0_41_openapi_accounts_resp_accounts_inner_associations_inner.v0_0_41_openapi_accounts_resp_accounts_inner_associations_inner(
+                    slurmrest_python_0_0_41.models.v0_0_41_openapi_accounts_resp_accounts_inner_associations_inner.v0_0_41_openapi_accounts_resp_accounts_inner_associations_inner(
                         account = '', 
                         cluster = '', 
                         id = 56, 
@@ -45,7 +45,7 @@ class TestV0041OpenapiAccountsRespAccountsInner(unittest.TestCase):
                         user = '', )
                     ],
                 coordinators = [
-                    openapi_client.models.v0_0_41_openapi_accounts_resp_accounts_inner_coordinators_inner.v0_0_41_openapi_accounts_resp_accounts_inner_coordinators_inner(
+                    slurmrest_python_0_0_41.models.v0_0_41_openapi_accounts_resp_accounts_inner_coordinators_inner.v0_0_41_openapi_accounts_resp_accounts_inner_coordinators_inner(
                         direct = True, 
                         name = '', )
                     ],

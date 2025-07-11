@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.v0041_openapi_job_info_resp_last_update import V0041OpenapiJobInfoRespLastUpdate
+from slurmrest_python_0_0_41.models.v0041_openapi_job_info_resp_last_update import V0041OpenapiJobInfoRespLastUpdate
 
 class TestV0041OpenapiJobInfoRespLastUpdate(unittest.TestCase):
     """V0041OpenapiJobInfoRespLastUpdate unit test stubs"""

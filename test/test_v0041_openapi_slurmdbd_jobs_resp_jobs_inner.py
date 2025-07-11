@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.v0041_openapi_slurmdbd_jobs_resp_jobs_inner import V0041OpenapiSlurmdbdJobsRespJobsInner
+from slurmrest_python_0_0_41.models.v0041_openapi_slurmdbd_jobs_resp_jobs_inner import V0041OpenapiSlurmdbdJobsRespJobsInner
 
 class TestV0041OpenapiSlurmdbdJobsRespJobsInner(unittest.TestCase):
     """V0041OpenapiSlurmdbdJobsRespJobsInner unit test stubs"""
@@ -38,18 +38,18 @@ class TestV0041OpenapiSlurmdbdJobsRespJobsInner(unittest.TestCase):
             return V0041OpenapiSlurmdbdJobsRespJobsInner(
                 account = '',
                 allocation_nodes = 56,
-                array = openapi_client.models.v0_0_41_openapi_slurmdbd_jobs_resp_jobs_inner_array.v0_0_41_openapi_slurmdbd_jobs_resp_jobs_inner_array(
+                array = slurmrest_python_0_0_41.models.v0_0_41_openapi_slurmdbd_jobs_resp_jobs_inner_array.v0_0_41_openapi_slurmdbd_jobs_resp_jobs_inner_array(
                     job_id = 56, 
-                    limits = openapi_client.models.v0_0_41_openapi_slurmdbd_jobs_resp_jobs_inner_array_limits.v0_0_41_openapi_slurmdbd_jobs_resp_jobs_inner_array_limits(
-                        max = openapi_client.models.v0_0_41_openapi_slurmdbd_jobs_resp_jobs_inner_array_limits_max.v0_0_41_openapi_slurmdbd_jobs_resp_jobs_inner_array_limits_max(
-                            running = openapi_client.models.v0_0_41_openapi_slurmdbd_jobs_resp_jobs_inner_array_limits_max_running.v0_0_41_openapi_slurmdbd_jobs_resp_jobs_inner_array_limits_max_running(
+                    limits = slurmrest_python_0_0_41.models.v0_0_41_openapi_slurmdbd_jobs_resp_jobs_inner_array_limits.v0_0_41_openapi_slurmdbd_jobs_resp_jobs_inner_array_limits(
+                        max = slurmrest_python_0_0_41.models.v0_0_41_openapi_slurmdbd_jobs_resp_jobs_inner_array_limits_max.v0_0_41_openapi_slurmdbd_jobs_resp_jobs_inner_array_limits_max(
+                            running = slurmrest_python_0_0_41.models.v0_0_41_openapi_slurmdbd_jobs_resp_jobs_inner_array_limits_max_running.v0_0_41_openapi_slurmdbd_jobs_resp_jobs_inner_array_limits_max_running(
                                 tasks = 56, ), ), ), 
                     task = '', 
-                    task_id = openapi_client.models.v0_0_41_openapi_job_info_resp_jobs_inner_array_task_id.v0_0_41_openapi_job_info_resp_jobs_inner_array_task_id(
+                    task_id = slurmrest_python_0_0_41.models.v0_0_41_openapi_job_info_resp_jobs_inner_array_task_id.v0_0_41_openapi_job_info_resp_jobs_inner_array_task_id(
                         infinite = True, 
                         number = 56, 
                         set = True, ), ),
-                association = openapi_client.models.v0_0_41_openapi_slurmdbd_jobs_resp_jobs_inner_association.v0_0_41_openapi_slurmdbd_jobs_resp_jobs_inner_association(
+                association = slurmrest_python_0_0_41.models.v0_0_41_openapi_slurmdbd_jobs_resp_jobs_inner_association.v0_0_41_openapi_slurmdbd_jobs_resp_jobs_inner_association(
                     account = '', 
                     cluster = '', 
                     id = 56, 
@@ -57,19 +57,19 @@ class TestV0041OpenapiSlurmdbdJobsRespJobsInner(unittest.TestCase):
                     user = '', ),
                 block = '',
                 cluster = '',
-                comment = openapi_client.models.v0_0_41_openapi_slurmdbd_jobs_resp_jobs_inner_comment.v0_0_41_openapi_slurmdbd_jobs_resp_jobs_inner_comment(
+                comment = slurmrest_python_0_0_41.models.v0_0_41_openapi_slurmdbd_jobs_resp_jobs_inner_comment.v0_0_41_openapi_slurmdbd_jobs_resp_jobs_inner_comment(
                     administrator = '', 
                     job = '', 
                     system = '', ),
                 constraints = '',
                 container = '',
-                derived_exit_code = openapi_client.models.v0_0_41_openapi_job_info_resp_jobs_inner_derived_exit_code.v0_0_41_openapi_job_info_resp_jobs_inner_derived_exit_code(
-                    return_code = openapi_client.models.v0_0_41_openapi_job_info_resp_jobs_inner_derived_exit_code_return_code.v0_0_41_openapi_job_info_resp_jobs_inner_derived_exit_code_return_code(
+                derived_exit_code = slurmrest_python_0_0_41.models.v0_0_41_openapi_job_info_resp_jobs_inner_derived_exit_code.v0_0_41_openapi_job_info_resp_jobs_inner_derived_exit_code(
+                    return_code = slurmrest_python_0_0_41.models.v0_0_41_openapi_job_info_resp_jobs_inner_derived_exit_code_return_code.v0_0_41_openapi_job_info_resp_jobs_inner_derived_exit_code_return_code(
                         infinite = True, 
                         number = 56, 
                         set = True, ), 
-                    signal = openapi_client.models.v0_0_41_openapi_job_info_resp_jobs_inner_derived_exit_code_signal.v0_0_41_openapi_job_info_resp_jobs_inner_derived_exit_code_signal(
-                        id = openapi_client.models.v0_0_41_openapi_job_info_resp_jobs_inner_derived_exit_code_signal_id.v0_0_41_openapi_job_info_resp_jobs_inner_derived_exit_code_signal_id(
+                    signal = slurmrest_python_0_0_41.models.v0_0_41_openapi_job_info_resp_jobs_inner_derived_exit_code_signal.v0_0_41_openapi_job_info_resp_jobs_inner_derived_exit_code_signal(
+                        id = slurmrest_python_0_0_41.models.v0_0_41_openapi_job_info_resp_jobs_inner_derived_exit_code_signal_id.v0_0_41_openapi_job_info_resp_jobs_inner_derived_exit_code_signal_id(
                             infinite = True, 
                             number = 56, 
                             set = True, ), 
@@ -77,13 +77,13 @@ class TestV0041OpenapiSlurmdbdJobsRespJobsInner(unittest.TestCase):
                     status = [
                         'INVALID'
                         ], ),
-                exit_code = openapi_client.models.v0_0_41_openapi_slurmdbd_jobs_resp_jobs_inner_exit_code.v0_0_41_openapi_slurmdbd_jobs_resp_jobs_inner_exit_code(
-                    return_code = openapi_client.models.v0_0_41_openapi_job_info_resp_jobs_inner_derived_exit_code_return_code.v0_0_41_openapi_job_info_resp_jobs_inner_derived_exit_code_return_code(
+                exit_code = slurmrest_python_0_0_41.models.v0_0_41_openapi_slurmdbd_jobs_resp_jobs_inner_exit_code.v0_0_41_openapi_slurmdbd_jobs_resp_jobs_inner_exit_code(
+                    return_code = slurmrest_python_0_0_41.models.v0_0_41_openapi_job_info_resp_jobs_inner_derived_exit_code_return_code.v0_0_41_openapi_job_info_resp_jobs_inner_derived_exit_code_return_code(
                         infinite = True, 
                         number = 56, 
                         set = True, ), 
-                    signal = openapi_client.models.v0_0_41_openapi_job_info_resp_jobs_inner_derived_exit_code_signal.v0_0_41_openapi_job_info_resp_jobs_inner_derived_exit_code_signal(
-                        id = openapi_client.models.v0_0_41_openapi_job_info_resp_jobs_inner_derived_exit_code_signal_id.v0_0_41_openapi_job_info_resp_jobs_inner_derived_exit_code_signal_id(
+                    signal = slurmrest_python_0_0_41.models.v0_0_41_openapi_job_info_resp_jobs_inner_derived_exit_code_signal.v0_0_41_openapi_job_info_resp_jobs_inner_derived_exit_code_signal(
+                        id = slurmrest_python_0_0_41.models.v0_0_41_openapi_job_info_resp_jobs_inner_derived_exit_code_signal_id.v0_0_41_openapi_job_info_resp_jobs_inner_derived_exit_code_signal_id(
                             infinite = True, 
                             number = 56, 
                             set = True, ), 
@@ -97,9 +97,9 @@ class TestV0041OpenapiSlurmdbdJobsRespJobsInner(unittest.TestCase):
                     'NONE'
                     ],
                 group = '',
-                het = openapi_client.models.v0_0_41_openapi_slurmdbd_jobs_resp_jobs_inner_het.v0_0_41_openapi_slurmdbd_jobs_resp_jobs_inner_het(
+                het = slurmrest_python_0_0_41.models.v0_0_41_openapi_slurmdbd_jobs_resp_jobs_inner_het.v0_0_41_openapi_slurmdbd_jobs_resp_jobs_inner_het(
                     job_id = 56, 
-                    job_offset = openapi_client.models.v0_0_41_openapi_job_info_resp_jobs_inner_het_job_offset.v0_0_41_openapi_job_info_resp_jobs_inner_het_job_offset(
+                    job_offset = slurmrest_python_0_0_41.models.v0_0_41_openapi_job_info_resp_jobs_inner_het_job_offset.v0_0_41_openapi_job_info_resp_jobs_inner_het_job_offset(
                         infinite = True, 
                         number = 56, 
                         set = True, ), ),
@@ -107,31 +107,31 @@ class TestV0041OpenapiSlurmdbdJobsRespJobsInner(unittest.TestCase):
                 job_id = 56,
                 kill_request_user = '',
                 licenses = '',
-                mcs = openapi_client.models.v0_0_41_openapi_slurmdbd_jobs_resp_jobs_inner_mcs.v0_0_41_openapi_slurmdbd_jobs_resp_jobs_inner_mcs(
+                mcs = slurmrest_python_0_0_41.models.v0_0_41_openapi_slurmdbd_jobs_resp_jobs_inner_mcs.v0_0_41_openapi_slurmdbd_jobs_resp_jobs_inner_mcs(
                     label = '', ),
                 name = '',
                 nodes = '',
                 partition = '',
-                priority = openapi_client.models.v0_0_41_job_desc_msg_priority.v0_0_41_job_desc_msg_priority(
+                priority = slurmrest_python_0_0_41.models.v0_0_41_job_desc_msg_priority.v0_0_41_job_desc_msg_priority(
                     infinite = True, 
                     number = 56, 
                     set = True, ),
                 qos = '',
-                required = openapi_client.models.v0_0_41_openapi_slurmdbd_jobs_resp_jobs_inner_required.v0_0_41_openapi_slurmdbd_jobs_resp_jobs_inner_required(
+                required = slurmrest_python_0_0_41.models.v0_0_41_openapi_slurmdbd_jobs_resp_jobs_inner_required.v0_0_41_openapi_slurmdbd_jobs_resp_jobs_inner_required(
                     cpus = 56, 
-                    memory_per_cpu = openapi_client.models.v0_0_41_job_desc_msg_memory_per_cpu.v0_0_41_job_desc_msg_memory_per_cpu(
+                    memory_per_cpu = slurmrest_python_0_0_41.models.v0_0_41_job_desc_msg_memory_per_cpu.v0_0_41_job_desc_msg_memory_per_cpu(
                         infinite = True, 
                         number = 56, 
                         set = True, ), 
-                    memory_per_node = openapi_client.models.v0_0_41_openapi_job_info_resp_jobs_inner_memory_per_node.v0_0_41_openapi_job_info_resp_jobs_inner_memory_per_node(
+                    memory_per_node = slurmrest_python_0_0_41.models.v0_0_41_openapi_job_info_resp_jobs_inner_memory_per_node.v0_0_41_openapi_job_info_resp_jobs_inner_memory_per_node(
                         infinite = True, 
                         number = 56, 
                         set = True, ), ),
-                reservation = openapi_client.models.v0_0_41_openapi_slurmdbd_jobs_resp_jobs_inner_reservation.v0_0_41_openapi_slurmdbd_jobs_resp_jobs_inner_reservation(
+                reservation = slurmrest_python_0_0_41.models.v0_0_41_openapi_slurmdbd_jobs_resp_jobs_inner_reservation.v0_0_41_openapi_slurmdbd_jobs_resp_jobs_inner_reservation(
                     id = 56, 
                     name = '', ),
                 script = '',
-                state = openapi_client.models.v0_0_41_openapi_slurmdbd_jobs_resp_jobs_inner_state.v0_0_41_openapi_slurmdbd_jobs_resp_jobs_inner_state(
+                state = slurmrest_python_0_0_41.models.v0_0_41_openapi_slurmdbd_jobs_resp_jobs_inner_state.v0_0_41_openapi_slurmdbd_jobs_resp_jobs_inner_state(
                     current = [
                         'PENDING'
                         ], 
@@ -143,25 +143,25 @@ class TestV0041OpenapiSlurmdbdJobsRespJobsInner(unittest.TestCase):
                 stdout = '',
                 stdout_expanded = '',
                 steps = [
-                    openapi_client.models.v0_0_41_openapi_slurmdbd_jobs_resp_jobs_inner_steps_inner.v0_0_41_openapi_slurmdbd_jobs_resp_jobs_inner_steps_inner(
-                        cpu = openapi_client.models.v0_0_41_openapi_slurmdbd_jobs_resp_jobs_inner_steps_inner_cpu.v0_0_41_openapi_slurmdbd_jobs_resp_jobs_inner_steps_inner_CPU(
+                    slurmrest_python_0_0_41.models.v0_0_41_openapi_slurmdbd_jobs_resp_jobs_inner_steps_inner.v0_0_41_openapi_slurmdbd_jobs_resp_jobs_inner_steps_inner(
+                        cpu = slurmrest_python_0_0_41.models.v0_0_41_openapi_slurmdbd_jobs_resp_jobs_inner_steps_inner_cpu.v0_0_41_openapi_slurmdbd_jobs_resp_jobs_inner_steps_inner_CPU(
                             governor = '', 
-                            requested_frequency = openapi_client.models.v0_0_41_openapi_slurmdbd_jobs_resp_jobs_inner_steps_inner_cpu_requested_frequency.v0_0_41_openapi_slurmdbd_jobs_resp_jobs_inner_steps_inner_CPU_requested_frequency(
-                                max = openapi_client.models.v0_0_41_openapi_slurmdbd_jobs_resp_jobs_inner_steps_inner_cpu_requested_frequency_max.v0_0_41_openapi_slurmdbd_jobs_resp_jobs_inner_steps_inner_CPU_requested_frequency_max(
+                            requested_frequency = slurmrest_python_0_0_41.models.v0_0_41_openapi_slurmdbd_jobs_resp_jobs_inner_steps_inner_cpu_requested_frequency.v0_0_41_openapi_slurmdbd_jobs_resp_jobs_inner_steps_inner_CPU_requested_frequency(
+                                max = slurmrest_python_0_0_41.models.v0_0_41_openapi_slurmdbd_jobs_resp_jobs_inner_steps_inner_cpu_requested_frequency_max.v0_0_41_openapi_slurmdbd_jobs_resp_jobs_inner_steps_inner_CPU_requested_frequency_max(
                                     infinite = True, 
                                     number = 56, 
                                     set = True, ), 
-                                min = openapi_client.models.v0_0_41_openapi_slurmdbd_jobs_resp_jobs_inner_steps_inner_cpu_requested_frequency_min.v0_0_41_openapi_slurmdbd_jobs_resp_jobs_inner_steps_inner_CPU_requested_frequency_min(
+                                min = slurmrest_python_0_0_41.models.v0_0_41_openapi_slurmdbd_jobs_resp_jobs_inner_steps_inner_cpu_requested_frequency_min.v0_0_41_openapi_slurmdbd_jobs_resp_jobs_inner_steps_inner_CPU_requested_frequency_min(
                                     infinite = True, 
                                     number = 56, 
                                     set = True, ), ), ), 
-                        exit_code = openapi_client.models.v0_0_41_openapi_slurmdbd_jobs_resp_jobs_inner_exit_code.v0_0_41_openapi_slurmdbd_jobs_resp_jobs_inner_exit_code(
-                            return_code = openapi_client.models.v0_0_41_openapi_job_info_resp_jobs_inner_derived_exit_code_return_code.v0_0_41_openapi_job_info_resp_jobs_inner_derived_exit_code_return_code(
+                        exit_code = slurmrest_python_0_0_41.models.v0_0_41_openapi_slurmdbd_jobs_resp_jobs_inner_exit_code.v0_0_41_openapi_slurmdbd_jobs_resp_jobs_inner_exit_code(
+                            return_code = slurmrest_python_0_0_41.models.v0_0_41_openapi_job_info_resp_jobs_inner_derived_exit_code_return_code.v0_0_41_openapi_job_info_resp_jobs_inner_derived_exit_code_return_code(
                                 infinite = True, 
                                 number = 56, 
                                 set = True, ), 
-                            signal = openapi_client.models.v0_0_41_openapi_job_info_resp_jobs_inner_derived_exit_code_signal.v0_0_41_openapi_job_info_resp_jobs_inner_derived_exit_code_signal(
-                                id = openapi_client.models.v0_0_41_openapi_job_info_resp_jobs_inner_derived_exit_code_signal_id.v0_0_41_openapi_job_info_resp_jobs_inner_derived_exit_code_signal_id(
+                            signal = slurmrest_python_0_0_41.models.v0_0_41_openapi_job_info_resp_jobs_inner_derived_exit_code_signal.v0_0_41_openapi_job_info_resp_jobs_inner_derived_exit_code_signal(
+                                id = slurmrest_python_0_0_41.models.v0_0_41_openapi_job_info_resp_jobs_inner_derived_exit_code_signal_id.v0_0_41_openapi_job_info_resp_jobs_inner_derived_exit_code_signal_id(
                                     infinite = True, 
                                     number = 56, 
                                     set = True, ), 
@@ -170,7 +170,7 @@ class TestV0041OpenapiSlurmdbdJobsRespJobsInner(unittest.TestCase):
                                 'INVALID'
                                 ], ), 
                         kill_request_user = '', 
-                        nodes = openapi_client.models.v0_0_41_openapi_slurmdbd_jobs_resp_jobs_inner_steps_inner_nodes.v0_0_41_openapi_slurmdbd_jobs_resp_jobs_inner_steps_inner_nodes(
+                        nodes = slurmrest_python_0_0_41.models.v0_0_41_openapi_slurmdbd_jobs_resp_jobs_inner_steps_inner_nodes.v0_0_41_openapi_slurmdbd_jobs_resp_jobs_inner_steps_inner_nodes(
                             count = 56, 
                             list = [
                                 ''
@@ -180,88 +180,88 @@ class TestV0041OpenapiSlurmdbdJobsRespJobsInner(unittest.TestCase):
                         state = [
                             'PENDING'
                             ], 
-                        statistics = openapi_client.models.v0_0_41_openapi_slurmdbd_jobs_resp_jobs_inner_steps_inner_statistics.v0_0_41_openapi_slurmdbd_jobs_resp_jobs_inner_steps_inner_statistics(
-                            energy = openapi_client.models.v0_0_41_openapi_slurmdbd_jobs_resp_jobs_inner_steps_inner_statistics_energy.v0_0_41_openapi_slurmdbd_jobs_resp_jobs_inner_steps_inner_statistics_energy(
-                                consumed = openapi_client.models.v0_0_41_openapi_slurmdbd_jobs_resp_jobs_inner_steps_inner_statistics_energy_consumed.v0_0_41_openapi_slurmdbd_jobs_resp_jobs_inner_steps_inner_statistics_energy_consumed(
+                        statistics = slurmrest_python_0_0_41.models.v0_0_41_openapi_slurmdbd_jobs_resp_jobs_inner_steps_inner_statistics.v0_0_41_openapi_slurmdbd_jobs_resp_jobs_inner_steps_inner_statistics(
+                            energy = slurmrest_python_0_0_41.models.v0_0_41_openapi_slurmdbd_jobs_resp_jobs_inner_steps_inner_statistics_energy.v0_0_41_openapi_slurmdbd_jobs_resp_jobs_inner_steps_inner_statistics_energy(
+                                consumed = slurmrest_python_0_0_41.models.v0_0_41_openapi_slurmdbd_jobs_resp_jobs_inner_steps_inner_statistics_energy_consumed.v0_0_41_openapi_slurmdbd_jobs_resp_jobs_inner_steps_inner_statistics_energy_consumed(
                                     infinite = True, 
                                     number = 56, 
                                     set = True, ), ), ), 
-                        step = openapi_client.models.v0_0_41_openapi_slurmdbd_jobs_resp_jobs_inner_steps_inner_step.v0_0_41_openapi_slurmdbd_jobs_resp_jobs_inner_steps_inner_step(
+                        step = slurmrest_python_0_0_41.models.v0_0_41_openapi_slurmdbd_jobs_resp_jobs_inner_steps_inner_step.v0_0_41_openapi_slurmdbd_jobs_resp_jobs_inner_steps_inner_step(
                             name = '', ), 
-                        task = openapi_client.models.v0_0_41_openapi_slurmdbd_jobs_resp_jobs_inner_steps_inner_task.v0_0_41_openapi_slurmdbd_jobs_resp_jobs_inner_steps_inner_task(
+                        task = slurmrest_python_0_0_41.models.v0_0_41_openapi_slurmdbd_jobs_resp_jobs_inner_steps_inner_task.v0_0_41_openapi_slurmdbd_jobs_resp_jobs_inner_steps_inner_task(
                             distribution = '', ), 
-                        tasks = openapi_client.models.v0_0_41_openapi_slurmdbd_jobs_resp_jobs_inner_steps_inner_tasks.v0_0_41_openapi_slurmdbd_jobs_resp_jobs_inner_steps_inner_tasks(
+                        tasks = slurmrest_python_0_0_41.models.v0_0_41_openapi_slurmdbd_jobs_resp_jobs_inner_steps_inner_tasks.v0_0_41_openapi_slurmdbd_jobs_resp_jobs_inner_steps_inner_tasks(
                             count = 56, ), 
-                        time = openapi_client.models.v0_0_41_openapi_slurmdbd_jobs_resp_jobs_inner_steps_inner_time.v0_0_41_openapi_slurmdbd_jobs_resp_jobs_inner_steps_inner_time(
+                        time = slurmrest_python_0_0_41.models.v0_0_41_openapi_slurmdbd_jobs_resp_jobs_inner_steps_inner_time.v0_0_41_openapi_slurmdbd_jobs_resp_jobs_inner_steps_inner_time(
                             elapsed = 56, 
-                            end = openapi_client.models.v0_0_41_openapi_slurmdbd_jobs_resp_jobs_inner_steps_inner_time_end.v0_0_41_openapi_slurmdbd_jobs_resp_jobs_inner_steps_inner_time_end(
+                            end = slurmrest_python_0_0_41.models.v0_0_41_openapi_slurmdbd_jobs_resp_jobs_inner_steps_inner_time_end.v0_0_41_openapi_slurmdbd_jobs_resp_jobs_inner_steps_inner_time_end(
                                 infinite = True, 
                                 number = 56, 
                                 set = True, ), 
-                            start = openapi_client.models.v0_0_41_openapi_slurmdbd_jobs_resp_jobs_inner_steps_inner_time_start.v0_0_41_openapi_slurmdbd_jobs_resp_jobs_inner_steps_inner_time_start(
+                            start = slurmrest_python_0_0_41.models.v0_0_41_openapi_slurmdbd_jobs_resp_jobs_inner_steps_inner_time_start.v0_0_41_openapi_slurmdbd_jobs_resp_jobs_inner_steps_inner_time_start(
                                 infinite = True, 
                                 number = 56, 
                                 set = True, ), 
                             suspended = 56, 
-                            system = openapi_client.models.v0_0_41_openapi_slurmdbd_jobs_resp_jobs_inner_steps_inner_time_system.v0_0_41_openapi_slurmdbd_jobs_resp_jobs_inner_steps_inner_time_system(
+                            system = slurmrest_python_0_0_41.models.v0_0_41_openapi_slurmdbd_jobs_resp_jobs_inner_steps_inner_time_system.v0_0_41_openapi_slurmdbd_jobs_resp_jobs_inner_steps_inner_time_system(
                                 microseconds = 56, 
                                 seconds = 56, ), 
-                            total = openapi_client.models.v0_0_41_openapi_slurmdbd_jobs_resp_jobs_inner_steps_inner_time_total.v0_0_41_openapi_slurmdbd_jobs_resp_jobs_inner_steps_inner_time_total(
+                            total = slurmrest_python_0_0_41.models.v0_0_41_openapi_slurmdbd_jobs_resp_jobs_inner_steps_inner_time_total.v0_0_41_openapi_slurmdbd_jobs_resp_jobs_inner_steps_inner_time_total(
                                 microseconds = 56, 
                                 seconds = 56, ), 
-                            user = openapi_client.models.v0_0_41_openapi_slurmdbd_jobs_resp_jobs_inner_steps_inner_time_user.v0_0_41_openapi_slurmdbd_jobs_resp_jobs_inner_steps_inner_time_user(
+                            user = slurmrest_python_0_0_41.models.v0_0_41_openapi_slurmdbd_jobs_resp_jobs_inner_steps_inner_time_user.v0_0_41_openapi_slurmdbd_jobs_resp_jobs_inner_steps_inner_time_user(
                                 microseconds = 56, 
                                 seconds = 56, ), ), 
-                        tres = openapi_client.models.v0_0_41_openapi_slurmdbd_jobs_resp_jobs_inner_steps_inner_tres.v0_0_41_openapi_slurmdbd_jobs_resp_jobs_inner_steps_inner_tres(
+                        tres = slurmrest_python_0_0_41.models.v0_0_41_openapi_slurmdbd_jobs_resp_jobs_inner_steps_inner_tres.v0_0_41_openapi_slurmdbd_jobs_resp_jobs_inner_steps_inner_tres(
                             allocated = [
-                                openapi_client.models.v0_0_41_openapi_accounts_add_cond_resp_association_condition_association_grptres_inner.v0_0_41_openapi_accounts_add_cond_resp_association_condition_association_grptres_inner(
+                                slurmrest_python_0_0_41.models.v0_0_41_openapi_accounts_add_cond_resp_association_condition_association_grptres_inner.v0_0_41_openapi_accounts_add_cond_resp_association_condition_association_grptres_inner(
                                     count = 56, 
                                     name = '', 
                                     type = '', )
                                 ], 
-                            requested = openapi_client.models.v0_0_41_openapi_slurmdbd_jobs_resp_jobs_inner_steps_inner_tres_requested.v0_0_41_openapi_slurmdbd_jobs_resp_jobs_inner_steps_inner_tres_requested(
+                            requested = slurmrest_python_0_0_41.models.v0_0_41_openapi_slurmdbd_jobs_resp_jobs_inner_steps_inner_tres_requested.v0_0_41_openapi_slurmdbd_jobs_resp_jobs_inner_steps_inner_tres_requested(
                                 average = [
-                                    openapi_client.models.v0_0_41_openapi_accounts_add_cond_resp_association_condition_association_grptres_inner.v0_0_41_openapi_accounts_add_cond_resp_association_condition_association_grptres_inner(
+                                    slurmrest_python_0_0_41.models.v0_0_41_openapi_accounts_add_cond_resp_association_condition_association_grptres_inner.v0_0_41_openapi_accounts_add_cond_resp_association_condition_association_grptres_inner(
                                         count = 56, 
                                         name = '', 
                                         type = '', )
                                     ], ), ), )
                     ],
                 submit_line = '',
-                time = openapi_client.models.v0_0_41_openapi_slurmdbd_jobs_resp_jobs_inner_time.v0_0_41_openapi_slurmdbd_jobs_resp_jobs_inner_time(
+                time = slurmrest_python_0_0_41.models.v0_0_41_openapi_slurmdbd_jobs_resp_jobs_inner_time.v0_0_41_openapi_slurmdbd_jobs_resp_jobs_inner_time(
                     elapsed = 56, 
                     eligible = 56, 
                     end = 56, 
-                    limit = openapi_client.models.v0_0_41_job_desc_msg_time_limit.v0_0_41_job_desc_msg_time_limit(
+                    limit = slurmrest_python_0_0_41.models.v0_0_41_job_desc_msg_time_limit.v0_0_41_job_desc_msg_time_limit(
                         infinite = True, 
                         number = 56, 
                         set = True, ), 
-                    planned = openapi_client.models.v0_0_41_openapi_slurmdbd_jobs_resp_jobs_inner_time_planned.v0_0_41_openapi_slurmdbd_jobs_resp_jobs_inner_time_planned(
+                    planned = slurmrest_python_0_0_41.models.v0_0_41_openapi_slurmdbd_jobs_resp_jobs_inner_time_planned.v0_0_41_openapi_slurmdbd_jobs_resp_jobs_inner_time_planned(
                         infinite = True, 
                         number = 56, 
                         set = True, ), 
                     start = 56, 
                     submission = 56, 
                     suspended = 56, 
-                    system = openapi_client.models.v0_0_41_openapi_slurmdbd_jobs_resp_jobs_inner_time_system.v0_0_41_openapi_slurmdbd_jobs_resp_jobs_inner_time_system(
+                    system = slurmrest_python_0_0_41.models.v0_0_41_openapi_slurmdbd_jobs_resp_jobs_inner_time_system.v0_0_41_openapi_slurmdbd_jobs_resp_jobs_inner_time_system(
                         microseconds = 56, 
                         seconds = 56, ), 
-                    total = openapi_client.models.v0_0_41_openapi_slurmdbd_jobs_resp_jobs_inner_time_total.v0_0_41_openapi_slurmdbd_jobs_resp_jobs_inner_time_total(
+                    total = slurmrest_python_0_0_41.models.v0_0_41_openapi_slurmdbd_jobs_resp_jobs_inner_time_total.v0_0_41_openapi_slurmdbd_jobs_resp_jobs_inner_time_total(
                         microseconds = 56, 
                         seconds = 56, ), 
-                    user = openapi_client.models.v0_0_41_openapi_slurmdbd_jobs_resp_jobs_inner_time_user.v0_0_41_openapi_slurmdbd_jobs_resp_jobs_inner_time_user(
+                    user = slurmrest_python_0_0_41.models.v0_0_41_openapi_slurmdbd_jobs_resp_jobs_inner_time_user.v0_0_41_openapi_slurmdbd_jobs_resp_jobs_inner_time_user(
                         microseconds = 56, 
                         seconds = 56, ), ),
-                tres = openapi_client.models.v0_0_41_openapi_slurmdbd_jobs_resp_jobs_inner_tres.v0_0_41_openapi_slurmdbd_jobs_resp_jobs_inner_tres(
+                tres = slurmrest_python_0_0_41.models.v0_0_41_openapi_slurmdbd_jobs_resp_jobs_inner_tres.v0_0_41_openapi_slurmdbd_jobs_resp_jobs_inner_tres(
                     allocated = [
-                        openapi_client.models.v0_0_41_openapi_accounts_add_cond_resp_association_condition_association_grptres_inner.v0_0_41_openapi_accounts_add_cond_resp_association_condition_association_grptres_inner(
+                        slurmrest_python_0_0_41.models.v0_0_41_openapi_accounts_add_cond_resp_association_condition_association_grptres_inner.v0_0_41_openapi_accounts_add_cond_resp_association_condition_association_grptres_inner(
                             count = 56, 
                             id = 56, 
                             name = '', 
                             type = '', )
                         ], 
                     requested = [
-                        openapi_client.models.v0_0_41_openapi_accounts_add_cond_resp_association_condition_association_grptres_inner.v0_0_41_openapi_accounts_add_cond_resp_association_condition_association_grptres_inner(
+                        slurmrest_python_0_0_41.models.v0_0_41_openapi_accounts_add_cond_resp_association_condition_association_grptres_inner.v0_0_41_openapi_accounts_add_cond_resp_association_condition_association_grptres_inner(
                             count = 56, 
                             id = 56, 
                             name = '', 
@@ -269,7 +269,7 @@ class TestV0041OpenapiSlurmdbdJobsRespJobsInner(unittest.TestCase):
                         ], ),
                 used_gres = '',
                 user = '',
-                wckey = openapi_client.models.v0_0_41_openapi_slurmdbd_jobs_resp_jobs_inner_wckey.v0_0_41_openapi_slurmdbd_jobs_resp_jobs_inner_wckey(
+                wckey = slurmrest_python_0_0_41.models.v0_0_41_openapi_slurmdbd_jobs_resp_jobs_inner_wckey.v0_0_41_openapi_slurmdbd_jobs_resp_jobs_inner_wckey(
                     flags = [
                         'ASSIGNED_DEFAULT'
                         ], 

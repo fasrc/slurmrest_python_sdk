@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.v0041_openapi_assocs_resp_associations_inner_default import V0041OpenapiAssocsRespAssociationsInnerDefault
+from slurmrest_python_0_0_41.models.v0041_openapi_assocs_resp_associations_inner_default import V0041OpenapiAssocsRespAssociationsInnerDefault
 
 class TestV0041OpenapiAssocsRespAssociationsInnerDefault(unittest.TestCase):
     """V0041OpenapiAssocsRespAssociationsInnerDefault unit test stubs"""

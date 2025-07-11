@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.v0041_openapi_slurmdbd_jobs_resp_jobs_inner_exit_code import V0041OpenapiSlurmdbdJobsRespJobsInnerExitCode
+from slurmrest_python_0_0_41.models.v0041_openapi_slurmdbd_jobs_resp_jobs_inner_exit_code import V0041OpenapiSlurmdbdJobsRespJobsInnerExitCode
 
 class TestV0041OpenapiSlurmdbdJobsRespJobsInnerExitCode(unittest.TestCase):
     """V0041OpenapiSlurmdbdJobsRespJobsInnerExitCode unit test stubs"""
@@ -36,12 +36,12 @@ class TestV0041OpenapiSlurmdbdJobsRespJobsInnerExitCode(unittest.TestCase):
         model = V0041OpenapiSlurmdbdJobsRespJobsInnerExitCode()
         if include_optional:
             return V0041OpenapiSlurmdbdJobsRespJobsInnerExitCode(
-                return_code = openapi_client.models.v0_0_41_openapi_job_info_resp_jobs_inner_derived_exit_code_return_code.v0_0_41_openapi_job_info_resp_jobs_inner_derived_exit_code_return_code(
+                return_code = slurmrest_python_0_0_41.models.v0_0_41_openapi_job_info_resp_jobs_inner_derived_exit_code_return_code.v0_0_41_openapi_job_info_resp_jobs_inner_derived_exit_code_return_code(
                     infinite = True, 
                     number = 56, 
                     set = True, ),
-                signal = openapi_client.models.v0_0_41_openapi_job_info_resp_jobs_inner_derived_exit_code_signal.v0_0_41_openapi_job_info_resp_jobs_inner_derived_exit_code_signal(
-                    id = openapi_client.models.v0_0_41_openapi_job_info_resp_jobs_inner_derived_exit_code_signal_id.v0_0_41_openapi_job_info_resp_jobs_inner_derived_exit_code_signal_id(
+                signal = slurmrest_python_0_0_41.models.v0_0_41_openapi_job_info_resp_jobs_inner_derived_exit_code_signal.v0_0_41_openapi_job_info_resp_jobs_inner_derived_exit_code_signal(
+                    id = slurmrest_python_0_0_41.models.v0_0_41_openapi_job_info_resp_jobs_inner_derived_exit_code_signal_id.v0_0_41_openapi_job_info_resp_jobs_inner_derived_exit_code_signal_id(
                         infinite = True, 
                         number = 56, 
                         set = True, ), 

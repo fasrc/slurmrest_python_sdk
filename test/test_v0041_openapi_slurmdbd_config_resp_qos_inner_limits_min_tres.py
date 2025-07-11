@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.v0041_openapi_slurmdbd_config_resp_qos_inner_limits_min_tres import V0041OpenapiSlurmdbdConfigRespQosInnerLimitsMinTres
+from slurmrest_python_0_0_41.models.v0041_openapi_slurmdbd_config_resp_qos_inner_limits_min_tres import V0041OpenapiSlurmdbdConfigRespQosInnerLimitsMinTres
 
 class TestV0041OpenapiSlurmdbdConfigRespQosInnerLimitsMinTres(unittest.TestCase):
     """V0041OpenapiSlurmdbdConfigRespQosInnerLimitsMinTres unit test stubs"""
@@ -36,9 +36,9 @@ class TestV0041OpenapiSlurmdbdConfigRespQosInnerLimitsMinTres(unittest.TestCase)
         model = V0041OpenapiSlurmdbdConfigRespQosInnerLimitsMinTres()
         if include_optional:
             return V0041OpenapiSlurmdbdConfigRespQosInnerLimitsMinTres(
-                per = openapi_client.models.v0_0_41_openapi_slurmdbd_config_resp_qos_inner_limits_min_tres_per.v0_0_41_openapi_slurmdbd_config_resp_qos_inner_limits_min_tres_per(
+                per = slurmrest_python_0_0_41.models.v0_0_41_openapi_slurmdbd_config_resp_qos_inner_limits_min_tres_per.v0_0_41_openapi_slurmdbd_config_resp_qos_inner_limits_min_tres_per(
                     job = [
-                        openapi_client.models.v0_0_41_openapi_accounts_add_cond_resp_association_condition_association_grptres_inner.v0_0_41_openapi_accounts_add_cond_resp_association_condition_association_grptres_inner(
+                        slurmrest_python_0_0_41.models.v0_0_41_openapi_accounts_add_cond_resp_association_condition_association_grptres_inner.v0_0_41_openapi_accounts_add_cond_resp_association_condition_association_grptres_inner(
                             count = 56, 
                             id = 56, 
                             name = '', 

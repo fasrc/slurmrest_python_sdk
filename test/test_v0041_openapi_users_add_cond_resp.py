@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.v0041_openapi_users_add_cond_resp import V0041OpenapiUsersAddCondResp
+from slurmrest_python_0_0_41.models.v0041_openapi_users_add_cond_resp import V0041OpenapiUsersAddCondResp
 
 class TestV0041OpenapiUsersAddCondResp(unittest.TestCase):
     """V0041OpenapiUsersAddCondResp unit test stubs"""
@@ -36,35 +36,35 @@ class TestV0041OpenapiUsersAddCondResp(unittest.TestCase):
         model = V0041OpenapiUsersAddCondResp()
         if include_optional:
             return V0041OpenapiUsersAddCondResp(
-                association_condition = openapi_client.models.v0_0_41_openapi_users_add_cond_resp_association_condition.v0_0_41_openapi_users_add_cond_resp_association_condition(
+                association_condition = slurmrest_python_0_0_41.models.v0_0_41_openapi_users_add_cond_resp_association_condition.v0_0_41_openapi_users_add_cond_resp_association_condition(
                     accounts = [
                         ''
                         ], 
-                    association = openapi_client.models.v0_0_41_openapi_accounts_add_cond_resp_association_condition_association.v0_0_41_openapi_accounts_add_cond_resp_association_condition_association(
+                    association = slurmrest_python_0_0_41.models.v0_0_41_openapi_accounts_add_cond_resp_association_condition_association.v0_0_41_openapi_accounts_add_cond_resp_association_condition_association(
                         comment = '', 
                         defaultqos = '', 
                         fairshare = 56, 
-                        grpjobs = openapi_client.models.v0_0_41_openapi_accounts_add_cond_resp_association_condition_association_grpjobs.v0_0_41_openapi_accounts_add_cond_resp_association_condition_association_grpjobs(
+                        grpjobs = slurmrest_python_0_0_41.models.v0_0_41_openapi_accounts_add_cond_resp_association_condition_association_grpjobs.v0_0_41_openapi_accounts_add_cond_resp_association_condition_association_grpjobs(
                             infinite = True, 
                             number = 56, 
                             set = True, ), 
-                        grpjobsaccrue = openapi_client.models.v0_0_41_openapi_accounts_add_cond_resp_association_condition_association_grpjobsaccrue.v0_0_41_openapi_accounts_add_cond_resp_association_condition_association_grpjobsaccrue(
+                        grpjobsaccrue = slurmrest_python_0_0_41.models.v0_0_41_openapi_accounts_add_cond_resp_association_condition_association_grpjobsaccrue.v0_0_41_openapi_accounts_add_cond_resp_association_condition_association_grpjobsaccrue(
                             infinite = True, 
                             number = 56, 
                             set = True, ), 
-                        grpsubmitjobs = openapi_client.models.v0_0_41_openapi_accounts_add_cond_resp_association_condition_association_grpsubmitjobs.v0_0_41_openapi_accounts_add_cond_resp_association_condition_association_grpsubmitjobs(
+                        grpsubmitjobs = slurmrest_python_0_0_41.models.v0_0_41_openapi_accounts_add_cond_resp_association_condition_association_grpsubmitjobs.v0_0_41_openapi_accounts_add_cond_resp_association_condition_association_grpsubmitjobs(
                             infinite = True, 
                             number = 56, 
                             set = True, ), 
                         grptres = [
-                            openapi_client.models.v0_0_41_openapi_accounts_add_cond_resp_association_condition_association_grptres_inner.v0_0_41_openapi_accounts_add_cond_resp_association_condition_association_grptres_inner(
+                            slurmrest_python_0_0_41.models.v0_0_41_openapi_accounts_add_cond_resp_association_condition_association_grptres_inner.v0_0_41_openapi_accounts_add_cond_resp_association_condition_association_grptres_inner(
                                 count = 56, 
                                 id = 56, 
                                 name = '', 
                                 type = '', )
                             ], 
                         grptresmins = [
-                            openapi_client.models.v0_0_41_openapi_accounts_add_cond_resp_association_condition_association_grptres_inner.v0_0_41_openapi_accounts_add_cond_resp_association_condition_association_grptres_inner(
+                            slurmrest_python_0_0_41.models.v0_0_41_openapi_accounts_add_cond_resp_association_condition_association_grptres_inner.v0_0_41_openapi_accounts_add_cond_resp_association_condition_association_grptres_inner(
                                 count = 56, 
                                 id = 56, 
                                 name = '', 
@@ -73,19 +73,19 @@ class TestV0041OpenapiUsersAddCondResp(unittest.TestCase):
                         grptresrunmins = [
                             
                             ], 
-                        grpwall = openapi_client.models.v0_0_41_openapi_accounts_add_cond_resp_association_condition_association_grpwall.v0_0_41_openapi_accounts_add_cond_resp_association_condition_association_grpwall(
+                        grpwall = slurmrest_python_0_0_41.models.v0_0_41_openapi_accounts_add_cond_resp_association_condition_association_grpwall.v0_0_41_openapi_accounts_add_cond_resp_association_condition_association_grpwall(
                             infinite = True, 
                             number = 56, 
                             set = True, ), 
-                        maxjobs = openapi_client.models.v0_0_41_openapi_accounts_add_cond_resp_association_condition_association_maxjobs.v0_0_41_openapi_accounts_add_cond_resp_association_condition_association_maxjobs(
+                        maxjobs = slurmrest_python_0_0_41.models.v0_0_41_openapi_accounts_add_cond_resp_association_condition_association_maxjobs.v0_0_41_openapi_accounts_add_cond_resp_association_condition_association_maxjobs(
                             infinite = True, 
                             number = 56, 
                             set = True, ), 
-                        maxjobsaccrue = openapi_client.models.v0_0_41_openapi_accounts_add_cond_resp_association_condition_association_maxjobsaccrue.v0_0_41_openapi_accounts_add_cond_resp_association_condition_association_maxjobsaccrue(
+                        maxjobsaccrue = slurmrest_python_0_0_41.models.v0_0_41_openapi_accounts_add_cond_resp_association_condition_association_maxjobsaccrue.v0_0_41_openapi_accounts_add_cond_resp_association_condition_association_maxjobsaccrue(
                             infinite = True, 
                             number = 56, 
                             set = True, ), 
-                        maxsubmitjobs = openapi_client.models.v0_0_41_openapi_accounts_add_cond_resp_association_condition_association_maxsubmitjobs.v0_0_41_openapi_accounts_add_cond_resp_association_condition_association_maxsubmitjobs(
+                        maxsubmitjobs = slurmrest_python_0_0_41.models.v0_0_41_openapi_accounts_add_cond_resp_association_condition_association_maxsubmitjobs.v0_0_41_openapi_accounts_add_cond_resp_association_condition_association_maxsubmitjobs(
                             infinite = True, 
                             number = 56, 
                             set = True, ), 
@@ -101,16 +101,16 @@ class TestV0041OpenapiUsersAddCondResp(unittest.TestCase):
                         maxtresrunmins = [
                             
                             ], 
-                        maxwalldurationperjob = openapi_client.models.v0_0_41_openapi_accounts_add_cond_resp_association_condition_association_maxwalldurationperjob.v0_0_41_openapi_accounts_add_cond_resp_association_condition_association_maxwalldurationperjob(
+                        maxwalldurationperjob = slurmrest_python_0_0_41.models.v0_0_41_openapi_accounts_add_cond_resp_association_condition_association_maxwalldurationperjob.v0_0_41_openapi_accounts_add_cond_resp_association_condition_association_maxwalldurationperjob(
                             infinite = True, 
                             number = 56, 
                             set = True, ), 
-                        minpriothresh = openapi_client.models.v0_0_41_openapi_accounts_add_cond_resp_association_condition_association_minpriothresh.v0_0_41_openapi_accounts_add_cond_resp_association_condition_association_minpriothresh(
+                        minpriothresh = slurmrest_python_0_0_41.models.v0_0_41_openapi_accounts_add_cond_resp_association_condition_association_minpriothresh.v0_0_41_openapi_accounts_add_cond_resp_association_condition_association_minpriothresh(
                             infinite = True, 
                             number = 56, 
                             set = True, ), 
                         parent = '', 
-                        priority = openapi_client.models.v0_0_41_openapi_accounts_add_cond_resp_association_condition_association_priority.v0_0_41_openapi_accounts_add_cond_resp_association_condition_association_priority(
+                        priority = slurmrest_python_0_0_41.models.v0_0_41_openapi_accounts_add_cond_resp_association_condition_association_priority.v0_0_41_openapi_accounts_add_cond_resp_association_condition_association_priority(
                             infinite = True, 
                             number = 56, 
                             set = True, ), 
@@ -130,75 +130,75 @@ class TestV0041OpenapiUsersAddCondResp(unittest.TestCase):
                         ''
                         ], ),
                 errors = [
-                    openapi_client.models.v0_0_41_openapi_accounts_add_cond_resp_errors_inner.v0_0_41_openapi_accounts_add_cond_resp_errors_inner(
+                    slurmrest_python_0_0_41.models.v0_0_41_openapi_accounts_add_cond_resp_errors_inner.v0_0_41_openapi_accounts_add_cond_resp_errors_inner(
                         description = '', 
                         error = '', 
                         error_number = 56, 
                         source = '', )
                     ],
-                meta = openapi_client.models.v0_0_41_openapi_accounts_add_cond_resp_meta.v0_0_41_openapi_accounts_add_cond_resp_meta(
-                    client = openapi_client.models.v0_0_41_openapi_accounts_add_cond_resp_meta_client.v0_0_41_openapi_accounts_add_cond_resp_meta_client(
+                meta = slurmrest_python_0_0_41.models.v0_0_41_openapi_accounts_add_cond_resp_meta.v0_0_41_openapi_accounts_add_cond_resp_meta(
+                    client = slurmrest_python_0_0_41.models.v0_0_41_openapi_accounts_add_cond_resp_meta_client.v0_0_41_openapi_accounts_add_cond_resp_meta_client(
                         group = '', 
                         source = '', 
                         user = '', ), 
                     command = [
                         ''
                         ], 
-                    plugin = openapi_client.models.v0_0_41_openapi_accounts_add_cond_resp_meta_plugin.v0_0_41_openapi_accounts_add_cond_resp_meta_plugin(
+                    plugin = slurmrest_python_0_0_41.models.v0_0_41_openapi_accounts_add_cond_resp_meta_plugin.v0_0_41_openapi_accounts_add_cond_resp_meta_plugin(
                         accounting_storage = '', 
                         data_parser = '', 
                         name = '', 
                         type = '', ), 
-                    slurm = openapi_client.models.v0_0_41_openapi_accounts_add_cond_resp_meta_slurm.v0_0_41_openapi_accounts_add_cond_resp_meta_slurm(
+                    slurm = slurmrest_python_0_0_41.models.v0_0_41_openapi_accounts_add_cond_resp_meta_slurm.v0_0_41_openapi_accounts_add_cond_resp_meta_slurm(
                         cluster = '', 
                         release = '', 
-                        version = openapi_client.models.v0_0_41_openapi_accounts_add_cond_resp_meta_slurm_version.v0_0_41_openapi_accounts_add_cond_resp_meta_slurm_version(
+                        version = slurmrest_python_0_0_41.models.v0_0_41_openapi_accounts_add_cond_resp_meta_slurm_version.v0_0_41_openapi_accounts_add_cond_resp_meta_slurm_version(
                             major = '', 
                             micro = '', 
                             minor = '', ), ), ),
-                user = openapi_client.models.v0_0_41_openapi_users_add_cond_resp_user.v0_0_41_openapi_users_add_cond_resp_user(
+                user = slurmrest_python_0_0_41.models.v0_0_41_openapi_users_add_cond_resp_user.v0_0_41_openapi_users_add_cond_resp_user(
                     adminlevel = [
                         'Not Set'
                         ], 
                     defaultaccount = '', 
                     defaultwckey = '', ),
                 warnings = [
-                    openapi_client.models.v0_0_41_openapi_accounts_add_cond_resp_warnings_inner.v0_0_41_openapi_accounts_add_cond_resp_warnings_inner(
+                    slurmrest_python_0_0_41.models.v0_0_41_openapi_accounts_add_cond_resp_warnings_inner.v0_0_41_openapi_accounts_add_cond_resp_warnings_inner(
                         description = '', 
                         source = '', )
                     ]
             )
         else:
             return V0041OpenapiUsersAddCondResp(
-                association_condition = openapi_client.models.v0_0_41_openapi_users_add_cond_resp_association_condition.v0_0_41_openapi_users_add_cond_resp_association_condition(
+                association_condition = slurmrest_python_0_0_41.models.v0_0_41_openapi_users_add_cond_resp_association_condition.v0_0_41_openapi_users_add_cond_resp_association_condition(
                     accounts = [
                         ''
                         ], 
-                    association = openapi_client.models.v0_0_41_openapi_accounts_add_cond_resp_association_condition_association.v0_0_41_openapi_accounts_add_cond_resp_association_condition_association(
+                    association = slurmrest_python_0_0_41.models.v0_0_41_openapi_accounts_add_cond_resp_association_condition_association.v0_0_41_openapi_accounts_add_cond_resp_association_condition_association(
                         comment = '', 
                         defaultqos = '', 
                         fairshare = 56, 
-                        grpjobs = openapi_client.models.v0_0_41_openapi_accounts_add_cond_resp_association_condition_association_grpjobs.v0_0_41_openapi_accounts_add_cond_resp_association_condition_association_grpjobs(
+                        grpjobs = slurmrest_python_0_0_41.models.v0_0_41_openapi_accounts_add_cond_resp_association_condition_association_grpjobs.v0_0_41_openapi_accounts_add_cond_resp_association_condition_association_grpjobs(
                             infinite = True, 
                             number = 56, 
                             set = True, ), 
-                        grpjobsaccrue = openapi_client.models.v0_0_41_openapi_accounts_add_cond_resp_association_condition_association_grpjobsaccrue.v0_0_41_openapi_accounts_add_cond_resp_association_condition_association_grpjobsaccrue(
+                        grpjobsaccrue = slurmrest_python_0_0_41.models.v0_0_41_openapi_accounts_add_cond_resp_association_condition_association_grpjobsaccrue.v0_0_41_openapi_accounts_add_cond_resp_association_condition_association_grpjobsaccrue(
                             infinite = True, 
                             number = 56, 
                             set = True, ), 
-                        grpsubmitjobs = openapi_client.models.v0_0_41_openapi_accounts_add_cond_resp_association_condition_association_grpsubmitjobs.v0_0_41_openapi_accounts_add_cond_resp_association_condition_association_grpsubmitjobs(
+                        grpsubmitjobs = slurmrest_python_0_0_41.models.v0_0_41_openapi_accounts_add_cond_resp_association_condition_association_grpsubmitjobs.v0_0_41_openapi_accounts_add_cond_resp_association_condition_association_grpsubmitjobs(
                             infinite = True, 
                             number = 56, 
                             set = True, ), 
                         grptres = [
-                            openapi_client.models.v0_0_41_openapi_accounts_add_cond_resp_association_condition_association_grptres_inner.v0_0_41_openapi_accounts_add_cond_resp_association_condition_association_grptres_inner(
+                            slurmrest_python_0_0_41.models.v0_0_41_openapi_accounts_add_cond_resp_association_condition_association_grptres_inner.v0_0_41_openapi_accounts_add_cond_resp_association_condition_association_grptres_inner(
                                 count = 56, 
                                 id = 56, 
                                 name = '', 
                                 type = '', )
                             ], 
                         grptresmins = [
-                            openapi_client.models.v0_0_41_openapi_accounts_add_cond_resp_association_condition_association_grptres_inner.v0_0_41_openapi_accounts_add_cond_resp_association_condition_association_grptres_inner(
+                            slurmrest_python_0_0_41.models.v0_0_41_openapi_accounts_add_cond_resp_association_condition_association_grptres_inner.v0_0_41_openapi_accounts_add_cond_resp_association_condition_association_grptres_inner(
                                 count = 56, 
                                 id = 56, 
                                 name = '', 
@@ -207,19 +207,19 @@ class TestV0041OpenapiUsersAddCondResp(unittest.TestCase):
                         grptresrunmins = [
                             
                             ], 
-                        grpwall = openapi_client.models.v0_0_41_openapi_accounts_add_cond_resp_association_condition_association_grpwall.v0_0_41_openapi_accounts_add_cond_resp_association_condition_association_grpwall(
+                        grpwall = slurmrest_python_0_0_41.models.v0_0_41_openapi_accounts_add_cond_resp_association_condition_association_grpwall.v0_0_41_openapi_accounts_add_cond_resp_association_condition_association_grpwall(
                             infinite = True, 
                             number = 56, 
                             set = True, ), 
-                        maxjobs = openapi_client.models.v0_0_41_openapi_accounts_add_cond_resp_association_condition_association_maxjobs.v0_0_41_openapi_accounts_add_cond_resp_association_condition_association_maxjobs(
+                        maxjobs = slurmrest_python_0_0_41.models.v0_0_41_openapi_accounts_add_cond_resp_association_condition_association_maxjobs.v0_0_41_openapi_accounts_add_cond_resp_association_condition_association_maxjobs(
                             infinite = True, 
                             number = 56, 
                             set = True, ), 
-                        maxjobsaccrue = openapi_client.models.v0_0_41_openapi_accounts_add_cond_resp_association_condition_association_maxjobsaccrue.v0_0_41_openapi_accounts_add_cond_resp_association_condition_association_maxjobsaccrue(
+                        maxjobsaccrue = slurmrest_python_0_0_41.models.v0_0_41_openapi_accounts_add_cond_resp_association_condition_association_maxjobsaccrue.v0_0_41_openapi_accounts_add_cond_resp_association_condition_association_maxjobsaccrue(
                             infinite = True, 
                             number = 56, 
                             set = True, ), 
-                        maxsubmitjobs = openapi_client.models.v0_0_41_openapi_accounts_add_cond_resp_association_condition_association_maxsubmitjobs.v0_0_41_openapi_accounts_add_cond_resp_association_condition_association_maxsubmitjobs(
+                        maxsubmitjobs = slurmrest_python_0_0_41.models.v0_0_41_openapi_accounts_add_cond_resp_association_condition_association_maxsubmitjobs.v0_0_41_openapi_accounts_add_cond_resp_association_condition_association_maxsubmitjobs(
                             infinite = True, 
                             number = 56, 
                             set = True, ), 
@@ -235,16 +235,16 @@ class TestV0041OpenapiUsersAddCondResp(unittest.TestCase):
                         maxtresrunmins = [
                             
                             ], 
-                        maxwalldurationperjob = openapi_client.models.v0_0_41_openapi_accounts_add_cond_resp_association_condition_association_maxwalldurationperjob.v0_0_41_openapi_accounts_add_cond_resp_association_condition_association_maxwalldurationperjob(
+                        maxwalldurationperjob = slurmrest_python_0_0_41.models.v0_0_41_openapi_accounts_add_cond_resp_association_condition_association_maxwalldurationperjob.v0_0_41_openapi_accounts_add_cond_resp_association_condition_association_maxwalldurationperjob(
                             infinite = True, 
                             number = 56, 
                             set = True, ), 
-                        minpriothresh = openapi_client.models.v0_0_41_openapi_accounts_add_cond_resp_association_condition_association_minpriothresh.v0_0_41_openapi_accounts_add_cond_resp_association_condition_association_minpriothresh(
+                        minpriothresh = slurmrest_python_0_0_41.models.v0_0_41_openapi_accounts_add_cond_resp_association_condition_association_minpriothresh.v0_0_41_openapi_accounts_add_cond_resp_association_condition_association_minpriothresh(
                             infinite = True, 
                             number = 56, 
                             set = True, ), 
                         parent = '', 
-                        priority = openapi_client.models.v0_0_41_openapi_accounts_add_cond_resp_association_condition_association_priority.v0_0_41_openapi_accounts_add_cond_resp_association_condition_association_priority(
+                        priority = slurmrest_python_0_0_41.models.v0_0_41_openapi_accounts_add_cond_resp_association_condition_association_priority.v0_0_41_openapi_accounts_add_cond_resp_association_condition_association_priority(
                             infinite = True, 
                             number = 56, 
                             set = True, ), 
@@ -263,7 +263,7 @@ class TestV0041OpenapiUsersAddCondResp(unittest.TestCase):
                     wckeys = [
                         ''
                         ], ),
-                user = openapi_client.models.v0_0_41_openapi_users_add_cond_resp_user.v0_0_41_openapi_users_add_cond_resp_user(
+                user = slurmrest_python_0_0_41.models.v0_0_41_openapi_users_add_cond_resp_user.v0_0_41_openapi_users_add_cond_resp_user(
                     adminlevel = [
                         'Not Set'
                         ], 

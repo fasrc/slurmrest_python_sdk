@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.v0041_openapi_partition_resp_partitions_inner_defaults import V0041OpenapiPartitionRespPartitionsInnerDefaults
+from slurmrest_python_0_0_41.models.v0041_openapi_partition_resp_partitions_inner_defaults import V0041OpenapiPartitionRespPartitionsInnerDefaults
 
 class TestV0041OpenapiPartitionRespPartitionsInnerDefaults(unittest.TestCase):
     """V0041OpenapiPartitionRespPartitionsInnerDefaults unit test stubs"""
@@ -38,15 +38,15 @@ class TestV0041OpenapiPartitionRespPartitionsInnerDefaults(unittest.TestCase):
             return V0041OpenapiPartitionRespPartitionsInnerDefaults(
                 job = '',
                 memory_per_cpu = 56,
-                partition_memory_per_cpu = openapi_client.models.v0_0_41_openapi_partition_resp_partitions_inner_defaults_partition_memory_per_cpu.v0_0_41_openapi_partition_resp_partitions_inner_defaults_partition_memory_per_cpu(
+                partition_memory_per_cpu = slurmrest_python_0_0_41.models.v0_0_41_openapi_partition_resp_partitions_inner_defaults_partition_memory_per_cpu.v0_0_41_openapi_partition_resp_partitions_inner_defaults_partition_memory_per_cpu(
                     infinite = True, 
                     number = 56, 
                     set = True, ),
-                partition_memory_per_node = openapi_client.models.v0_0_41_openapi_partition_resp_partitions_inner_defaults_partition_memory_per_node.v0_0_41_openapi_partition_resp_partitions_inner_defaults_partition_memory_per_node(
+                partition_memory_per_node = slurmrest_python_0_0_41.models.v0_0_41_openapi_partition_resp_partitions_inner_defaults_partition_memory_per_node.v0_0_41_openapi_partition_resp_partitions_inner_defaults_partition_memory_per_node(
                     infinite = True, 
                     number = 56, 
                     set = True, ),
-                time = openapi_client.models.v0_0_41_openapi_partition_resp_partitions_inner_defaults_time.v0_0_41_openapi_partition_resp_partitions_inner_defaults_time(
+                time = slurmrest_python_0_0_41.models.v0_0_41_openapi_partition_resp_partitions_inner_defaults_time.v0_0_41_openapi_partition_resp_partitions_inner_defaults_time(
                     infinite = True, 
                     number = 56, 
                     set = True, )

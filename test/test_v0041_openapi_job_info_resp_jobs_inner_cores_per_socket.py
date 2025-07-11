@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.v0041_openapi_job_info_resp_jobs_inner_cores_per_socket import V0041OpenapiJobInfoRespJobsInnerCoresPerSocket
+from slurmrest_python_0_0_41.models.v0041_openapi_job_info_resp_jobs_inner_cores_per_socket import V0041OpenapiJobInfoRespJobsInnerCoresPerSocket
 
 class TestV0041OpenapiJobInfoRespJobsInnerCoresPerSocket(unittest.TestCase):
     """V0041OpenapiJobInfoRespJobsInnerCoresPerSocket unit test stubs"""

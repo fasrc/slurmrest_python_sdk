@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.v0041_openapi_shares_resp_shares_shares_inner_fairshare import V0041OpenapiSharesRespSharesSharesInnerFairshare
+from slurmrest_python_0_0_41.models.v0041_openapi_shares_resp_shares_shares_inner_fairshare import V0041OpenapiSharesRespSharesSharesInnerFairshare
 
 class TestV0041OpenapiSharesRespSharesSharesInnerFairshare(unittest.TestCase):
     """V0041OpenapiSharesRespSharesSharesInnerFairshare unit test stubs"""

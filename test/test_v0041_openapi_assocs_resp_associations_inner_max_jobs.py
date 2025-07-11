@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.v0041_openapi_assocs_resp_associations_inner_max_jobs import V0041OpenapiAssocsRespAssociationsInnerMaxJobs
+from slurmrest_python_0_0_41.models.v0041_openapi_assocs_resp_associations_inner_max_jobs import V0041OpenapiAssocsRespAssociationsInnerMaxJobs
 
 class TestV0041OpenapiAssocsRespAssociationsInnerMaxJobs(unittest.TestCase):
     """V0041OpenapiAssocsRespAssociationsInnerMaxJobs unit test stubs"""
@@ -36,32 +36,32 @@ class TestV0041OpenapiAssocsRespAssociationsInnerMaxJobs(unittest.TestCase):
         model = V0041OpenapiAssocsRespAssociationsInnerMaxJobs()
         if include_optional:
             return V0041OpenapiAssocsRespAssociationsInnerMaxJobs(
-                accruing = openapi_client.models.v0_0_41_openapi_assocs_resp_associations_inner_max_jobs_accruing.v0_0_41_openapi_assocs_resp_associations_inner_max_jobs_accruing(
+                accruing = slurmrest_python_0_0_41.models.v0_0_41_openapi_assocs_resp_associations_inner_max_jobs_accruing.v0_0_41_openapi_assocs_resp_associations_inner_max_jobs_accruing(
                     infinite = True, 
                     number = 56, 
                     set = True, ),
-                active = openapi_client.models.v0_0_41_openapi_assocs_resp_associations_inner_max_jobs_active.v0_0_41_openapi_assocs_resp_associations_inner_max_jobs_active(
+                active = slurmrest_python_0_0_41.models.v0_0_41_openapi_assocs_resp_associations_inner_max_jobs_active.v0_0_41_openapi_assocs_resp_associations_inner_max_jobs_active(
                     infinite = True, 
                     number = 56, 
                     set = True, ),
-                per = openapi_client.models.v0_0_41_openapi_assocs_resp_associations_inner_max_jobs_per.v0_0_41_openapi_assocs_resp_associations_inner_max_jobs_per(
-                    accruing = openapi_client.models.v0_0_41_openapi_assocs_resp_associations_inner_max_jobs_per_accruing.v0_0_41_openapi_assocs_resp_associations_inner_max_jobs_per_accruing(
+                per = slurmrest_python_0_0_41.models.v0_0_41_openapi_assocs_resp_associations_inner_max_jobs_per.v0_0_41_openapi_assocs_resp_associations_inner_max_jobs_per(
+                    accruing = slurmrest_python_0_0_41.models.v0_0_41_openapi_assocs_resp_associations_inner_max_jobs_per_accruing.v0_0_41_openapi_assocs_resp_associations_inner_max_jobs_per_accruing(
                         infinite = True, 
                         number = 56, 
                         set = True, ), 
-                    count = openapi_client.models.v0_0_41_openapi_assocs_resp_associations_inner_max_jobs_per_count.v0_0_41_openapi_assocs_resp_associations_inner_max_jobs_per_count(
+                    count = slurmrest_python_0_0_41.models.v0_0_41_openapi_assocs_resp_associations_inner_max_jobs_per_count.v0_0_41_openapi_assocs_resp_associations_inner_max_jobs_per_count(
                         infinite = True, 
                         number = 56, 
                         set = True, ), 
-                    submitted = openapi_client.models.v0_0_41_openapi_assocs_resp_associations_inner_max_jobs_per_submitted.v0_0_41_openapi_assocs_resp_associations_inner_max_jobs_per_submitted(
+                    submitted = slurmrest_python_0_0_41.models.v0_0_41_openapi_assocs_resp_associations_inner_max_jobs_per_submitted.v0_0_41_openapi_assocs_resp_associations_inner_max_jobs_per_submitted(
                         infinite = True, 
                         number = 56, 
                         set = True, ), 
-                    wall_clock = openapi_client.models.v0_0_41_openapi_assocs_resp_associations_inner_max_jobs_per_wall_clock.v0_0_41_openapi_assocs_resp_associations_inner_max_jobs_per_wall_clock(
+                    wall_clock = slurmrest_python_0_0_41.models.v0_0_41_openapi_assocs_resp_associations_inner_max_jobs_per_wall_clock.v0_0_41_openapi_assocs_resp_associations_inner_max_jobs_per_wall_clock(
                         infinite = True, 
                         number = 56, 
                         set = True, ), ),
-                total = openapi_client.models.v0_0_41_openapi_assocs_resp_associations_inner_max_jobs_total.v0_0_41_openapi_assocs_resp_associations_inner_max_jobs_total(
+                total = slurmrest_python_0_0_41.models.v0_0_41_openapi_assocs_resp_associations_inner_max_jobs_total.v0_0_41_openapi_assocs_resp_associations_inner_max_jobs_total(
                     infinite = True, 
                     number = 56, 
                     set = True, )

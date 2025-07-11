@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.v0041_openapi_assocs_resp_associations_inner_min import V0041OpenapiAssocsRespAssociationsInnerMin
+from slurmrest_python_0_0_41.models.v0041_openapi_assocs_resp_associations_inner_min import V0041OpenapiAssocsRespAssociationsInnerMin
 
 class TestV0041OpenapiAssocsRespAssociationsInnerMin(unittest.TestCase):
     """V0041OpenapiAssocsRespAssociationsInnerMin unit test stubs"""
@@ -36,7 +36,7 @@ class TestV0041OpenapiAssocsRespAssociationsInnerMin(unittest.TestCase):
         model = V0041OpenapiAssocsRespAssociationsInnerMin()
         if include_optional:
             return V0041OpenapiAssocsRespAssociationsInnerMin(
-                priority_threshold = openapi_client.models.v0_0_41_openapi_assocs_resp_associations_inner_min_priority_threshold.v0_0_41_openapi_assocs_resp_associations_inner_min_priority_threshold(
+                priority_threshold = slurmrest_python_0_0_41.models.v0_0_41_openapi_assocs_resp_associations_inner_min_priority_threshold.v0_0_41_openapi_assocs_resp_associations_inner_min_priority_threshold(
                     infinite = True, 
                     number = 56, 
                     set = True, )

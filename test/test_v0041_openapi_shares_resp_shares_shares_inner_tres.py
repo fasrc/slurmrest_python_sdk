@@ -15,7 +15,7 @@
 
 import unittest
 
-from openapi_client.models.v0041_openapi_shares_resp_shares_shares_inner_tres import V0041OpenapiSharesRespSharesSharesInnerTres
+from slurmrest_python_0_0_41.models.v0041_openapi_shares_resp_shares_shares_inner_tres import V0041OpenapiSharesRespSharesSharesInnerTres
 
 class TestV0041OpenapiSharesRespSharesSharesInnerTres(unittest.TestCase):
     """V0041OpenapiSharesRespSharesSharesInnerTres unit test stubs"""
@@ -37,23 +37,23 @@ class TestV0041OpenapiSharesRespSharesSharesInnerTres(unittest.TestCase):
         if include_optional:
             return V0041OpenapiSharesRespSharesSharesInnerTres(
                 group_minutes = [
-                    openapi_client.models.v0_0_41_openapi_shares_resp_shares_shares_inner_tres_group_minutes_inner.v0_0_41_openapi_shares_resp_shares_shares_inner_tres_group_minutes_inner(
+                    slurmrest_python_0_0_41.models.v0_0_41_openapi_shares_resp_shares_shares_inner_tres_group_minutes_inner.v0_0_41_openapi_shares_resp_shares_shares_inner_tres_group_minutes_inner(
                         name = '', 
-                        value = openapi_client.models.v0_0_41_openapi_shares_resp_shares_shares_inner_tres_group_minutes_inner_value.v0_0_41_openapi_shares_resp_shares_shares_inner_tres_group_minutes_inner_value(
+                        value = slurmrest_python_0_0_41.models.v0_0_41_openapi_shares_resp_shares_shares_inner_tres_group_minutes_inner_value.v0_0_41_openapi_shares_resp_shares_shares_inner_tres_group_minutes_inner_value(
                             infinite = True, 
                             number = 56, 
                             set = True, ), )
                     ],
                 run_seconds = [
-                    openapi_client.models.v0_0_41_openapi_shares_resp_shares_shares_inner_tres_group_minutes_inner.v0_0_41_openapi_shares_resp_shares_shares_inner_tres_group_minutes_inner(
+                    slurmrest_python_0_0_41.models.v0_0_41_openapi_shares_resp_shares_shares_inner_tres_group_minutes_inner.v0_0_41_openapi_shares_resp_shares_shares_inner_tres_group_minutes_inner(
                         name = '', 
-                        value = openapi_client.models.v0_0_41_openapi_shares_resp_shares_shares_inner_tres_group_minutes_inner_value.v0_0_41_openapi_shares_resp_shares_shares_inner_tres_group_minutes_inner_value(
+                        value = slurmrest_python_0_0_41.models.v0_0_41_openapi_shares_resp_shares_shares_inner_tres_group_minutes_inner_value.v0_0_41_openapi_shares_resp_shares_shares_inner_tres_group_minutes_inner_value(
                             infinite = True, 
                             number = 56, 
                             set = True, ), )
                     ],
                 usage = [
-                    openapi_client.models.v0_0_41_openapi_shares_resp_shares_shares_inner_tres_usage_inner.v0_0_41_openapi_shares_resp_shares_shares_inner_tres_usage_inner(
+                    slurmrest_python_0_0_41.models.v0_0_41_openapi_shares_resp_shares_shares_inner_tres_usage_inner.v0_0_41_openapi_shares_resp_shares_shares_inner_tres_usage_inner(
                         name = '', 
                         value = 1.337, )
                     ]
